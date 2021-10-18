@@ -1,0 +1,237 @@
+[
+  {
+    "name": "Day 1",
+    "date": "Tuesday, 17th November",
+    "dateISO": "2020-11-17",
+    "programs": [
+      {
+        "title": "Opening",
+        "startTime": "15:00",
+        "endTime": "15:10"
+      },
+      {
+        "title": "talk",
+        "startTime": "15:10",
+        "endTime": "15:40",
+        "speaker": "brian_egan"
+      },
+      {
+        "title": "talk",
+        "startTime": "15:40",
+        "endTime": "16:10",
+        "speaker": "merve_arslan"
+      },
+      {
+        "title": "activity",
+        "startTime": "16:10",
+        "endTime": "16:30",
+        "desc": "Appcircle activity",
+        "isActivity": true
+      },
+      {
+        "title": "talk",
+        "startTime": "16:30",
+        "endTime": "17:00",
+        "speaker": "muhammed_salih_guler"
+      },
+      {
+        "title": "lightening",
+        "startTime": "17:00",
+        "endTime": "17:10",
+        "speaker": "damodar_lohani"
+      },
+      {
+        "title": "talk",
+        "startTime": "17:10",
+        "endTime": "17:40",
+        "speaker": "mais_alheraki"
+      },
+      {
+        "title": "activity",
+        "startTime": "17:40",
+        "endTime": "17:45",
+        "desc": "Atsign company",
+        "isActivity": true
+      },
+      {
+        "title": "talk",
+        "startTime": "17:45",
+        "endTime": "18:15",
+        "speaker": "dominik_roszkowski"
+      },
+      {
+        "title": "talk",
+        "startTime": "18:15",
+        "endTime": "18:40",
+        "speaker": "rihanna_kedir",
+        "coSpeaker": "juna_salviati"
+      },
+      {
+        "title": "Winners Announcement",
+        "startTime": "18:40",
+        "endTime": "18:55",
+        "winnerTime": true
+      },
+      {
+        "title": "Closing",
+        "startTime": "18:55",
+        "endTime": "19:00"
+      },
+      {
+        "title": "After Party",
+        "startTime": "19:00",
+        "endTime": "20:00"
+      }
+    ]
+  },
+  {
+    "name": "Day 2",
+    "date": "Wednesday, 18th November",
+    "dateISO": "2020-11-18",
+    "programs": [
+      {
+        "title": "Opening",
+        "startTime": "15:00",
+        "endTime": "15:05"
+      },
+      {
+        "title": "talk",
+        "startTime": "15:05",
+        "endTime": "15:30",
+        "speaker": "miguel_beltran"
+      },
+      {
+        "title": "lightening",
+        "startTime": "15:30",
+        "endTime": "15:45",
+        "speaker": "ashita_prasad"
+      },
+      {
+        "title": "talk",
+        "startTime": "15:45",
+        "endTime": "16:15",
+        "speaker": "vladimir_ivanov"
+      },
+      {
+        "title": "activity",
+        "startTime": "16:15",
+        "endTime": "16:30",
+        "desc": "book quizz",
+        "isActivity": true
+      },
+      {
+        "title": "talk",
+        "startTime": "16:30",
+        "endTime": "17:00",
+        "speaker": "pooja_bhaumik"
+      },
+      {
+        "title": "talk",
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "speaker": "simon_lightfoot"
+      },
+      {
+        "title": "activity",
+        "startTime": "17:30",
+        "endTime": "17:45",
+        "desc": "Danielle divesity",
+        "speaker": "danielle_cox"
+      },
+      {
+        "title": "talk",
+        "startTime": "17:45",
+        "endTime": "18:15",
+        "speaker": "kate_lovett"
+      },
+      {
+        "title": "Winners Announcement",
+        "startTime": "18:15",
+        "endTime": "18:25",
+        "winnerTime": true
+      },
+      {
+        "title": "Closing",
+        "startTime": "18:25",
+        "endTime": "18:30"
+      },
+      {
+        "title": "After Party",
+        "startTime": "18:30",
+        "endTime": "19:30"
+      }
+    ]
+  },
+  {
+    "name": "Day 3",
+    "date": "Thursday, 19th November",
+    "dateISO": "2020-11-19",
+    "programs": [
+      {
+        "title": "Opening",
+        "startTime": "15:00",
+        "endTime": "15:05"
+      },
+      {
+        "title": "talk",
+        "startTime": "15:05",
+        "endTime": "15:30",
+        "speaker": "lukas_klingsbo"
+      },
+      {
+        "title": "lightening",
+        "startTime": "15:30",
+        "endTime": "15:45",
+        "speaker": "kamal_shree"
+      },
+      {
+        "title": "talk",
+        "startTime": "15:45",
+        "endTime": "16:15",
+        "speaker": "robert_brunhage"
+      },
+      {
+        "title": "activity",
+        "startTime": "16:15",
+        "endTime": "16:30",
+        "desc": "code magic Quiz",
+        "isActivity": true
+      },
+      {
+        "title": "talk",
+        "startTime": "16:30",
+        "endTime": "17:00",
+        "speaker": "aloos_deniel"
+      },
+      {
+        "title": "talk",
+        "startTime": "17:00",
+        "endTime": "17:30",
+        "speaker": "katarina_sheremet"
+      },
+      {
+        "title": "talk",
+        "startTime": "17:30",
+        "endTime": "18:00",
+        "speaker": "felix_angelov"
+      },
+      {
+        "title": "Q/A Flutter Team",
+        "startTime": "18:00",
+        "endTime": "18:30",
+        "speaker": "christopher_fujino"
+      },
+      {
+        "title": "Winners Announcement",
+        "startTime": "18:30",
+        "endTime": "18:40",
+        "winnerTime": true
+      },
+      {
+        "title": "Closing",
+        "startTime": "18:40",
+        "endTime": "18:45"
+      }
+    ]
+  }
+]
