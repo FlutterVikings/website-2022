@@ -1,7 +1,8 @@
 export default {
   pathPrefix: '/', // Prefix for all links. If you deploy your site to example.com/portfolio your pathPrefix should be "portfolio"
   siteTitle: 'FlutterVikings, The biggest Flutter Conference in Nordic', // Navigation and Site Title
-  siteTitleAlt: 'FlutterVikings is a single track Flutter/Dart conference ', // Alternative Site title for SEO
+  siteTitleAlt:
+    'FlutterVikings is a two days two tracks in person and online Flutter/Dart conference ', // Alternative Site title for SEO
   siteUrl: 'https://fluttervikings.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   siteBanner: '/assets/banner.jpg', // Your image for og:image tag. You can find it in the /static folder

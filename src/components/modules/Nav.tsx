@@ -77,7 +77,7 @@ const Nav = () => {
                   <span className="Nav-title">
                     <span className="font__caesar">Flutter Vikings</span>
                     <br />
-                    Online'20
+                    2022
                   </span>
                 </a>
               </div>
