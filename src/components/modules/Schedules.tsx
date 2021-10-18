@@ -189,7 +189,7 @@ const Schedules = () => {
       <Section>
         <Container id="agenda">
           <MainTitle title="Event Agenda" titleStrokeText={'Schedule'} />
-          <Notice>
+          {/* <Notice>
             <p className="SceneOverlay-location">
               <a
                 className="Btn Btn--ticket Btn--cta"
@@ -227,9 +227,9 @@ const Schedules = () => {
               Time is based on {selectedTimezone.altName} ({selectedTimezone.abbrev})
             </p>
             <TimezoneSelect value={selectedTimezone} onChange={setSelectedTimezone} />
-          </Notice>
+          </Notice> */}
           <div className="Agenda-twoColumnContainer">
-            {agenda.map((agendaDay, i) => (
+            {/* {agenda.map((agendaDay, i) => (
               <AgendaTabButton
                 selected={i === selectedTab}
                 className="Agenda-columnTitle"
@@ -240,12 +240,12 @@ const Schedules = () => {
                 <p className="Agenda-date">{agendaDay.date}</p>
                 {i === selectedTab && <CheckMark />}
               </AgendaTabButton>
-            ))}
+            ))} */}
           </div>
           <br />
           <br />
           <div className="Agenda-twoColumnContainer">
-            {agenda.map(
+            {/* {agenda.map(
               (agendaDay, i) =>
                 i === selectedTab && (
                   <AgendaDay
@@ -254,7 +254,7 @@ const Schedules = () => {
                     agendaDay={agendaDay}
                   />
                 ),
-            )}
+            )} */}
           </div>
         </Container>
       </Section>

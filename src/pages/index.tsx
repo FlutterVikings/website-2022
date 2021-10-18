@@ -13,6 +13,7 @@ import {
 import { SEO } from '../components/base/SEO';
 import { Communities } from '../components/modules/Communities';
 import { Moderators } from '../components/modules/Moderators';
+import { Venue } from '../components/modules/Venue';
 
 export default () => {
   return (
@@ -20,14 +21,16 @@ export default () => {
       <SEO />
       <Scene />
       <TheEvent />
-      {/* <Speakers /> */}
-      <Diversity />
+      <Venue />
+      <Speakers />
+
       {/* <Moderators /> */}
       {/* <Schedules /> */}
-      {/* <Committee /> */}
       <Sponsors />
-      {/* <Communities /> */}
+      <Communities />
       {/* <Team /> */}
+      {/* <Committee /> */}
+      <Diversity />
     </Layout>
   );
 };

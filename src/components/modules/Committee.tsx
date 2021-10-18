@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeConsumer } from 'styled-components';
 import { useCommittee } from '../../hooks/useCommittee';
-import { Container, MainTitle, Section } from '../common';
+import { Container, Content, MainTitle, Section } from '../common';
 import { RelativeDirectory } from '../../models/file';
 import { useAllFiles } from '../../hooks/useAllFiles';
 import { ResponsiveGrid } from '../common/ResponsiveGrid';
@@ -18,10 +18,13 @@ const Committee = () => {
             <Container>
               <MainTitle title="Program Committee" titleStrokeText={'Board'} />
               <ResponsiveGrid>
-                {boardMembers.map((member) => {
+                {/* {boardMembers.map((member) => {
                   return <FaceImage key={member.id} member={member} />;
-                })}
+                })} */}
               </ResponsiveGrid>
+              <Content center={true}>
+                <h3>To be announced soon</h3>
+              </Content>
             </Container>
           </Section>
         )}

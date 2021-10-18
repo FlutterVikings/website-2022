@@ -1,5 +1,5 @@
 import React from 'react';
-import GatsbyImage from 'gatsby-image';
+import GatsbyImage, { FixedObject, FluidObject } from 'gatsby-image';
 import styled, { ThemeConsumer } from 'styled-components';
 import { People } from '../../models/People';
 import { VikingTheme } from '../../theme';
@@ -70,6 +70,32 @@ export const FaceImage = ({ member, fixed }: { member: People; fixed?: boolean }
           <PhotoBloc>
             <PhotoFilter />
             <PhotoTitle>{member.name}</PhotoTitle>
+          </PhotoBloc>
+        </PhotoWrapper>
+      )}
+    </ThemeConsumer>
+  );
+};
+
+export const ImageWrapper = ({
+  image,
+  fixed,
+}: {
+  image: { fixed: FixedObject; fluid: FluidObject };
+  fixed?: boolean;
+}) => {
+  return (
+    <ThemeConsumer>
+      {(theme) => (
+        <PhotoWrapper theme={theme}>
+          {fixed ? (
+            <GatsbyImage fixed={image.fixed} />
+          ) : (
+            <GatsbyImage fluid={image.fluid} />
+          )}
+          <PhotoBloc>
+            <PhotoFilter />
+            {/* <PhotoTitle>{member.name}</PhotoTitle> */}
           </PhotoBloc>
         </PhotoWrapper>
       )}

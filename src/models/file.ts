@@ -7,6 +7,7 @@ export enum RelativeDirectory {
   sponsors = 'sponsors',
   team = 'team',
   moderators = 'moderators',
+  venue = 'venue',
 }
 
 export interface FileImage {

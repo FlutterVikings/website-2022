@@ -18,9 +18,9 @@ const Moderators = () => {
             <Container>
               <MainTitle title="MCs" titleStrokeText={'Moderators'} />
               <ResponsiveGrid>
-                {boardMembers.map((member) => {
+                {/* {boardMembers.map((member) => {
                   return <FaceImage key={member.id} member={member} />;
-                })}
+                })} */}
               </ResponsiveGrid>
             </Container>
           </Section>

@@ -39,7 +39,6 @@ const Scene = () => {
         <div className="Scene-cloudsWrapper Scene-clouds Scene-clouds--front" />
         <div className="Scene-fullSize Scene-town" />
       </div>
-
       <div className="SceneOverlay">
         <img alt="FlutterVikings" className="SceneOverlay-logo" src="/assets/logo.svg" />
         <h1 className="font__caesar size__h1">Flutter Vikings</h1>

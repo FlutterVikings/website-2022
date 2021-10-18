@@ -54,6 +54,8 @@ export const useAllFiles = (dir?: RelativeDirectory): FileImage[] => {
       );
     case RelativeDirectory.team:
       return allImages.filter((img) => img.relativeDirectory === RelativeDirectory.team);
+    case RelativeDirectory.venue:
+      return allImages.filter((img) => img.relativeDirectory === RelativeDirectory.venue);
     default:
       return allImages;
   }
