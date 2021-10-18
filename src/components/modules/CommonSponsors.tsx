@@ -112,7 +112,7 @@ export const SponsorshipEmailLink = ({ title }: { title?: string }) => {
           rel="noopener noreferrer"
           href={`mailto:${config.email}`}
         >
-          let us know team@fluttervikings.com
+          team@fluttervikings.com
         </a>
       </div>
     </Content>
