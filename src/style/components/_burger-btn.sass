@@ -5,9 +5,10 @@ $nav-burger-line-width: $nav-burger-size * 0.4
 
 /** Dangerous math ahead. Touch with care */
 $nav-burger-line-left: ($nav-burger-size - $nav-burger-line-width) * 0.5
-$nav-burgerLine-top-offset:    ($nav-burger-size - ($nav-burger-inner-size)) * 0.5
-$nav-burgerLine-middle-offset: ($nav-burgerLine-top-offset + $nav-burger-inner-size) * 0.5
+$nav-burgerLine-top-offset:    ($nav-burger-size - $nav-burger-inner-size) * 0.5
+$nav-burgerLine-middle-offset: ($nav-burgerLine-top-offset + $nav-burger-inner-size) * .78
 $nav-burgerLine-bottom-offset: ($nav-burgerLine-top-offset + $nav-burger-inner-size)
+
 .BurgerBtn
   
   pointer-events: all
@@ -48,7 +49,7 @@ $nav-burgerLine-bottom-offset: ($nav-burgerLine-top-offset + $nav-burger-inner-s
     display: block
     width: 200px
     margin-left: -210px
-    
+
 .BurgerBtn-line
   
   position: absolute
