@@ -16,13 +16,14 @@ const TheEvent = () => {
             Having outstanding Flutter/Dart team members, excellent Google Developer
             Experts, and top-notch international speakers onboard, FlutterVikings
             Conference guarantees a superb program: fresh, technically deep, and 100%
-            useful. BTW, We are updating our website constantly, make sure you subscribe
-            to our newsletter or follow us on twitter to get the latest update
+            useful. <br />
+            BTW, we are updating our website constantly, make sure you subscribe to our
+            newsletter or follow us on twitter to get the latest update
             <br />
+            <h3>Engagement</h3>
             Besides the conference talks, be prepared for awesome MCs and a number of
             networking activities, interactive entertainment, and engaging challenges for
             all participants.
-            <h3>Engagement</h3>
           </Content>
         </Container>
       </Section>
