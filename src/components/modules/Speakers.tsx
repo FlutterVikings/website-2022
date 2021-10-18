@@ -32,7 +32,7 @@ const Speakers = () => {
                 <h3>To be announced soon</h3>
 
                 <br />
-                <div className="CTA-actions" style={{ display: 'flex' }}>
+                <div className="CTA-actions">
                   <a
                     className="Btn Btn--cfp Btn--cta"
                     target="_blank"
