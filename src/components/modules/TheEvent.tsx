@@ -9,16 +9,17 @@ const TheEvent = () => {
         <Container>
           <MainTitle title="The Event" titleStrokeText={'Welcome'} />
           <Content center={true}>
-            FlutterVikings is a community-driven event comprised of Nordic user groups,
-            especially Flutter, Dart, and GDGs, with lots of active members in total as
-            well as Flutter Community together with its amazing generous sponsors.
+            FlutterVikings is a community-driven event made up of GDGs and other Nordic
+            user groups focused on Flutter and Dart, as well as the global Flutter
+            Community. <br />
+            With a fantastic lineup of Google Developer Experts and top-notch
+            international speakers the FlutterVikings Conference boasts two of the best
+            Flutter and Dart tracks anywhere, offering some of the most informative,
+            technical and actually useful talks anywhere.
             <br />
-            Having outstanding Flutter/Dart team members, excellent Google Developer
-            Experts, and top-notch international speakers onboard, FlutterVikings
-            Conference guarantees a superb program: fresh, technically deep, and 100%
-            useful. <br />
-            BTW, we are updating our website constantly, make sure you subscribe to our
-            newsletter or follow us on twitter to get the latest update
+            This website is being updated as more speakers are confirmed so make sure you
+            subscribe to our newsletter, or follow us on twitter to get the latest
+            updates!
             <br />
             <h3>Engagement</h3>
             Besides the conference talks, be prepared for awesome MCs and a number of
