@@ -43,11 +43,10 @@ const Speakers = () => {
                   </a>
                 </div>
                 <br />
-
                 <h3>Meanwhile</h3>
                 <h3>
                   <a target="_blank" href="https://2020.fluttervikings.com">
-                    Checkout our last year website (Online'2020)
+                    Check out our last year’s website (Online'2020)
                   </a>
                 </h3>
               </Content>

@@ -18,7 +18,6 @@ const Communities = () => {
               <MainTitle title="Supporter" titleStrokeText={'Communities'} />
               <SponsorsLevel title="" list={sponsors} theme={theme} />
               <SponsorshipEmailLink title="Do you want to become part of this amazing conference?" />
-
               {/* <br />
               <br />
 

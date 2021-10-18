@@ -175,8 +175,8 @@ const Nav = () => {
                           <div className="NavContact">
                             <div className="NavContact-label">Write to:</div>
                             <div className="NavContact-value">
-                              <a href="mailto:team@flutterVikings.com">
-                                team@flutterVikings..com
+                              <a target="_blank" href="mailto:team@flutterVikings.com">
+                                team@flutterVikings.com
                               </a>
                             </div>
                           </div>
