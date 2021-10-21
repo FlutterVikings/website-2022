@@ -45,6 +45,10 @@ const SponsorSection = styled.div`
 `;
 
 const SponsorCard = ({ theme, sponsor }: { theme: DefaultTheme; sponsor: Sponsor }) => {
+  const darkPublicUrl =
+    theme.isDark && sponsor.darkImage
+      ? sponsor.darkImage?.publicURL
+      : sponsor.image.publicURL;
   return (
     <a
       href={sponsor.link}
@@ -53,7 +57,7 @@ const SponsorCard = ({ theme, sponsor }: { theme: DefaultTheme; sponsor: Sponsor
       rel="noopener noreferrer nofollow"
     >
       <SponsorImage theme={theme}>
-        <FetchSvg url={sponsor.image.publicURL} />
+        <FetchSvg url={darkPublicUrl} />
       </SponsorImage>
     </a>
   );
@@ -71,7 +75,7 @@ const SponsorsLevel = ({
   return (
     <SponsorSection>
       <SponsorHeadline>{title}</SponsorHeadline>
-      <ResponsiveGrid fill="auto-fit" size={21}>
+      <ResponsiveGrid>
         {list.map((sp) => (
           <SponsorCard key={sp.id} theme={theme} sponsor={sp} />
         ))}

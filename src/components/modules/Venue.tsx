@@ -28,8 +28,8 @@ const Venue = () => {
                 </a>
               </h3>
             </Content>
-            {images.map((img) => {
-              return <ImageWrapper image={img.childImageSharp} />;
+            {images.map((img: any, index: number) => {
+              return <ImageWrapper key={index} image={img.childImageSharp} />;
             })}
           </ResponsiveGrid>
           <br />

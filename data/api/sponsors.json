@@ -11,14 +11,10 @@
     "level": 3,
     "link": "https://bit.ly/38F5yuX"
   },
-  {
-    "id": "softiware",
-    "name": "Softiware AS",
-    "level": 2,
-    "link": "https://bit.ly/32E8LXS"
-  },
+
   {
     "id": "invertase",
+    "dark": "invertase-light",
     "name": "Invertase",
     "level": 2,
     "link": "https://bit.ly/3E3vCML"
@@ -34,5 +30,18 @@
     "name": "The @ Company",
     "level": 2,
     "link": "https://bit.ly/36uvtT6"
+  },
+  {
+    "id": "vgv",
+    "dark": "vgv-light",
+    "name": "Very Good Ventures",
+    "level": 2,
+    "link": "https://bit.ly/3CaUy4s"
+  },
+  {
+    "id": "softiware",
+    "name": "Softiware AS",
+    "level": 2,
+    "link": "https://bit.ly/32E8LXS"
   }
 ]
