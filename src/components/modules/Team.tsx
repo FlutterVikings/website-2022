@@ -15,9 +15,9 @@ const Team = () => {
         <Container>
           <MainTitle title="Vikings Crew" titleStrokeText={'Orginizers'} />
           <ResponsiveGrid fill="auto-fit" size={16}>
-            {/* {team.map((member) => {
+            {team.map((member) => {
               return <FaceImage key={member.id} member={member} />;
-            })} */}
+            })}
           </ResponsiveGrid>
         </Container>
       </Section>

@@ -25,6 +25,17 @@ const TheEvent = () => {
             Besides the conference talks, be prepared for awesome MCs and a number of
             networking activities, interactive entertainment, and engaging challenges for
             all participants.
+            <br />
+            <h3>COVID-19</h3>
+            We are observing COVID situation closely.Health and safety of our attendees
+            and speakers are a high priority. If travel becomes more challenging and
+            stricter restrictions or an increased risk of having an in-person conference,
+            we might postpone the in-person conference. We strongly advise you to book
+            your trip with the flexibility that you can change in an emergency. We will
+            decide about in-person in week one or week two. Regardless, the online
+            conference in Feb 2022 will be running.
+            <br /> <h3>Refund Policy</h3>We will fully refund your ticket price if the
+            conference gets canceled due to the COVID situation.
           </Content>
         </Container>
       </Section>

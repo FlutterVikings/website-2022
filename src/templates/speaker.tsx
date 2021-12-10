@@ -231,7 +231,6 @@ export const pageQuery = graphql`
         title
         description
         lightening
-        coSpeaker
       }
       company
       title

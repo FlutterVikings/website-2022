@@ -17,14 +17,11 @@ const Committee = () => {
           <Section bgColor={theme.colors.sectionHighLight}>
             <Container>
               <MainTitle title="Program Committee" titleStrokeText={'Board'} />
-              <ResponsiveGrid>
-                {/* {boardMembers.map((member) => {
+              <ResponsiveGrid size={15}>
+                {boardMembers.map((member) => {
                   return <FaceImage key={member.id} member={member} />;
-                })} */}
+                })}
               </ResponsiveGrid>
-              <Content center={true}>
-                <h3>To be announced soon</h3>
-              </Content>
             </Container>
           </Section>
         )}

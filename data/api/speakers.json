@@ -1,56 +1,5 @@
 [
   {
-    "id": "christopher_fujino",
-    "name": "Christopher Fujino",
-    "title": "Software Engineer",
-    "company": "Google",
-    "social": {
-      "twitter": "",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Ask anything about Flutter!",
-      "description": "Ask anything about Flutter from a Flutter team member",
-      "lightening": false
-    },
-    "bio": "Christopher is Flutter team member."
-  },
-  {
-    "id": "kate_lovett",
-    "name": "Kate Lovett",
-    "title": "Software Engineer",
-    "company": "Google",
-    "social": {
-      "twitter": "",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "SnackBar Delivery: Unpacking the ScaffoldMessenger",
-      "description": "Learn about the ScaffoldMessenger widget, and how to use it in your application so your SnackBars can take flight.",
-      "lightening": false
-    },
-    "bio": "Kate is Flutter and Dart team member."
-  },
-  {
-    "id": "brian_egan",
-    "name": "Brian Egan",
-    "title": "",
-    "company": "",
-    "social": {
-      "twitter": "",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Let's Live Code a Checkbox Widget!",
-      "description": "Are you getting started with Flutter? Join Brian for a pragmatic introduction to creating your own Widgets! We’ll live code a Checkbox widget starting from scratch, discussing core concepts such as layouts, animations, callback functions, and Stateful Widgets. There’s a lot to learn from a humble Checkbox!",
-      "lightening": false
-    },
-    "bio": "Brian Egan is a Montana boy living in Berlin, Germany. He previously worked on popular web and Android applications for SoundCloud and Zappos. He now spends his time writing open source Dart code, developing his business, and scuba diving as often as possible. He is the author of and contributor to several Dart libraries, including RxDart, redux, flutter_redux, and flutter_architecture_samples."
-  },
-  {
     "id": "pooja_bhaumik",
     "name": "Pooja Bhaumik",
     "title": "Google Developer Expert for Flutter, Technical Blogger & Public Speaker and Senior Engineer in Bounce",
@@ -136,23 +85,6 @@
     "bio": ""
   },
   {
-    "id": "miguel_beltran",
-    "name": "Miguel Beltran",
-    "title": "Freelance Flutter Developer",
-    "company": "",
-    "social": {
-      "twitter": "",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Testing Everything in Flutter",
-      "description": "One of the best things about the Flutter developer experience is writing tests. Traditionally, testing in native platforms has been a tedious task which teams left to do, but with Flutter, writing automated tests that verify the logic of your app is a breeze. In this talk, you will learn how to write effective Unit and Widget tests. I will give you an introduction to testing, what mocks and fakes are and how to use them, the tools that Dart provides us for testing and how to cover with tests your application logic and widgets in Flutter. You will also learn what “driver tests” are and when to use them. This talk is intended for developers that are familiar with Flutter but are not yet familiar with testing. After this talk, you and your team will become more effective developers by writing tests and code that will withstand the “test” of time.",
-      "lightening": false
-    },
-    "bio": "Miguel is a freelance developer based in Berlin, experienced in mobile development both on native and cross-platform apps. He currently co-runs a podcast called Code Cafeteria and you can find him sketchnoting at tech conferences."
-  },
-  {
     "id": "kamal_shree",
     "name": "kamal shree S",
     "title": "",
@@ -187,24 +119,6 @@
     "bio": "Programmer, backpacker, keyboard builder, climber and slightly more crazy than you are allowed to be."
   },
   {
-    "id": "rihanna_kedir",
-    "name": "Rihanna Kedir",
-    "title": "",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/rihanna_ke",
-      "github": "",
-      "linkedin": "http://linkedin.com/in/rihanna-kedir-05068568"
-    },
-    "talk": {
-      "title": "Leveraging Flutter for web support",
-      "description": "In this talk we explore how to leverage Flutter Web to improve the experience of developers and users in the process of software delivery and onboarding.",
-      "lightening": false,
-      "coSpeaker": "juna_salviati"
-    },
-    "bio": "Rihanna is a Software Engineer and crafter. She is GDE in Web, Dart, and Flutter as well as a Women tech-makers ambassador and GDG lead. Rihanna strongly believes in the importance of sharing knowledge and experience; in her free time, she volunteers as a mentor and often organizes various tech events and meetups."
-  },
-  {
     "id": "aloos_deniel",
     "name": "Aloïs Deniel",
     "title": "",
@@ -220,23 +134,6 @@
       "lightening": false
     },
     "bio": "I am a french Flutter developer with far too many open source projects! I created tools to help with development cycle like device preview or flutter to figma."
-  },
-  {
-    "id": "katarina_sheremet",
-    "name": "Katarina Sheremet",
-    "title": "",
-    "company": "FutureWare",
-    "social": {
-      "twitter": "https://twitter.com/kate_sheremet",
-      "github": "https://github.com/ksheremet",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Effective Flutter Development",
-      "description": "In this talk, we are going to discuss some practices, tips, and tools that will help you to write effective code even if you are a beginner and be more productive when developing apps using Flutter and Dart. This talk is suitable for all levels.",
-      "lightening": false
-    },
-    "bio": "Katarina is Flutter Developer and Google Developer Expert in Flutter and Dart, WTM Switzerland co-organizer, and Flutter Zürich Meetup co-organizer. She runs her own company that is called FutureWare and works on her own projects. One of the projects is Delern Flashcards, which is published on Google Play and App Store and has more than 3000 installs. She also organizes events about technologies, gives talks, and writes articles about Flutter and Dart."
   },
   {
     "id": "dominik_roszkowski",
@@ -256,108 +153,6 @@
     "bio": "Dominik is experienced Flutter Developer eager to create beautiful apps for mobile and desktop. He's Google Developer Expert in Flutter, co-founder of Flutter Europe conference and Flutter Warsaw meetup. He is active speaker on local meetups and conferences and writes Flutter-related articles on his blog roszkowski.dev. He's been working as a deputy manager of PW-Sat2 student satellite project."
   },
   {
-    "id": "juna_salviati",
-    "name": "Juna Salviati",
-    "title": "Software Engineer",
-    "company": "",
-    "social": {
-      "twitter": "http://twitter.com/1littleendian",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Leveraging Flutter for web support",
-      "description": "In this talk we explore how to leverage Flutter Web to improve the experience of developers and users in the process of software delivery and onboarding.",
-      "lightening": false
-    },
-    "bio": "Juna has always been curious about technology and computers so she wrote her first line of code at 10 and graduated as a Software Engineer. She is GDGRome co-leader and Women Techmakers ambassador. She has always been cultivating a passion for classical studies and humanities and is fascinated by human-machine interaction."
-  },
-  {
-    "id": "damodar_lohani",
-    "name": "Damodar Lohani",
-    "title": "",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/lohanidamodar",
-      "github": "https://github.com/lohanidamodar",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Dart Extension Methods in Flutter to Make Life Easier",
-      "description": "Dart comes with an awesome language feature, extension methods. Extension methods allows us to add functionalities to existing libraries easily. So in this talk, we are going to explore how we can use extension methods to our benefit, based mostly in context of Flutter.",
-      "lightening": true
-    },
-    "bio": "A professional Full-stack Developer, currently mostly involved in Flutter. Loves to connect and contribute in the community. Always learning and helping others learn."
-  },
-  {
-    "id": "merve_arslan",
-    "name": "Merve Arslan",
-    "title": "Flutter Developer",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/arslannmrv",
-      "github": "https://github.com/arslannmrv",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Flutter & Rive : A Legendary Friendship",
-      "description": "Rive is an important and powerful design tool, and a huge friend of Flutter developers! We will take a dive in Rive and it’s amazing features and small peek at the future of Rive, Rive 2 in 20 minutes.",
-      "lightening": false
-    },
-    "bio": "My name is Merve Arslan. I am an organizer at GDG and WTM Eskisehir. I am a 23 years old freelance illustrator and Flutter developer. I have been working on Flutter for 2 and a half years. I started making speeches since I was studying at University.  I love combining my designs and Flutter."
-  },
-  {
-    "id": "vladimir_ivanov",
-    "name": "Vladimir Ivanov",
-    "title": "",
-    "company": "EPAM System",
-    "social": {
-      "twitter": "https://twitter.com/vvsevolodovich",
-      "github": "https://github.com/vlivanov",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Fried Bird: Preparing Flutter for the production usage",
-      "description": "Flutter is a hyped and young technology. But there are a lot of nuances that cause great inconvenience in the process of use like configuration of analysis, code generation issues, several environments support and multimodule issues. I am going to show how to deal with those issues providing the ready to use receipts. ",
-      "lightening": false
-    },
-    "bio": "I am a Solution Architect at EPAM Systems, designing Software Systems for living. I am a developer, passionate about Mobile technologies, Cloud platforms and System Design."
-  },
-  {
-    "id": "ashita_prasad",
-    "name": "Ashita Prasad",
-    "title": "",
-    "company": "Flutter Gems",
-    "social": {
-      "twitter": "https://twitter.com/ashitaprasad",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "A Flutter Developer's Journey: From Package Discovery to Publishing and Beyond",
-      "description": "This talk will introduce upcoming Flutter developers to the current Flutter package landscape comprising 12,000+ packages and will cover some state-of-the-art methods which should be followed by them while searching for the right package for their Flutter apps and while publishing a new Flutter package to gain a wider adoption.",
-      "lightening": true
-    },
-    "bio": "Ashita is a die hard Flutter Developer and creator of Flutter Gems (https://fluttergems.dev), a visual package discovery platform which is trusted by more than 15000 Flutter developers across the globe."
-  },
-  {
-    "id": "robert_brunhage",
-    "name": "Robert Brunhage",
-    "title": "",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/robertbrunhage",
-      "github": "https://github.com/RobertBrunhage",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Flutter MVU architecture with a touch of C",
-      "description": "Learn creating applications with the MVU arctictecture with Riverpod, StateNotifier and Hooks.",
-      "lightening": false
-    },
-    "bio": "App developer who has been using and creating Flutter content for over two years."
-  },
-  {
     "id": "muhammed_salih_guler",
     "name": "Muhammed Salih Guler",
     "title": " Senior Mobile Engineer, Superlist",
@@ -373,22 +168,5 @@
       "lightening": false
     },
     "bio": "Salih is a Berlin based Android Engineer who is a Google Developer Expert for Flutter and Dart. He likes sharing his knowledge with the people by mentoring aspiring developers, blogging and talking at conferences."
-  },
-  {
-    "id": "kevin_suhajda",
-    "name": "Kevin Suhajda",
-    "title": "Dev rel",
-    "company": "CodeMagic",
-    "social": {
-      "twitter": "",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Flutter Productivity Tips with CI/CD",
-      "description": "During our scheduled activity let's take a look at some productivity tips when working with configuration as code in .yaml files so you can reduce boilerplate and make the code more readable and reusable. Kevin Suhajda is our engineer that works closely with customers and sees a lot of complicated pipelines that he has learned to help optimise.",
-      "lightening": true
-    },
-    "bio": "Kevin helps people discover the benefit of using Codemagic CI/CD for testing, building and distributing their mobile apps. He has worked as a sales engineer and mobile application developer and loves to find out how things work and solving technical problems. In his spare time he likes playing guitar and hiking."
   }
 ]

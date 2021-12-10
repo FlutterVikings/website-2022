@@ -20,35 +20,16 @@ const Speakers = () => {
             <Container>
               <MainTitle title="Amazing Line-Up" titleStrokeText={'speakers'} />
               <ResponsiveGrid>
-                {/* {speakers.map((member) => {
+                {speakers.map((member) => {
                   return (
                     <Link key={member.id} to={`/speakers/${member.id}`}>
                       <FaceImage member={member} />
                     </Link>
                   );
-                })} */}
+                })}
               </ResponsiveGrid>
               <Content center={true}>
-                <h3>To be announced soon</h3>
-
-                <br />
-                <div className="CTA-actions">
-                  <a
-                    className="Btn Btn--cfp Btn--cta"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href={config.cfpUrl}
-                  >
-                    Submit your amazing talks (CFP)
-                  </a>
-                </div>
-                <br />
-                <h3>Meanwhile</h3>
-                <h3>
-                  <a target="_blank" href="https://2020.fluttervikings.com">
-                    Check out our last year’s website (Online'2020)
-                  </a>
-                </h3>
+                <h3>More speakers to be announced</h3>
               </Content>
             </Container>
           </Section>

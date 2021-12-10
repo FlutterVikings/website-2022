@@ -6,12 +6,23 @@
     "link": "https://bit.ly/3ps1AeP"
   },
   {
+    "id": "superlist",
+    "name": "Superlist",
+    "level": 1,
+    "link": "https://bit.ly/3pL7UPE"
+  },
+  {
     "id": "manning",
     "name": "Manning",
     "level": 3,
     "link": "https://bit.ly/38F5yuX"
   },
-
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "level": 3,
+    "link": "https://bit.ly/3IyYnnx"
+  },
   {
     "id": "invertase",
     "dark": "invertase-light",
@@ -24,6 +35,12 @@
     "name": "Stream.io Inc",
     "level": 1,
     "link": "https://bit.ly/2Iphmq6"
+  },
+  {
+    "id": "codemagic",
+    "name": "Code Magic",
+    "level": 1,
+    "link": "https://bit.ly/3oE9qUj"
   },
   {
     "id": "theatcompany",

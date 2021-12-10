@@ -9,6 +9,7 @@ import {
   Diversity,
   Team,
   Schedules,
+  Content,
 } from '../components';
 import { SEO } from '../components/base/SEO';
 import { Communities } from '../components/modules/Communities';
@@ -21,7 +22,8 @@ export default () => {
       <SEO />
       <Scene />
       <TheEvent />
-      <Venue />
+      <Committee />
+      <Diversity />
       <Speakers />
 
       {/* <Moderators /> */}
@@ -29,8 +31,14 @@ export default () => {
       <Sponsors />
       <Communities />
       {/* <Team /> */}
-      {/* <Committee /> */}
-      <Diversity />
+      <Venue />
+      <Content center={true}>
+        <h3>
+          <a target="_blank" href="https://2020.fluttervikings.com">
+            Check out Online'2020 website
+          </a>
+        </h3>
+      </Content>
     </Layout>
   );
 };
