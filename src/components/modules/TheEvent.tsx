@@ -35,7 +35,9 @@ const TheEvent = () => {
             decide about in-person in week one or week two. Regardless, the online
             conference in Feb 2022 will be running.
             <br /> <h3>Refund Policy</h3>We will fully refund your ticket price if the
-            conference gets canceled due to the COVID situation.
+            conference gets canceled due to COVID-19. However, please ensure you book your
+            trip as flexibly as possible to avoid losing any money on your travel
+            expenses.
           </Content>
         </Container>
       </Section>
