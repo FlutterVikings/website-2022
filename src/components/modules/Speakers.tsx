@@ -22,9 +22,9 @@ const Speakers = () => {
               <ResponsiveGrid>
                 {speakers.map((member) => {
                   return (
-                    <Link key={member.id} to={`/speakers/${member.id}`}>
-                      <FaceImage member={member} />
-                    </Link>
+                    // <Link key={member.id} to={`/speakers/${member.id}`}>
+                    <FaceImage member={member} key={member.id} />
+                    // </Link>
                   );
                 })}
               </ResponsiveGrid>
