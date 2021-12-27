@@ -22,16 +22,16 @@
     "title": "Software engineer",
     "company": "very good ventures",
     "social": {
-      "twitter": "",
-      "github": "",
+      "twitter": "https://twitter.com/felangelov",
+      "github": "https://github.com/felangel",
       "linkedin": ""
     },
     "talk": {
-      "title": "Cubit and beyond! live coding session",
-      "description": "",
+      "title": "Managing State with Bloc v8",
+      "description": "A deep dive into what has changed in version 8.0.0 of the bloc state management library. We’ll take a look at what sparked these changes, how to migrate to v8.0.0, and explore advanced use cases with an emphasis on concurrency, testing, and tooling. Attendees will hopefully leave the talk with a clear understanding of all major changes introduced in bloc v8.0.0 as well as an intro to the bloc_concurrency package. We’ll go over the built-in event transformers, talk about when to use them, and see how to implement a custom event transformer.",
       "lightening": false
     },
-    "bio": "Software engineer by day, software engineer by night. very good ventures. creator of the bloc library."
+    "bio": "Felix Angelov is a Principal Engineer at Very Good Ventures. He previously worked at BMW where he pioneered the transition to Flutter. In addition to working with clients, he is also a dedicated open source creator and maintainer. Felix created the bloc library, which is one of the most popular state management libraries and has been named a Flutter Favorite by Google."
   },
   {
     "id": "danielle_cox",
@@ -44,11 +44,11 @@
       "linkedin": ""
     },
     "talk": {
-      "title": "The importance of diversity",
-      "description": "TBA",
+      "title": "Finished you app?  Is it accessible? ",
+      "description": "We are often in a hurry to complete our apps and get them submitted.  We are in such a hurry, that we forget, or worse yet, don't consider making them accessible.  That is a shame because it leaves many potential users out of your customer base, which is bad for all of us.  I am here to show you how taking a few steps will open your app up to more users which means more installs.  We will cover, with live coding, how to find where your application fails to accommodate users with special needs and the easy ways you can address these issues.",
       "lightening": false
     },
-    "bio": "@Flutterdev advocate and developer who currently pays the bills with android and php.  #flutterista #flutterfly I am not associated with Google."
+    "bio": "Danielle is the coorganizer of the Flutteristas and host of the recently successful Flutter Apprentice Book Club as well as a professional Flutter developer.  Since proudly graduating from the University of Oklahoma, she has worked for many large companies as well as multiple startups programming in C, SQL and most recently PHP."
   },
   {
     "id": "simon_lightfoot",
@@ -407,5 +407,107 @@
       "lightening": false
     },
     "bio": "I am a mobile app developer with 6 years of experience. I started as an Android developer and then moved to Flutter over two years ago, never regretting the change! If I don't code, I probably cook or eat."
+  },
+  {
+    "id": "jeroen_meijer",
+    "name": "Jeroen Meijer",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/jfkdev",
+      "github": "https://github.com/jeroen-meijer",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "TBA",
+      "description": "TBA",
+      "lightening": true
+    },
+    "bio": "Jay is a Dutch full-stack app developer, administrator and moderator for the Flutter Community organization, passionate about Flutter and TypeScript and helping people out wherever possible."
+  },
+  {
+    "id": "scott_stoll",
+    "name": "Scott Stoll",
+    "title": "Community Lead",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/scottstoll2017",
+      "github": "",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "TBA",
+      "description": "TBA",
+      "lightening": true
+    },
+    "bio": "Flutter Community Leader"
+  },
+  {
+    "id": "alessio_salvadorini",
+    "name": "Alessio Salvadorini",
+    "title": "Flutter Developer",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/ASalvadorini",
+      "github": "https://github.com/alesalv",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Flutter Architecture Components",
+      "description": "A high level overview of a simple Flutter architecture, inspired by Android Architecture Component. This architecture is based on MVC (as hinted by Flutter 2.5 new template app) and on Simple State Management aka Pragmatic SM, the only officially documented one on flutter.dev, and presented at Google I/O 2019. The need for this talk comes from the fact that most devs use BLoC, presented at Google I/O 2018, which has quite some overhead, while the SSM based on Provider+ChangeNotifier is much simpler. Therefore I introduce in this talk a variant of that state management based on Riverpod instead of Provider, and then contextualise it in the MVC architecture, where the views are the widgets, the controllers are the ChangeNotifiers, and the services are the stores where to get the data from. Last but not least, I show the network bound resource approach as defined by Android Architecture Component which allows to show on UI the local copy of the data while fetching remotely the most update one. I will present this same presentation at a local audience by end of November at the Helsinki meetup, where I was asked to make it codeless or non-technical, but I'd like to present it to a bigger audience and also I could introduce some code snapshots or make it more technical",
+      "lightening": false
+    },
+    "bio": "I'm specializes in mobile development and design. I forge products based on simplicity, fluidity, and beauty. Like a superhero, Creative Technologist at IDT Messaging during the day, Explorer at Fluxit during the night. It all started long time ago on handhelds devices, but my passion flourished when I met Android, and exploded when I encountered Flutter. All things Fuchsia"
+  },
+  {
+    "id": "gordon_hayes",
+    "name": "Gordon Hayes",
+    "title": "Flutter Developer Advocate",
+    "company": "Stream",
+    "social": {
+      "twitter": "https://twitter.com/gordonphayes",
+      "github": "https://github.com/funwithflutter",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Tips, Tricks and Tools: Flutter Performance",
+      "description": "Brief intro on Widgets, Element and RenderObjects - as this is important to understand to get a cleaner picture of why something could have a performance impact. From there it will be a hands on demo (probably recorded vids/walkthroughs) showing how to use Flutter DevTools and your IDE to find, track, understand and eventually fix common (and not so common) performance issues. The idea is to present these tips/tools as small isolated sections in the bigger talk. To create something that people can easily refer back to in the future. This talk can be very technical and the focus can be on more advance performance metrics. But I want it to strike a nice in-between. Starting with easy tips, and moving on to some more complex scenarios. So there will be something for every level hopefully.",
+      "lightening": false
+    },
+    "bio": "Flutter Developer Advocate at Stream. Creator of the Fun with Flutter YouTube Channel."
+  },
+  {
+    "id": "tom_gilder",
+    "name": "Tom Gilder",
+    "title": "Flutter Developer",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/tomgilder",
+      "github": "https://github.com/tomgilder",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Navigator 2.0: huh? What’s wrong with .push()?",
+      "description": "My talk is an overview and tour of the Flutter Router (aka Navigator 2.0) API. Primarily aimed at existing Flutter devs who have heard of the new Router API, but are confused as to why and when they'd need to use it. If the existing Navigator does everything you need to, why would you need to change? I've also been assisting a company with adding Navigator 2.0 support to a big new Flutter desktop app - hopefully I'll be able to talk about it come February! The talk aims to answer these questions: - What problems does the new API solve? - When would you need to migrate from the classic Navigator? - How do you migrate? Should you use a package? Areas covered: - General overview of the routing API, and why it's a bit confusing - Web URL support - Deep linking (such as from push notifications) - Platform differences between mobile, desktop and web - Comparing and implementing routing packages If there's time, I could also potentially cover advanced topics such as analytics. Although I'm the author of Routemaster and will talk about it, I won't just be plugging my package :-) I did an initial 15 minute version of the talk, but I would heavily rework it for Flutter Vikings: https://www.youtube.com/watch?v=r9QVF5lMp7I Thanks for reading my proposal!",
+      "lightening": false
+    },
+    "bio": "Tom makes awesome apps with Flutter at Codemate in Helsinki. He's been working professionally with Flutter for the past 3 years, and is the author of the popular Routemaster navigation package."
+  },
+  {
+    "id": "krzysztof_sroka",
+    "name": "Krzysztof Krasiński-Sroka",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/kpsroka",
+      "github": "https://github.com/kpsroka",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "When Flutter Goes Red",
+      "description": "Whoopsie-daisy! Your perfect Flutter Widget just rendered as a glaring red box. Was it another overflow by infinity pixels, or maybe a classic division by zero in your build method? In this talk, we'll go through techniques of investigating common errors in your Flutter code, from the well known and loved debugPrint() to diving deeper in the DevTools to investigate the SDK methods that just take too much time.",
+      "lightening": false
+    },
+    "bio": "Krzysztof is an experienced developer with passion for creating beautiful and useful user interfaces. Throughout his career he worked on a variety of products, starting from testing tools, data-crunching pipelines, web technologies, and finally mobile apps. Apart from being a developer, he is also a founder and tech lead of Widgeters, a Flutter development consultancy, and a Google Developer Expert for Dart and Flutter."
   }
 ]
