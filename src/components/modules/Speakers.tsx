@@ -28,9 +28,6 @@ const Speakers = () => {
                   );
                 })}
               </ResponsiveGrid>
-              <Content center={true}>
-                <h3>More speakers to be announced</h3>
-              </Content>
             </Container>
           </Section>
         )}
