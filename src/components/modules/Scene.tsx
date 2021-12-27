@@ -50,7 +50,6 @@ const Scene = () => {
           <p className="SceneOverlay-location">Oslo - Norway & Online</p>
           <br />
         </div>
-        <p>Stay tuned for more information</p>
         {/* <div className="SceneOverlay-info">
           <p className="SceneOverlay-location">
             Watch us on: <br />

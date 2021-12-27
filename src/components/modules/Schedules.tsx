@@ -15,13 +15,15 @@ import { useAllFiles } from '../../hooks/useAllFiles';
 import { Link } from 'gatsby';
 import { Timezone } from '../../models/Timezone';
 import { AddToCal } from '../common/AddToCal';
+import { ResponsiveGrid } from '../common/ResponsiveGrid';
 
 interface Props {
   agendaDay: Agenda;
   selectedTimezone: Timezone;
+  roomName: string;
 }
 
-const AgendaDay = ({ agendaDay, selectedTimezone }: Props) => {
+const AgendaDay = ({ agendaDay, selectedTimezone, roomName }: Props) => {
   const { name, date, dateISO, programs } = agendaDay;
   const timezoneValue = selectedTimezone.value;
   const spaceDate = spacetime(dateISO, config.defaultTimezone.value);
@@ -29,7 +31,7 @@ const AgendaDay = ({ agendaDay, selectedTimezone }: Props) => {
   return (
     <div className="Agenda-column Agenda-column">
       <div className="Agenda-columnTitle">
-        <p className="Agenda-day">{name}</p>
+        <p className="Agenda-day">{roomName}</p>
         <p className="Agenda-date">{date}</p>
         <span className="Agenda-dash" />
       </div>
@@ -176,7 +178,7 @@ const Schedules = () => {
   const images = useAllFiles();
   const speakers = useSpeakers(images);
   const agenda = useAgenda(speakers);
-  const [selectedTab, seTSelectedTab] = useState(2);
+  const [selectedTab, seTSelectedTab] = useState(0);
   const [selectedTimezone, setSelectedTimezone] = useState<Timezone>(
     config.defaultTimezone,
   );
@@ -189,8 +191,10 @@ const Schedules = () => {
       <Section>
         <Container id="agenda">
           <MainTitle title="Event Agenda" titleStrokeText={'Schedule'} />
-          {/* <Notice>
-            <p className="SceneOverlay-location">
+          <Notice>
+            <p style={{ color: 'red' }}>Program will be updated soon</p>
+            <br />
+            {/* <p className="SceneOverlay-location">
               <a
                 className="Btn Btn--ticket Btn--cta"
                 target="_blank"
@@ -217,8 +221,8 @@ const Schedules = () => {
               >
                 Twitter
               </a>
-            </p>
-            <br />
+            </p> */}
+            {/* <br /> */}
             <p>
               Your time now is <b>{now.format('nice')}</b>
             </p>
@@ -227,9 +231,9 @@ const Schedules = () => {
               Time is based on {selectedTimezone.altName} ({selectedTimezone.abbrev})
             </p>
             <TimezoneSelect value={selectedTimezone} onChange={setSelectedTimezone} />
-          </Notice> */}
+          </Notice>
           <div className="Agenda-twoColumnContainer">
-            {/* {agenda.map((agendaDay, i) => (
+            {agenda.map((agendaDay, i) => (
               <AgendaTabButton
                 selected={i === selectedTab}
                 className="Agenda-columnTitle"
@@ -240,22 +244,42 @@ const Schedules = () => {
                 <p className="Agenda-date">{agendaDay.date}</p>
                 {i === selectedTab && <CheckMark />}
               </AgendaTabButton>
-            ))} */}
+            ))}
           </div>
           <br />
           <br />
-          <div className="Agenda-twoColumnContainer">
-            {/* {agenda.map(
-              (agendaDay, i) =>
-                i === selectedTab && (
-                  <AgendaDay
-                    key={i}
-                    selectedTimezone={selectedTimezone}
-                    agendaDay={agendaDay}
-                  />
-                ),
-            )} */}
-          </div>
+          <ResponsiveGrid size={30}>
+            <div>
+              <div className="Agenda-twoColumnContainer">
+                {agenda.map(
+                  (agendaDay, i) =>
+                    i === selectedTab && (
+                      <AgendaDay
+                        key={i}
+                        roomName={'Room 1'}
+                        selectedTimezone={selectedTimezone}
+                        agendaDay={agendaDay}
+                      />
+                    ),
+                )}
+              </div>
+            </div>
+            <div>
+              <div className="Agenda-twoColumnContainer">
+                {agenda.map(
+                  (agendaDay, i) =>
+                    i === selectedTab && (
+                      <AgendaDay
+                        key={i}
+                        roomName={'Room 2'}
+                        selectedTimezone={selectedTimezone}
+                        agendaDay={agendaDay}
+                      />
+                    ),
+                )}
+              </div>
+            </div>
+          </ResponsiveGrid>
         </Container>
       </Section>
     </>

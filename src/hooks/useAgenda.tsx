@@ -44,7 +44,6 @@ export const useAgenda = (speakers: Speaker[]): Agenda[] => {
               ...speaker,
               talk: {
                 ...speaker.talk,
-                coSpeaker: SpeakerEntities[`${speaker.talk.coSpeaker}`],
               },
             },
           };

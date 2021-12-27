@@ -24,10 +24,10 @@ export default () => {
       <TheEvent />
       <Committee />
       <Diversity />
+      <Schedules />
       <Speakers />
 
       {/* <Moderators /> */}
-      {/* <Schedules /> */}
       <Sponsors />
       <Communities />
       {/* <Team /> */}
