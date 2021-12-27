@@ -37,6 +37,15 @@ const Footer = () => {
           />
           <div className="font__caesar SceneOverlay-footerTitle">Flutter Vikings</div>
           <div className="font__caesar SceneOverlay-footerSubtitle">2022, Hybrid</div>
+          <div className="font__caesar SceneOverlay-footerSubtitle">
+            <a
+              target="_blank"
+              href="https://2020.fluttervikings.com"
+              rel={'noreferrer noopener nofollow'}
+            >
+              Check out Online'2020 website
+            </a>
+          </div>
         </div>
       </section>
     );

@@ -11,21 +11,14 @@ const TheEvent = () => {
           <Content center={true}>
             FlutterVikings is a community-driven event made up of GDGs and other Nordic
             user groups focused on Flutter and Dart, as well as the global Flutter
-            Community. <br />
-            With a fantastic lineup of Google Developer Experts and top-notch
+            Community. With a fantastic lineup of Google Developer Experts and top-notch
             international speakers the FlutterVikings Conference boasts two of the best
             Flutter and Dart tracks anywhere, offering some of the most informative,
-            technical and actually useful talks anywhere.
-            <br />
-            This website is being updated as more speakers are confirmed so make sure you
-            subscribe to our newsletter, or follow us on twitter to get the latest
-            updates!
-            <br />
-            <h3>Engagement</h3>
-            Besides the conference talks, be prepared for awesome MCs and a number of
-            networking activities, interactive entertainment, and engaging challenges for
-            all participants.
-            <br />
+            technical and actually useful talks anywhere. This website is being updated as
+            more speakers are confirmed so make sure you subscribe to our newsletter, or
+            follow us on twitter to get the latest updates! Besides the conference talks,
+            be prepared for awesome MCs and a number of networking activities, interactive
+            entertainment, and engaging challenges for all participants.
             <h3>COVID-19</h3>
             We are observing COVID situation closely.Health and safety of our attendees
             and speakers are a high priority. If travel becomes more challenging and
@@ -34,10 +27,9 @@ const TheEvent = () => {
             your trip with the flexibility that you can change in an emergency. We will
             decide about in-person in week one or week two. Regardless, the online
             conference in Feb 2022 will be running.
-            <br /> <h3>Refund Policy</h3>We will fully refund your ticket price if the
-            conference gets canceled due to COVID-19. However, please ensure you book your
-            trip as flexibly as possible to avoid losing any money on your travel
-            expenses.
+            <h3>Refund Policy</h3>We will fully refund your ticket price if the conference
+            gets canceled due to COVID-19. However, please ensure you book your trip as
+            flexibly as possible to avoid losing any money on your travel expenses.
           </Content>
         </Container>
       </Section>

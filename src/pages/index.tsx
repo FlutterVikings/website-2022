@@ -24,21 +24,14 @@ export default () => {
       <TheEvent />
       <Committee />
       <Diversity />
-      <Schedules />
       <Speakers />
+      <Schedules />
 
-      {/* <Moderators /> */}
+      <Moderators />
       <Sponsors />
       <Communities />
       {/* <Team /> */}
       <Venue />
-      <Content center={true}>
-        <h3>
-          <a target="_blank" href="https://2020.fluttervikings.com">
-            Check out Online'2020 website
-          </a>
-        </h3>
-      </Content>
     </Layout>
   );
 };
