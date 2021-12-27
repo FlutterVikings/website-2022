@@ -68,23 +68,6 @@
     "bio": "Simon loves Flutter and believes its the future of Mobile development. Co-founder Flutter Study Group on Slack, HumpdayQandA and Flutter Community Lead. He's been writing code for 18+ years, of which the last 10 years has been professional Android development. He discovered Flutter in Oct 2017 and since then has not looked back."
   },
   {
-    "id": "mais_alheraki",
-    "name": "Mais Alheraki",
-    "title": "",
-    "company": "",
-    "social": {
-      "twitter": "",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "FlutterFire: Query Like a Hero",
-      "description": "Flutter and Firebase are a perfect combination to make modern reactive apps, and FlutterFire is the client SDKs that help us make the most out of Firebase in Flutter. This talk will go through some important tips on querying data from Firestore inside a Flutter app.",
-      "lightening": false
-    },
-    "bio": ""
-  },
-  {
     "id": "kamal_shree",
     "name": "kamal shree S",
     "title": "",
@@ -118,27 +101,11 @@
     },
     "bio": "Programmer, backpacker, keyboard builder, climber and slightly more crazy than you are allowed to be."
   },
-  {
-    "id": "aloos_deniel",
-    "name": "Aloïs Deniel",
-    "title": "",
-    "company": "Freelance",
-    "social": {
-      "twitter": "https://twitter.com/aloisdeniel",
-      "github": "https://github.com/aloisdeniel/",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Building truly adaptative user interfaces",
-      "description": "In this talk, I will cover various technics to help you design truly cross-platform user interfaces (adapt the interface to the screen size, accessibility, inputs) and how to test your app against all these constraints.",
-      "lightening": false
-    },
-    "bio": "I am a french Flutter developer with far too many open source projects! I created tools to help with development cycle like device preview or flutter to figma."
-  },
+
   {
     "id": "dominik_roszkowski",
     "name": "Dominik Roszkowski",
-    "title": "",
+    "title": "Principle Engineer",
     "company": "DR Labs",
     "social": {
       "twitter": "https://twitter.com/OrestesGaolin",
@@ -155,8 +122,8 @@
   {
     "id": "muhammed_salih_guler",
     "name": "Muhammed Salih Guler",
-    "title": " Senior Mobile Engineer, Superlist",
-    "company": "",
+    "title": "Senior Mobile Engineer",
+    "company": "Superlist",
     "social": {
       "twitter": "https://twitter.com/salihgueler",
       "github": "https://github.com/salihgueler",
@@ -168,5 +135,209 @@
       "lightening": false
     },
     "bio": "Salih is a Berlin based Android Engineer who is a Google Developer Expert for Flutter and Dart. He likes sharing his knowledge with the people by mentoring aspiring developers, blogging and talking at conferences."
+  },
+  {
+    "id": "matej_knopp",
+    "name": "Matej Knopp",
+    "title": "Senior Engineer",
+    "company": "Superlist",
+    "social": {
+      "twitter": "https://mobile.twitter.com/matejknopp",
+      "github": "",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "NativeShell",
+      "description": "TBA",
+      "lightening": false
+    },
+    "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
+  },
+  {
+    "id": "chris_swan",
+    "name": "Chris Swan",
+    "title": "Senior Engineer",
+    "company": "The @ Company",
+    "social": {
+      "twitter": "https://twitter.com/cpswan",
+      "github": "",
+      "linkedin": "https://www.linkedin.com/in/chrisswan/"
+    },
+    "talk": {
+      "title": "Full Stack Dart",
+      "description": "Flutter provides an excellent way to build Android, iOS, web and desktop apps, but what about the back end services? Full stack Dart is all about using that investment in Dart programming to build the services used by applications, whether it's in the cloud or on the Internet of Things.",
+      "lightening": false
+    },
+    "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
+  },
+  {
+    "id": "goncalo_palma",
+    "name": "Gonçalo Palma",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/GonPalma",
+      "github": "https://github.com/vanethos",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Supercharging your Flutter Web Apps with Web Assembly",
+      "description": "With Flutter Web we allow our users to access our apps from anywhere - their phones, computers, TVs, and even fridges! However, there are a couple of restrictions in Flutter for Web, such as the inability to spawn new threads via isolates, that can our lives as devs more difficult. Fortunately, Web Assembly provides what we need - it enables us to have native speeds in a web browser, meaning we can now do expensive operations such as cryptography, image compression, and others client-side. In this talk, we’ll explore how we can use Rust and Web Assembly to supercharge our Flutter Web apps!",
+      "lightening": false
+    },
+    "bio": "I’m a GDE for Flutter and Dart and the Lead Developer of Pvotal, a Tech company where we explore how we can use Flutter Web to solve the Equine industry’s main problems with bleeding-edge technology. Flutter has not only proved to be a fun and challenging tool, being the main technology that I used in two different startups, but it also brought me to new passions, such as Open Source - with package creation, and contributing to open-source apps, communities - with Flutter Portugal, and education - with sharing what I’ve learned so far via articles and talks. My mantra is to explore and find via rubber-ducking: many times we don’t have the answers in articles (although WE may be the ones writing them), so we must be comfortable with diving into the unknown, testing, failing, and rambling about it with your team or friends."
+  },
+  {
+    "id": "sakina_abbas",
+    "name": "Sakina Abbas",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/sakin8tor",
+      "github": "https://github.com/sakina-abbas",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Working with Background Services in Flutter",
+      "description": "Some applications require that the code is still being executed even when the app is no longer running in the foreground. A good example is an Uber Captain's app that is always listening for nearby ride requests. This talk will demonstrate how the use of Background Services can achieve seamless code execution of a Flutter app in the background. You will learn about a Flutter app's lifecycle, the concept of Services and Isolates and certain plugins that can be used for background code execution in Flutter, and at the end, you will also see a working app executing its code in the background - without any user interaction!",
+      "lightening": false
+    },
+    "bio": "Co-founder and CEO of Reactree and the first female Google Developer Expert for Flutter and Dart in Pakistan, Sakina Abbas is all about solving problems through technology. She started off as a native Android developer and is now leading Flutter development and DevOps at ReacTree. To date, she has provided consultancies to numerous international and local clients and has built a number of custom solutions. She's an avid gamer, and much of her personal work is inspired by games."
+  },
+  {
+    "id": "vilson_blanco_dauinheimer",
+    "name": "Vilson Blanco Dauinheimer",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/BwolfDev",
+      "github": "https://github.com/bwolfs2",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Micro-Apps || Micro Front-Ends",
+      "description": "When we think about larger applications and larger teams, we can't escape separating our application into modules or packages. If you've ever worked in larger companies, you may have noticed that almost everything is separated into smaller Squads with well-defined roles. The talk intends to demonstrate how we are developing in apps in an uncoupled, organized and very simple way to be reused in different scenarios of the company. Micro-Apps or Micro-FrontEnds in flutter are almost apps that have full functionality or with few external dependencies and reusable, the most common example is the Authentication Module that has only the functions of Login, Logout, Register and password Recover, this Module in question is used by all Projects of the company making that when starting a new project we no longer need to worry about Authentication. Working in this way we were able to increase team productivity by reusing code and applying single responsibility where each module has a specific function, this module can be maintained by a specific and specialized team in a given context such as a Payment Module or a Module of HR.This talk aims to show a more advanced content of Flutter presenting an architecture based on packages and which is widely used in Brazilian companies, presenting a separation in Modules and also the use of Clean Architecture for a better organization of the project.",
+      "lightening": false
+    },
+    "bio": "Technology enthusiast, computer lover and for the possibility of turning ideas into reality. Being able to create, take something out of my mind and make it real is fascinating to me, especially in the mobile world using Flutter! Co-Founder and Organizer of Flutterando the Biggest Flutter Community of Brazil Google For Startups Mentor Flutter Specialist at F-Team"
+  },
+  {
+    "id": "mais_alheraki",
+    "name": "Mais Alheraki",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/pr_Mais",
+      "github": "https://github.com/pr-mais",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "FlutterFire support for Desktop and Dart",
+      "description": "Ever wished FlutterFire supports Linux and Windows? Wish no more, it's a fact in-progress. With support from Canonical, Invertase released Firebase Auth support for Flutter on Linux, Windows, and oh.. also Dart. Moreover, support for more of the FlutterFire family is yet to come. In this talk I will walk through the challenges of implementing Firebase Auth functionalities from scratch in pure Dart, without depending on Flutter - making it a universal package that can run on all platforms. Under the hood, Federated Plugins has made this possible, how does federating your plugins work for empowering the Flutter ecosystem to grow faster on all 6 platforms?",
+      "lightening": false
+    },
+    "bio": "Software engineer and Flutter GDE."
+  },
+  {
+    "id": "aleksandr_denisov",
+    "name": "Aleksandr Denisov",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/shuregdenisov",
+      "github": "https://github.com/DenisovAV",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Flutter for TV platforms",
+      "description": "Flutter for Mobile is released, Flutter for Web is in beta, Flutter for MacOs, Linux and Windows is in Alpha and it's really cool that Flutter officially supports six platforms. But what if I want to run my Flutter app on the TV? Unfortunately, nobody has heard of the official Flutter for TV yet. Actually, a Flutter app can be launched on TV (not AndroidTV only, but AppleTV, Tizen and others as well). In my talk, I'm going to tell you how to do this, and what difficulties and issues you will face and how to resolve them.",
+      "lightening": false
+    },
+    "bio": "Aleksander is experienced a lot in enterprise development, in IT for more than 15 years. He worked in many different domains with many different technologies, but currently, his main interest is multi-platform development using Flutter. Aleksandr, Chief Software Engineer, Co-Head of Flutter Competency at EPAM Systems, Flutter and Dart GDE (Google Developer Expert), organizer of GDG Moscow community, host of podcasts Mobile People Talks and Flutter Dev Podcast."
+  },
+  {
+    "id": "thomas_burkhart",
+    "name": "Thomas Burkhart",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/thomasburkhartb",
+      "github": "https://github.com/escamoteur",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "3D Graphics with Flutter and OpenGL",
+      "description": "So far Flutter doesn't offer a performant solution to render 3D Graphics. This is to be changed with the FlutterWebGL project that allows to use WebGL inside a FlutterWidget. This talk will explain the principle behind it as well as some 3D demonstrations ",
+      "lightening": true
+    },
+    "bio": "Born 1971 Thomas Burkhart could be seen almost as a legacy system. Being almost 30 years in this industry led him to a lot of different technologies, like C++ with mfc, C#, microcontrollers in C and currently mobile App development with Flutter and Dart.  What only view people know that he was also a professional magician and bakes his own bread."
+  },
+  {
+    "id": "waleed_arshad",
+    "name": "Waleed Arshad",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/wal_33d",
+      "github": "https://github.com/wal33d006",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Spice up your Flutter apps with Shortcuts & Actions",
+      "description": "Since a lot of developers are moving their Flutter applications to support the Web and Desktop, I propose something that will help them increase the user experience of their applications. This talk majorly focuses on adding shortcuts and actions to Flutter applications using Intents, without having to add any third party plugins/packages in the code. For example, a Flutter desktop app, or a Flutter web app has a writing/editing feature along with the ability to save things. In this case ideally the common gesture to achieve this is Ctrl+S for “save”, Ctrl+A for “select all”,  Ctrl+C for “copy”, and so on. With Intents and Actions widget in Flutter, it is all possible with simplicity and minimum amount of code. This session will have most of its part as live coding stuff.",
+      "lightening": true
+    },
+    "bio": "Waleed Arshad is a core mobile technologist, an author, and a passionate cross-platform developer. He has recently authored a book named “Manage State in Flutter Pragmatically”. He is also the first person from Pakistan to become a Google Developer Expert in Flutter. After graduating from FAST Karachi, he has been working in the industry for more than five years and is currently working in the Developer Experience team for Flutter at Tendermint Inc.. He is also leading Pakistan’s Flutter community."
+  },
+  {
+    "id": "aloos_deniel",
+    "name": "Aloïs Deniel",
+    "title": "GDE",
+    "company": "Freelance",
+    "social": {
+      "twitter": "https://twitter.com/aloisdeniel",
+      "github": "https://github.com/aloisdeniel/",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Custom design systems: from design to widgets",
+      "description": "During this talk, we'll see how to help UX/UI designers and Flutter developers to collaborate, and how to transition efficiently from visual prototypes to Flutter widgets. First, we'll see how designers can architecture their design system in a way that makes it easier for developers to implement. Then we'll see which base widgets should be used to build your own widget library and create a visual experience that really matches the original prototypes. The UX/UI design software used during this presentation will be Figma, but the general concepts behind it will be adaptable to other software as well.",
+      "lightening": false
+    },
+    "bio": "I'm a french Flutter freelance developer from France. I love contributing to the Flutter community by participating to open source projects and creating content. I'm also a Google Developer Expert."
+  },
+  {
+    "id": "morgan_hunt",
+    "name": "Morgan Hunt",
+    "title": "Flutter developer",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/mrgnhnt96_dev",
+      "github": "https://github.com/mrgnhnt96",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Create your own Code-Generating Package",
+      "description": "In this session, I will walk the audience through what code-generation is, why we use it within our projects, and how every developer can create their own code-gen package. What is Code Generation I'll discuss what code generation is and the issues and mundane tasks that it tries to solve. I will talk about the reasons how generating code can reduce errors and code that requires maintenance. Why use Code Generation One of the more prominent solutions that code generation provides is maintenance reduction. I'll discuss some popular packages and the pain points that they try to solve through code generation. I'll demonstrate a common task that happens in almost every project and how it can be solve using a code-gen package. Then I will compare the old maintenance-required code to the newly, almost maintenance free, generated code. Create your own code-gen package Finally, I'll break down the minimum code needed to set up your own code generating package, solving a problem in a particular project. Starting by demonstrating how to create annotations & it's generator, the available options for part files, settings via the build.yaml file, and testing.",
+      "lightening": false
+    },
+    "bio": "Morgan is a die-hard Flutter developer 💙. He has been developing in Flutter non-stop since Flutter 1.12 was released! Morgan has been developing many dart & flutter packages, and contributing to as many open-source projects as he can. He currently works full-time at Clean Simple Eats with a bit of freelance on the side because he can't control how much he loves to code."
+  },
+  {
+    "id": "minas_giannekas",
+    "name": "Minas Giannekas",
+    "title": "Flutter developer",
+    "company": "Self-employed",
+    "social": {
+      "twitter": "https://twitter.com/whiplashoo",
+      "github": "https://github.com/whiplashoo",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Using Flutter to build a native-looking desktop app for macOS and Windows",
+      "description": "I recently built and shipped a simple app with Flutter desktop, called Shortcut Keeper. It is a utility app that lets you save and keep in one place your favorite keyboard shortcuts. It is available for macOS and Windows through their respective stores, and features an adaptive UI design. In my talk, I will be presenting the steps I took and tools I used to build the app with a UI that matches each platform's design standards (components like buttons or icons, animations, title bars, etc.). I will try to showcase how easy it is to use Flutter for desktop and create a native-looking app for macOS and Windows. The app has attracted some attention from members of the Flutter community (most importantly, Chris Sells from Google's Flutter team wanted to talk about it, as well as other Flutter developers). I have also written a couple of blog posts detailing some of the stuff included in the talk, in case you need to have a look. Thanks for the consideration!",
+      "lightening": true
+    },
+    "bio": "I am a self-employed app developer. My main background is web development, but I have been using Flutter for the past year or so and have published apps for all platforms, mobile and desktop. I also contribute to open-source and am an author of a couple of Flutter packages. "
   }
 ]
