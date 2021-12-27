@@ -2,19 +2,19 @@
   {
     "id": "pooja_bhaumik",
     "name": "Pooja Bhaumik",
-    "title": "Google Developer Expert for Flutter, Technical Blogger & Public Speaker and Senior Engineer in Bounce",
-    "company": "Bounceshare",
+    "title": "GDE",
+    "company": "",
     "social": {
       "twitter": "https://twitter.com/pblead26",
       "github": "https://github.com/PoojaB26",
       "linkedin": ""
     },
     "talk": {
-      "title": "Widget Testing for Dummies",
-      "description": "Do you test your code?  Let's get straight to the point. If you are someone who shies away on this question,  you are not a bad developer. You are just someone who hasn't given testing the attention it needs.And this talk won't be about how amazing testing is, or how many categories of testing is provided by the Flutter framework. <br/> You would know that from this as well https://flutter.dev/docs/testing.But this talk is just about Widget Testing, because it's special to Flutter. And if everything is a widget, everything SHOULD be tested. And I want to dig deeper into this.",
+      "title": "Diagnostic Tests for Flutter Apps: Debugging Techniques",
+      "description": "Maybe the most important thing about development is not writing code, it is probably, efficiently and quickly finding and fixing the code that is causing the expected behaviour of your application. Flutter provides a number of tools and features to help debug applications, and the complete understanding of these tools is crucial for developers working in projects, specially production level apps. In this talk, Kamal Shree and I will jointly talk about the various methods of debugging, such as the DevTools built specially for Flutter and Dart that helps a developer debug memory issues, check diagnostics information, diagnose UI Jank performance issues, etc. Other than that, we will also talk about the debugging tools provided by Android Studio and VS Code themselves and other miscellaneous tools or features to debug animations, inspect widgets, etc. By the end of the talk, the attendees will know how to choose the right tool for the diagnostic tests for their Flutter applications, and hopefully gain speed at fixing issues in their code.",
       "lightening": false
     },
-    "bio": "Pooja Bhaumik, an early Flutter adopter turned into Google Developer Expert for Flutter, who loves to share her knowledge through blog posts, public speaking, Youtube videos, and open source contributions. Also a Sr. Engineer in Bounce, she is building the next best solutions for mobility in India. She is also passionate about diversity & inclusion and has started a couple of communities, the current one being WomenDroid in Bengaluru, to support personal & professional growth objectives for women developers."
+    "bio": "Pooja Bhaumik is a technical mentor at Startup Clinic initiative by Google For Startups, a Google Developer Expert for Flutter, former Senior Engineer at Bounce & CreatorStack and contributing author to Increment by Stripe. When she is not writing code, she either enjoys mentoring folks to help them grow in their development careers or contributes to the tech community through blog posts, public speaking, Youtube videos, and open source contributions. She is also passionate about diversity & inclusion and has co-founded WomenDroid to support personal & professional growth objectives for women developers."
   },
   {
     "id": "felix_angelov",
@@ -339,5 +339,73 @@
       "lightening": true
     },
     "bio": "I am a self-employed app developer. My main background is web development, but I have been using Flutter for the past year or so and have published apps for all platforms, mobile and desktop. I also contribute to open-source and am an author of a couple of Flutter packages. "
+  },
+  {
+    "id": "pascal_welsch",
+    "name": "Pascal Welsch",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/passsy",
+      "github": "https://github.com/passsy",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "The unpaid backbone of our apps: Package maintainers",
+      "description": "Today, most Flutter apps are using 50 or more packages. But who are the persons behind all those open source packages? What keeps them motivated? What are their challenges? And why do they invest their valuable free time to answer our questions and fix bugs? In this talk you'll learn what it's like to be a package maintainer. During multiple interviews I gathered more insights, combined individual stories into a big picture and share the findings with ya'll. Stay tuned for some 'behind the scenes' stories!",
+      "lightening": false
+    },
+    "bio": "Pascal is one of the first GDEs for Flutter and Dart and maintainer of multiple open-source libraries. He's running phntm, a Flutter agency in Germany and builds Flutters best user feedback tool wiredash.io"
+  },
+  {
+    "id": "abhishek_yatinkumar_doshi",
+    "name": "Abhishek Yatinkumar Doshi",
+    "title": "GDE",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/AbhishekDoshi26",
+      "github": "https://github.com/AbhishekDoshi26",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Nature or Flutter? Who has the best trees?",
+      "description": "Nature has wide variety of trees. However Flutter also has 3 types of trees. What are the use of those trees? How Flutter creates, renders and destroys a widget? What is the role of state and State Management? Let's check it out in the session! ",
+      "lightening": false
+    },
+    "bio": "Hey Everyone! **I am a Google Developer Expert for Dart and Flutter! I am also one of the Google Mentors. 💙** I currently work as a Software Engineer (Flutter Developer) at Bacancy Technology. I am also the Organizer of Flutter Valsad and Co-Organizer of Flutter India. During the daytime, I manage different projects, take interviews for the Flutter Developer position, and help the team with issues. After work, I write articles for the community and help people leverage their careers in Flutter. Reachout to me at: https://www.linkedin.com/in/abhishekdoshi26 https://twitter.com/AbhishekDoshi26 https://www.instagram.com/abhishekdoshi26 https://github.com/AbhishekDoshi26 Read my articles at: https://abhishekdoshi26.medium.com/"
+  },
+  {
+    "id": "cagatay_ulusoy",
+    "name": "Cagatay Ulusoy",
+    "title": "Flutter Developer",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/ulusoyapps",
+      "github": "https://github.com/ulusoyca",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "From Motion Design Specs To Flutter Code",
+      "description": "Motion is one of the pillars helping users guide through their journey. It is the most distinctive way to show what is happening on the screen. Motion eases the cognitive load, ‘lets’ the product interact with the user and shows the hierarchy of the elements. It also affects customer satisfaction by enhancing the experience with micro-interactions and aesthetic brand elements. In a production stage, animated transition previews are not enough to communicate to engineers. To achieve the best result and reduce friction between designers and engineers, motion specifications are needed. In this talk, we will talk about how to implement UI with Flutter according to the motion specs received from motion designers.",
+      "lightening": false
+    },
+    "bio": "Cagatay is a Software Engineer specialized in Android and Flutter application development. He is currently working as a software engineer at Wolt, in the retail team. He is passionate about blogging and vlogging his ultra trail races, sharing knowledge in the Flutter community with sample apps and articles."
+  },
+  {
+    "id": "alicja_ogonowska",
+    "name": "Alicja Ogonowska",
+    "title": "Flutter Developer",
+    "company": "",
+    "social": {
+      "twitter": "https://twitter.com/AlicjaOgonowska",
+      "github": "",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Let's test the full widget tree!",
+      "description": "In my talk I would like to present the idea of ‘’full tree’’ widget tests. This is the name we are using for them internally in our team at flaconi. My colleague Natalie Masse Hooper recently wrote a blog post about it - http://cogitas.net/unleash-full-power-flutter-widget-tests/. Instead of writing widget tests that exercise just one widget in separation, we set up the whole path user would have to follow to encounter this widget. Example - to test a products list in a mobile shop, you have to first start the app, do some setup typical for the domain - like choosing a language, country, decide whether it’s a logged in or anonymous user, then navigate to the products list. This is similar to writing integration tests, but those widget tests run much faster (cause they don’t run on a real device) and interact with mocks instead of making real API calls. It’s easy to test not only happy paths, but also various error scenarios, as well as timeout etc. Another benefit of those tests is quickly increasing test coverage, as many layers of the app are tested at the same time. Later this gives us more confidence to make bigger refactors - we have tests that will check if all parts of the app still behave as expected. In the talk I would like to cover: -when to use full widget tree tests and when ‘normal’ widget tests are just fine -what can you test with it -advantages over using typical widget tests or integration tests -setup that is needed to get you going -common problems that can be encountered while implementing such tests, based on my team’s experience",
+      "lightening": false
+    },
+    "bio": "I am a mobile app developer with 6 years of experience. I started as an Android developer and then moved to Flutter over two years ago, never regretting the change! If I don't code, I probably cook or eat."
   }
 ]
