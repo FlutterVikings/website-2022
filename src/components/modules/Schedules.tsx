@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useAgenda } from '../../hooks/useAgenda';
 import { Container, MainTitle, Section } from '../common';
 import config from '../../config';
@@ -235,7 +235,18 @@ const Schedules = () => {
   );
 
   const setTab = (index: number) => () => seTSelectedTab(index);
-  const now = spacetime.now();
+  const [now, setNow] = useState(spacetime.now());
+  let interval: any;
+
+  useEffect(() => {
+    if (interval) {
+      clearInterval(interval);
+    }
+    // update time evert 1 min
+    interval = setInterval(() => {
+      setNow(spacetime.now());
+    }, 1000 * 60);
+  }, []);
 
   return (
     <>
@@ -273,7 +284,7 @@ const Schedules = () => {
             </p> */}
             {/* <br /> */}
             <p>
-              Your time now is <b>{now.format('nice')}</b>
+              Your time now is <b>{now.format('nice-full')}</b>
             </p>
             <br />
             <p>
