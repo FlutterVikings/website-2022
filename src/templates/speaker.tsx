@@ -195,14 +195,19 @@ export default ({
 
 export const pageQuery = graphql`
   query($speakerId: String!) {
-    agenda: agendaJson(programs: { elemMatch: { speaker: { eq: $speakerId } } }) {
+    agenda: agendaJson(
+      tracks: { elemMatch: { programs: { elemMatch: { speaker: { eq: $speakerId } } } } }
+    ) {
       name
       date
       dateISO
-      programs {
-        startTime
-        endTime
-        speaker
+      tracks {
+        name
+        programs {
+          startTime
+          endTime
+          speaker
+        }
       }
     }
 

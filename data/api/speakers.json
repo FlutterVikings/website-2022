@@ -62,8 +62,8 @@
       "linkedin": ""
     },
     "talk": {
-      "title": "State Restoration",
-      "description": "Simon explains the new State Restoration API. Why its required.. How it works and more importantly how you can use it to allow your application to have its state long-lived after the application is closed or killed by the Operating System.",
+      "title": "Something awesome to be announced",
+      "description": "Something awesome to be announced",
       "lightening": false
     },
     "bio": "Simon loves Flutter and believes its the future of Mobile development. Co-founder Flutter Study Group on Slack, HumpdayQandA and Flutter Community Lead. He's been writing code for 18+ years, of which the last 10 years has been professional Android development. He discovered Flutter in Oct 2017 and since then has not looked back."
@@ -147,8 +147,8 @@
       "linkedin": ""
     },
     "talk": {
-      "title": "How to add Flutter to your existing app",
-      "description": "From the day that it's announced, Flutter is attracting so many developers from different backgrounds. It gives everyone a chance to build an application from a single codebase and deploy it to Android, iOS, Desktop, and Web. But not everyone is in the position to abandon an existing codebase and start from scratch. Luckily Flutter got you covered if you want some of the great Flutter features on your ongoing application. <br/>In this talk, we will have a look at how you can add Flutter to your ongoing project by showing a real-life example app with thousands of users and, we will talk about how you can rewrite your existing applications step by step with Flutter.",
+      "title": "Something awesome to be announced",
+      "description": "Something awesome to be announced",
       "lightening": false
     },
     "bio": "Salih is a Berlin based Android Engineer who is a Google Developer Expert for Flutter and Dart. He likes sharing his knowledge with the people by mentoring aspiring developers, blogging and talking at conferences."
@@ -165,7 +165,7 @@
     },
     "talk": {
       "title": "NativeShell",
-      "description": "TBA",
+      "description": "Something awesome to be announced",
       "lightening": false
     },
     "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
@@ -302,7 +302,7 @@
     "talk": {
       "title": "Spice up your Flutter apps with Shortcuts & Actions",
       "description": "Since a lot of developers are moving their Flutter applications to support the Web and Desktop, I propose something that will help them increase the user experience of their applications. This talk majorly focuses on adding shortcuts and actions to Flutter applications using Intents, without having to add any third party plugins/packages in the code. For example, a Flutter desktop app, or a Flutter web app has a writing/editing feature along with the ability to save things. In this case ideally the common gesture to achieve this is Ctrl+S for “save”, Ctrl+A for “select all”,  Ctrl+C for “copy”, and so on. With Intents and Actions widget in Flutter, it is all possible with simplicity and minimum amount of code. This session will have most of its part as live coding stuff.",
-      "lightening": true
+      "lightening": false
     },
     "bio": "Waleed Arshad is a core mobile technologist, an author, and a passionate cross-platform developer. He has recently authored a book named “Manage State in Flutter Pragmatically”. He is also the first person from Pakistan to become a Google Developer Expert in Flutter. After graduating from FAST Karachi, he has been working in the industry for more than five years and is currently working in the Developer Experience team for Flutter at Tendermint Inc.. He is also leading Pakistan’s Flutter community."
   },
@@ -376,7 +376,7 @@
   },
   {
     "id": "abhishek_yatinkumar_doshi",
-    "name": "Abhishek Yatinkumar Doshi",
+    "name": "Abhishek Yatinkumar",
     "title": "GDE",
     "company": "",
     "social": {
@@ -436,8 +436,8 @@
       "linkedin": ""
     },
     "talk": {
-      "title": "TBA",
-      "description": "TBA",
+      "title": "Something awesome to be announced",
+      "description": "Something awesome to be announced",
       "lightening": true
     },
     "bio": "Jay is a Dutch full-stack app developer, administrator and moderator for the Flutter Community organization, passionate about Flutter and TypeScript and helping people out wherever possible."
@@ -453,8 +453,8 @@
       "linkedin": ""
     },
     "talk": {
-      "title": "TBA",
-      "description": "TBA",
+      "title": "Something awesome to be announced",
+      "description": "Something awesome to be announced",
       "lightening": true
     },
     "bio": "Flutter Community Leader"
@@ -526,23 +526,6 @@
       "lightening": false
     },
     "bio": "Krzysztof is an experienced developer with passion for creating beautiful and useful user interfaces. Throughout his career he worked on a variety of products, starting from testing tools, data-crunching pipelines, web technologies, and finally mobile apps. Apart from being a developer, he is also a founder and tech lead of Widgeters, a Flutter development consultancy, and a Google Developer Expert for Dart and Flutter."
-  },
-  {
-    "id": "anna_domashych",
-    "name": "Anna Domashych",
-    "title": "GDE",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/AnnaDomashych",
-      "github": "https://github.com/foxanna",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "Trash talk: WHENs and HOWs of Dart VM’s GC",
-      "description": "This is not an abstract❗️ I will talk about the garbage collector in Dart VM. In short: how it allocates objects in different generations, what algorithms it uses to decide what objects should be collected, and how the collection is done. In detail: Dart VM's GC operates on two generations: the new generation and the old generation. I will talk about Cheney's algorithm which is used to organize and collect objects in the new generation, will also mention the allocation method. Next, I will speak about the way GC decides to run the collection, and move on to the old generation, where survived objects are copied. It operates under different organization and collection principles, which I will also explain in detail. I will also mention handles, GC roots, special treatment for big objects, isolates.",
-      "lightening": false
-    },
-    "bio": "Anna is a mobile development expert, passionate about quality software, focused on Flutter. For 7 years she has been creating cross-platform apps using Xamarin and Flutter technologies from sketches on a napkin to delivering functional and beautiful products to happy end-users. Anna is a Google Developer Expert in Dart and Flutter. First in Ukraine. She is a conference speaker and author of articles on different topics related to Flutter and Xamarin. Anna contributes to OSS. She also has an interest in mobile apps design."
   },
   {
     "id": "anna_domashych",

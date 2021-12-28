@@ -7,7 +7,7 @@ import spacetime from 'spacetime';
 // @ts-ignore
 import TimezoneSelect from 'react-timezone-select';
 
-import { Agenda } from '../../models/Agenda';
+import { Agenda, Track } from '../../models/Agenda';
 import styled from 'styled-components';
 import GatsbyImage from 'gatsby-image';
 import { useSpeakers } from '../../hooks/useSpeakers';
@@ -15,35 +15,44 @@ import { useAllFiles } from '../../hooks/useAllFiles';
 import { Link } from 'gatsby';
 import { Timezone } from '../../models/Timezone';
 import { AddToCal } from '../common/AddToCal';
-import { ResponsiveGrid } from '../common/ResponsiveGrid';
+import { fontSize } from '../../theme/common';
 
 interface Props {
   agendaDay: Agenda;
+  track: Track;
   selectedTimezone: Timezone;
-  roomName: string;
 }
 
-const AgendaDay = ({ agendaDay, selectedTimezone, roomName }: Props) => {
-  const { name, date, dateISO, programs } = agendaDay;
+const AgendaDay = ({ track, agendaDay, selectedTimezone }: Props) => {
+  const { name, date, dateISO } = agendaDay;
+  const { programs } = track;
   const timezoneValue = selectedTimezone.value;
   const spaceDate = spacetime(dateISO, config.defaultTimezone.value);
 
   return (
     <div className="Agenda-column Agenda-column">
       <div className="Agenda-columnTitle">
-        <p className="Agenda-day">{roomName}</p>
+        <p className="Agenda-day">{track.name}</p>
         <p className="Agenda-date">{date}</p>
         <span className="Agenda-dash" />
       </div>
       {programs &&
         programs.map((program, i) => {
-          const { title, startTime, endTime, speaker, isActivity, winnerTime } = program;
+          const {
+            title,
+            startTime,
+            endTime,
+            speaker,
+            isActivity,
+            winnerTime,
+            speakers,
+          } = program;
           const timezoneBasedStartTime = spaceDate.time(startTime);
           const timezoneBasedEndTime = spaceDate.time(endTime);
           return (
             <div
               key={i}
-              className={`Event${speaker ? ' Event--talk' : ''}${
+              className={`Event${speaker || speakers ? ' Event--talk' : ''}${
                 isActivity ? ' Event--lunch' : ''
               }${winnerTime ? ' Event--coffeeBreak' : ''}${
                 speaker && speaker.talk?.lightening ? ' Event--ligthningTalk' : ''
@@ -92,11 +101,53 @@ const AgendaDay = ({ agendaDay, selectedTimezone, roomName }: Props) => {
                             fixed={speaker?.talk.coSpeaker.image.fixed}
                           />
                         </div>
-                        <span className="SpeakerInformation-name">
+                        <div className="SpeakerInformation-name">
                           {speaker?.talk.coSpeaker.name}
-                        </span>
+                        </div>
                       </Link>
                     )}
+                  </>
+                )}
+                {speakers && (
+                  <>
+                    <AddToCal
+                      startsAt={timezoneBasedStartTime
+                        .goto(timezoneValue)
+                        .format('iso')
+                        .toString()}
+                      endsAt={timezoneBasedEndTime
+                        .goto(timezoneValue)
+                        .format('iso')
+                        .toString()}
+                      location={timezoneValue}
+                      title={`${speaker?.talk?.title} by ${speaker?.name}` || title}
+                      desc={
+                        `${speaker?.talk?.description} https://flutterVikings.com` || ''
+                      }
+                    />
+                    {speakers.map((presenter) => {
+                      return (
+                        <div key={presenter.id}>
+                          <Link
+                            to={`/speakers/${presenter.id}`}
+                            className="SpeakerInformation"
+                          >
+                            <div className="SpeakerInformation-pictureWrapper">
+                              <GatsbyImage
+                                className="SpeakerInformation-picture"
+                                fixed={presenter.image.fixed}
+                              />
+                            </div>
+                            <div className="SpeakerInformation-name">
+                              {presenter.name}
+                              <div className="SpeakerInformation-talk">
+                                {presenter.talk?.title}
+                              </div>
+                            </div>
+                          </Link>
+                        </div>
+                      );
+                    })}
                   </>
                 )}
               </div>
@@ -248,38 +299,20 @@ const Schedules = () => {
           </div>
           <br />
           <br />
-          <ResponsiveGrid size={30}>
-            <div>
-              <div className="Agenda-twoColumnContainer">
-                {agenda.map(
-                  (agendaDay, i) =>
-                    i === selectedTab && (
-                      <AgendaDay
-                        key={i}
-                        roomName={'Room 1'}
-                        selectedTimezone={selectedTimezone}
-                        agendaDay={agendaDay}
-                      />
-                    ),
-                )}
-              </div>
-            </div>
-            <div>
-              <div className="Agenda-twoColumnContainer">
-                {agenda.map(
-                  (agendaDay, i) =>
-                    i === selectedTab && (
-                      <AgendaDay
-                        key={i}
-                        roomName={'Room 2'}
-                        selectedTimezone={selectedTimezone}
-                        agendaDay={agendaDay}
-                      />
-                    ),
-                )}
-              </div>
-            </div>
-          </ResponsiveGrid>
+          <div className="Agenda-twoColumnContainer">
+            {agenda.map(
+              (agendaDay, i) =>
+                i === selectedTab &&
+                agendaDay.tracks.map((track, j) => (
+                  <AgendaDay
+                    key={i + j}
+                    selectedTimezone={selectedTimezone}
+                    agendaDay={agendaDay}
+                    track={track}
+                  />
+                )),
+            )}
+          </div>
         </Container>
       </Section>
     </>

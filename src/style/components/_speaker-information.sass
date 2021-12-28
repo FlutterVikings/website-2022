@@ -4,7 +4,7 @@ $SpeakerInformation-picture-size-mobile: 60px
 
 .SpeakerInformation
   +sans-serif
-  display: flex
+  display: inline-flex
   justify-content: flex-start
   align-items: center
 
@@ -40,7 +40,12 @@ $SpeakerInformation-picture-size-mobile: 60px
   margin: auto
 
 .SpeakerInformation-name
-  white-space: nowrap
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+
+  .SpeakerInformation-talk
+      font-size: $theme-font-small
 
   +media-xs-only
     font-size: $theme-font-small

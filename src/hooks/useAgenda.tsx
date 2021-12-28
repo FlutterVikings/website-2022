@@ -1,5 +1,5 @@
 import { useStaticQuery, graphql } from 'gatsby';
-import { Agenda } from '../models/Agenda';
+import { Agenda, Program } from '../models/Agenda';
 import { Speaker } from '../models/Speaker';
 
 export const useAgenda = (speakers: Speaker[]): Agenda[] => {
@@ -11,13 +11,17 @@ export const useAgenda = (speakers: Speaker[]): Agenda[] => {
             name
             date
             dateISO
-            programs {
-              title
-              startTime
-              endTime
-              isActivity
-              speaker
-              winnerTime
+            tracks {
+              name
+              programs {
+                title
+                startTime
+                endTime
+                isActivity
+                speaker
+                speakers
+                winnerTime
+              }
             }
           }
         }
@@ -35,24 +39,33 @@ export const useAgenda = (speakers: Speaker[]): Agenda[] => {
   return items.edges
     .map((sp: any) => sp.node)
     .map((sp: Agenda) => {
-      const agendaWithSpeaker = sp.programs.map((p) => {
-        if (p.speaker) {
-          const speaker = SpeakerEntities[`${p.speaker}`];
-          return {
-            ...p,
-            speaker: {
-              ...speaker,
-              talk: {
-                ...speaker.talk,
-              },
-            },
-          };
-        }
-        return p;
+      const tracks = sp.tracks.map((track) => {
+        const agendaWithSpeaker = track.programs.map((p: Program) => {
+          if (p.speaker) {
+            return {
+              ...p,
+              speaker: SpeakerEntities[`${p.speaker}`],
+            };
+          }
+          if (p.speakers) {
+            const presentors = p.speakers.map(
+              (speakerId) => SpeakerEntities[`${speakerId}`],
+            );
+            return {
+              ...p,
+              speakers: presentors,
+            };
+          }
+          return p;
+        });
+        return {
+          ...track,
+          programs: agendaWithSpeaker,
+        };
       });
       return {
         ...sp,
-        programs: agendaWithSpeaker,
+        tracks,
       };
     });
 };

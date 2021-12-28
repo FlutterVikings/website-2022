@@ -1,17 +1,22 @@
 import { Speaker } from './Speaker';
 
-interface Program {
+export interface Program {
   title: string;
   startTime: string;
   endTime: string;
   isActivity?: boolean;
   winnerTime?: boolean;
-  speaker?: string | Speaker;
+  speaker?: Speaker;
+  speakers?: Speaker[];
   coSpeaker?: string;
+}
+export interface Track {
+  name: string;
+  programs: Program[];
 }
 export interface Agenda {
   name: string;
   date: string;
   dateISO: string;
-  programs: Program[];
+  tracks: Track[];
 }

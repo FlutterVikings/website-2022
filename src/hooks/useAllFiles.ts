@@ -11,7 +11,7 @@ export const useAllFiles = (dir?: RelativeDirectory): FileImage[] => {
             publicURL
             relativeDirectory
             childImageSharp {
-              fixed(width: 70, height: 70, cropFocus: CENTER, grayscale: true) {
+              fixed(width: 60, height: 60, cropFocus: CENTER, grayscale: true) {
                 ...GatsbyImageSharpFixed_withWebp
               }
               fluid(
@@ -32,9 +32,9 @@ export const useAllFiles = (dir?: RelativeDirectory): FileImage[] => {
   const allImages: FileImage[] = images.edges.map((img: any) => img.node);
 
   switch (dir) {
-    case RelativeDirectory.speakrs:
+    case RelativeDirectory.speakers:
       return allImages.filter(
-        (img) => img.relativeDirectory === RelativeDirectory.speakrs,
+        (img) => img.relativeDirectory === RelativeDirectory.speakers,
       );
     case RelativeDirectory.committee:
       return allImages.filter(

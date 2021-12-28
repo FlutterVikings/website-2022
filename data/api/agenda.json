@@ -3,106 +3,237 @@
     "name": "Day 1",
     "date": "Wednesday, 2nd February",
     "dateISO": "2022-02-02",
-    "programs": [
+    "tracks": [
       {
-        "title": "Opening",
-        "startTime": "08:00",
-        "endTime": "09:00"
+        "name": "Track 1",
+        "programs": [
+          {
+            "title": "Registration",
+            "startTime": "08:00",
+            "endTime": "09:00"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:00",
+            "endTime": "09:45",
+            "speaker": "tim_sneath"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:45",
+            "endTime": "10:30",
+            "speaker": "pooja_bhaumik"
+          },
+          {
+            "title": "Activity",
+            "startTime": "10:30",
+            "endTime": "10:45",
+            "desc": "Coffee Break",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "10:45",
+            "endTime": "11:30",
+            "speaker": "felix_angelov"
+          },
+          {
+            "title": "Lunch",
+            "startTime": "11:30",
+            "endTime": "12:50",
+            "desc": "Buffet lunch!",
+            "isActivity": true
+          },
+          {
+            "title": "Group Photo",
+            "startTime": "12:50",
+            "endTime": "13:00",
+            "desc": "let's get together",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "13:00",
+            "endTime": "13:45",
+            "speaker": "simon_lightfoot"
+          },
+          {
+            "title": "talk",
+            "startTime": "13:45",
+            "endTime": "14:30",
+            "speaker": "andrei_diaconu"
+          },
+          {
+            "title": "Lightening Talks",
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "speakers": ["aditya_thakur", "thomas_burkhart", "muhammed_salih_guler"]
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "15:15",
+            "endTime": "15:30",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "speaker": "kubra_selcuk"
+          },
+          {
+            "title": "talk",
+            "startTime": "16:15",
+            "endTime": "17:00",
+            "speaker": "morgan_hunt"
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "17:00",
+            "endTime": "17:15",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "17:15",
+            "endTime": "18:00",
+            "speaker": "abhishek_yatinkumar_doshi"
+          },
+          {
+            "title": "AMA with Flutter Team",
+            "startTime": "18:00",
+            "endTime": "18:45",
+            "winnerTime": true
+          },
+          {
+            "title": "Closing",
+            "startTime": "18:45",
+            "endTime": "19:00"
+          },
+          {
+            "title": "After Party",
+            "startTime": "19:00",
+            "endTime": "22:00"
+          }
+        ]
       },
       {
-        "title": "talk",
-        "startTime": "09:00",
-        "endTime": "09:40",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "09:40",
-        "endTime": "10:20",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "10:20",
-        "endTime": "11:00",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "11:00",
-        "endTime": "11:40",
-        "speaker": ""
-      },
-      {
-        "title": "lightening",
-        "startTime": "11:40",
-        "endTime": "12:30",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "13:00",
-        "endTime": "13:40",
-        "speaker": ""
-      },
-      {
-        "title": "activity",
-        "startTime": "13:40",
-        "endTime": "14:00",
-        "desc": "",
-        "isActivity": true
-      },
-      {
-        "title": "talk",
-        "startTime": "14:00",
-        "endTime": "14:40",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "14:40",
-        "endTime": "15:20",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "15:20",
-        "endTime": "16:00",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "16:00",
-        "endTime": "16:40",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "16:40",
-        "endTime": "17:20",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "17:20",
-        "endTime": "18:00",
-        "speaker": ""
-      },
-      {
-        "title": "AMA with Flutter Team",
-        "startTime": "18:00",
-        "endTime": "18:10",
-        "winnerTime": true
-      },
-      {
-        "title": "Closing",
-        "startTime": "18:10",
-        "endTime": "19:00"
-      },
-      {
-        "title": "After Party",
-        "startTime": "19:00",
-        "endTime": "22:00"
+        "name": "Track 2",
+        "programs": [
+          {
+            "title": "Registration",
+            "startTime": "08:00",
+            "endTime": "09:00"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:00",
+            "endTime": "09:45",
+            "speaker": "goncalo_palma"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:45",
+            "endTime": "10:30",
+            "speaker": "kamal_shree"
+          },
+          {
+            "title": "Activity",
+            "startTime": "10:30",
+            "endTime": "10:45",
+            "desc": "Coffee Break",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "10:45",
+            "endTime": "11:30",
+            "speaker": "vilson_blanco_dauinheimer"
+          },
+
+          {
+            "title": "Lunch",
+            "startTime": "11:30",
+            "endTime": "12:50",
+            "desc": "Buffet lunch!",
+            "isActivity": true
+          },
+          {
+            "title": "Group Photo",
+            "startTime": "12:50",
+            "endTime": "13:00",
+            "desc": "let's get together",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "13:00",
+            "endTime": "13:45",
+            "speaker": "waleed_arshad"
+          },
+          {
+            "title": "talk",
+            "startTime": "13:45",
+            "endTime": "14:30",
+            "speaker": "aleksandr_denisov"
+          },
+          {
+            "title": "Lightening talks",
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "speakers": ["jeroen_meijer", "scott_stoll", "minas_giannekas"]
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "15:15",
+            "endTime": "15:30",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "speaker": "oleksandr_leushchenko"
+          },
+          {
+            "title": "talk",
+            "startTime": "16:15",
+            "endTime": "17:00",
+            "speaker": "aloos_deniel"
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "17:00",
+            "endTime": "17:15",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "17:15",
+            "endTime": "18:00",
+            "speaker": "dominik_roszkowski"
+          },
+          {
+            "title": "AMA with Flutter Team",
+            "startTime": "18:00",
+            "endTime": "18:45",
+            "winnerTime": true
+          },
+          {
+            "title": "Closing",
+            "startTime": "18:45",
+            "endTime": "19:00"
+          },
+          {
+            "title": "After Party",
+            "startTime": "19:00",
+            "endTime": "22:00"
+          }
+        ]
       }
     ]
   },
@@ -110,106 +241,212 @@
     "name": "Day 2",
     "date": "Thursday, 3rd February",
     "dateISO": "2022-02-03",
-    "programs": [
+    "tracks": [
       {
-        "title": "Opening",
-        "startTime": "08:00",
-        "endTime": "09:00"
+        "name": "Track 1",
+        "programs": [
+          {
+            "title": "Opening",
+            "startTime": "08:30",
+            "endTime": "09:00"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:00",
+            "endTime": "09:45",
+            "speaker": "cagatay_ulusoy"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:45",
+            "endTime": "10:30",
+            "speaker": "alicja_ogonowska"
+          },
+          {
+            "title": "Activity",
+            "startTime": "10:30",
+            "endTime": "10:45",
+            "desc": "Coffee Break",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "10:45",
+            "endTime": "11:30",
+            "speaker": "thomas_qvidahl"
+          },
+          {
+            "title": "Lunch",
+            "startTime": "11:30",
+            "endTime": "13:00",
+            "desc": "Buffet lunch!",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "13:00",
+            "endTime": "13:45",
+            "speaker": "guillaume_bernos"
+          },
+          {
+            "title": "talk",
+            "startTime": "13:45",
+            "endTime": "14:30",
+            "speaker": "alessio_salvadorini"
+          },
+          {
+            "title": "talk",
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "speaker": "chris_swan"
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "15:15",
+            "endTime": "15:30",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "speaker": "gordon_hayes"
+          },
+          {
+            "title": "talk",
+            "startTime": "16:15",
+            "endTime": "17:00",
+            "speaker": "anna_domashych"
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "17:00",
+            "endTime": "17:15",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "17:15",
+            "endTime": "18:00",
+            "speaker": "pascal_welsch"
+          },
+          {
+            "title": "Winners Announcement",
+            "startTime": "18:00",
+            "endTime": "18:10",
+            "winnerTime": true
+          },
+          {
+            "title": "Closing",
+            "startTime": "18:10",
+            "endTime": "18:15"
+          }
+        ]
       },
       {
-        "title": "talk",
-        "startTime": "09:00",
-        "endTime": "09:40",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "09:40",
-        "endTime": "10:20",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "10:20",
-        "endTime": "11:00",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "11:00",
-        "endTime": "11:40",
-        "speaker": ""
-      },
-      {
-        "title": "lightening",
-        "startTime": "11:40",
-        "endTime": "12:30",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "13:00",
-        "endTime": "13:40",
-        "speaker": ""
-      },
-      {
-        "title": "activity",
-        "startTime": "13:40",
-        "endTime": "14:00",
-        "desc": "",
-        "isActivity": true
-      },
-      {
-        "title": "talk",
-        "startTime": "14:00",
-        "endTime": "14:40",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "14:40",
-        "endTime": "15:20",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "15:20",
-        "endTime": "16:00",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "16:00",
-        "endTime": "16:40",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "16:40",
-        "endTime": "17:20",
-        "speaker": ""
-      },
-      {
-        "title": "talk",
-        "startTime": "17:20",
-        "endTime": "18:00",
-        "speaker": ""
-      },
-      {
-        "title": "Winners Announcement",
-        "startTime": "18:00",
-        "endTime": "18:10",
-        "winnerTime": true
-      },
-      {
-        "title": "Closing",
-        "startTime": "18:10",
-        "endTime": "19:00"
-      },
-      {
-        "title": "After Party",
-        "startTime": "19:00",
-        "endTime": "22:00"
+        "name": "Track 2",
+        "programs": [
+          {
+            "title": "Opening",
+            "startTime": "08:30",
+            "endTime": "09:00"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:00",
+            "endTime": "09:45",
+            "speaker": "sakina_abbas"
+          },
+          {
+            "title": "talk",
+            "startTime": "09:45",
+            "endTime": "10:30",
+            "speaker": "lukas_klingsbo"
+          },
+          {
+            "title": "Activity",
+            "startTime": "10:30",
+            "endTime": "10:45",
+            "desc": "Coffee Break",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "10:45",
+            "endTime": "11:30",
+            "speaker": "krzysztof_sroka"
+          },
+          {
+            "title": "Lunch",
+            "startTime": "11:30",
+            "endTime": "13:00",
+            "desc": "Buffet lunch!",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "13:00",
+            "endTime": "13:45",
+            "speaker": "jaime_blasco_andres"
+          },
+          {
+            "title": "talk",
+            "startTime": "13:45",
+            "endTime": "14:30",
+            "speaker": "danielle_cox"
+          },
+          {
+            "title": "talk",
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "speaker": "matej_knopp"
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "15:15",
+            "endTime": "15:30",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "speaker": "viktor_lidholt"
+          },
+          {
+            "title": "talk",
+            "startTime": "16:15",
+            "endTime": "17:00",
+            "speaker": "mais_alheraki"
+          },
+          {
+            "title": "Coffee Break",
+            "startTime": "17:00",
+            "endTime": "17:15",
+            "desc": "Sponsors",
+            "isActivity": true
+          },
+          {
+            "title": "talk",
+            "startTime": "17:15",
+            "endTime": "18:00",
+            "speaker": "tom_gilder"
+          },
+          {
+            "title": "Winners Announcement",
+            "startTime": "18:00",
+            "endTime": "18:10",
+            "winnerTime": true
+          },
+          {
+            "title": "Closing",
+            "startTime": "18:10",
+            "endTime": "18:15"
+          }
+        ]
       }
     ]
   }

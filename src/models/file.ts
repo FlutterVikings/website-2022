@@ -1,7 +1,7 @@
 import { FixedObject, FluidObject } from 'gatsby-image';
 
 export enum RelativeDirectory {
-  speakrs = 'speakers',
+  speakers = 'speakers',
   committee = 'committee',
   communities = 'communities',
   sponsors = 'sponsors',
