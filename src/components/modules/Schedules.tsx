@@ -243,7 +243,6 @@ const Schedules = () => {
         <Container id="agenda">
           <MainTitle title="Event Agenda" titleStrokeText={'Schedule'} />
           <Notice>
-            <br />
             {/* <p className="SceneOverlay-location">
               <a
                 className="Btn Btn--ticket Btn--cta"
