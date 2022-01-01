@@ -412,7 +412,7 @@
     "id": "alicja_ogonowska",
     "name": "Alicja Ogonowska",
     "title": "Flutter Developer",
-    "company": "",
+    "company": "EQUIQO",
     "social": {
       "twitter": "https://twitter.com/AlicjaOgonowska",
       "github": "",
@@ -420,7 +420,7 @@
     },
     "talk": {
       "title": "Let's test the full widget tree!",
-      "description": "In my talk I would like to present the idea of ‘’full tree’’ widget tests. This is the name we are using for them internally in our team at flaconi. My colleague Natalie Masse Hooper recently wrote a blog post about it - http://cogitas.net/unleash-full-power-flutter-widget-tests/. Instead of writing widget tests that exercise just one widget in separation, we set up the whole path user would have to follow to encounter this widget. Example - to test a products list in a mobile shop, you have to first start the app, do some setup typical for the domain - like choosing a language, country, decide whether it’s a logged in or anonymous user, then navigate to the products list. This is similar to writing integration tests, but those widget tests run much faster (cause they don’t run on a real device) and interact with mocks instead of making real API calls. It’s easy to test not only happy paths, but also various error scenarios, as well as timeout etc. Another benefit of those tests is quickly increasing test coverage, as many layers of the app are tested at the same time. Later this gives us more confidence to make bigger refactors - we have tests that will check if all parts of the app still behave as expected. In the talk I would like to cover: -when to use full widget tree tests and when ‘normal’ widget tests are just fine -what can you test with it -advantages over using typical widget tests or integration tests -setup that is needed to get you going -common problems that can be encountered while implementing such tests, based on my team’s experience",
+      "description": "Everybody knows unit tests, widget tests and integration tests, but have you ever thought about testing full widget tree? Instead of writing widget tests that exercise just one widget in separation, we will set up the whole path user would have to follow to encounter this widget.During the talk you will find out: when to use full widget tree tests and when ‘normal’ widget tests are just fine, what can you test with it, advantages over using typical widget tests or integration tests, setup that is needed to get you going, common problems that can be encountered",
       "lightening": false
     },
     "bio": "I am a mobile app developer with 6 years of experience. I started as an Android developer and then moved to Flutter over two years ago, never regretting the change! If I don't code, I probably cook or eat."
