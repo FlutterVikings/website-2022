@@ -102,15 +102,21 @@
             "speaker": "abhishek_yatinkumar_doshi"
           },
           {
-            "title": "AMA with Flutter Team",
+            "title": "talk",
             "startTime": "18:00",
-            "endTime": "18:45",
+            "endTime": "18:30",
+            "speaker": "remi_rousselet"
+          },
+          {
+            "title": "AMA with Flutter Team",
+            "startTime": "18:30",
+            "endTime": "19:15",
             "winnerTime": true
           },
           {
             "title": "Closing",
-            "startTime": "18:45",
-            "endTime": "19:00"
+            "startTime": "19:15",
+            "endTime": "19:30"
           },
           {
             "title": "After Party",
@@ -218,15 +224,21 @@
             "speaker": "dominik_roszkowski"
           },
           {
-            "title": "AMA with Flutter Team",
+            "title": "talk",
             "startTime": "18:00",
-            "endTime": "18:45",
+            "endTime": "18:30",
+            "speaker": "remi_rousselet"
+          },
+          {
+            "title": "AMA with Flutter Team",
+            "startTime": "18:30",
+            "endTime": "19:15",
             "winnerTime": true
           },
           {
             "title": "Closing",
-            "startTime": "18:45",
-            "endTime": "19:00"
+            "startTime": "19:15",
+            "endTime": "19:30"
           },
           {
             "title": "After Party",
