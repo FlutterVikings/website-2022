@@ -11,7 +11,7 @@
     },
     "talk": {
       "title": "Flutter, FFI and Fun: Windows Development with Dart and Win32",
-      "description": "This talk shows how Dart’s FFI feature lets you break out of the limitations that most cross-platform frameworks impose. We’ll walk together through different ways a Dart or Flutter app can access the Windows API to do wild things, some of which make for beautiful, seamless Windows experiences, and others that you should never do! For the committee: Specifically, I plan to cover the following: Very quick overview of FFI as a means to talk to C libraries from Dart code Show an example of using FFI to build a full-screen console text editor in 5K that runs on Windows, macOS and Linux Gradually move up the chain, building on these primitives to show MessageBox, a color picker, and a full Win32 window, and finally Notepad built in Dart Talk about package:win32, a plugin I’ve built in my spare time to do all the heavy lifting for developers Talk about Microsoft’s win32metadata and how that lets us auto-generate the full Win32 API, including COM interfaces Show a couple of examples of advanced usage: other plugins that depend on win32, custom window styles, support for Windows 11’s “Mica” acrylic materials I plan to have no more than 2-3 slides; most of the talk will be demos.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Tim Sneath (@timsneath) leads product management for Flutter and Dart. He joined Google in 2017 after seventeen years leading client platform and developer teams at Microsoft. In his spare time, he tinkers with various retro computing projects, battles with the New York Times crossword, and attempts to persuade his mother that computers aren’t out to get her."
@@ -28,7 +28,7 @@
     },
     "talk": {
       "title": "Riverpod!",
-      "description": "Learn everything about Riverpod and Provider",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Rémi is an active member of the Flutter community since its early days. He is the author of various popular packages such as Provider/Riverpod, flutter_hooks or Freezed. At Invertase, he is working on open-source projects to simplify the life of other developers."
@@ -45,7 +45,7 @@
     },
     "talk": {
       "title": "Managing State with Bloc v8",
-      "description": "A deep dive into what has changed in version 8.0.0 of the bloc state management library. We’ll take a look at what sparked these changes, how to migrate to v8.0.0, and explore advanced use cases with an emphasis on concurrency, testing, and tooling. Attendees will hopefully leave the talk with a clear understanding of all major changes introduced in bloc v8.0.0 as well as an intro to the bloc_concurrency package. We’ll go over the built-in event transformers, talk about when to use them, and see how to implement a custom event transformer.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Felix Angelov is a Principal Engineer at Very Good Ventures. He previously worked at BMW where he pioneered the transition to Flutter. In addition to working with clients, he is also a dedicated open source creator and maintainer. Felix created the bloc library, which is one of the most popular state management libraries and has been named a Flutter Favorite by Google."
@@ -63,7 +63,7 @@
     },
     "talk": {
       "title": "Something awesome to be announced",
-      "description": "Something awesome to be announced",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Simon loves Flutter and believes its the future of Mobile development. Co-founder Flutter Study Group on Slack, HumpdayQandA and Flutter Community Lead. He's been writing code for 18+ years, of which the last 10 years has been professional Android development. He discovered Flutter in Oct 2017 and since then has not looked back."
@@ -80,7 +80,7 @@
     },
     "talk": {
       "title": "Diagnostic Tests for Flutter Apps: Debugging Techniques",
-      "description": "Maybe the most important thing about development is not writing code, it is probably, efficiently and quickly finding and fixing the code that is causing the expected behaviour of your application. Flutter provides a number of tools and features to help debug applications, and the complete understanding of these tools is crucial for developers working in projects, specially production level apps. In this talk, Kamal Shree and I will jointly talk about the various methods of debugging, such as the DevTools built specially for Flutter and Dart that helps a developer debug memory issues, check diagnostics information, diagnose UI Jank performance issues, etc. Other than that, we will also talk about the debugging tools provided by Android Studio and VS Code themselves and other miscellaneous tools or features to debug animations, inspect widgets, etc. By the end of the talk, the attendees will know how to choose the right tool for the diagnostic tests for their Flutter applications, and hopefully gain speed at fixing issues in their code.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Pooja Bhaumik is a technical mentor at Startup Clinic initiative by Google For Startups, a Google Developer Expert for Flutter, former Senior Engineer at Bounce & CreatorStack and contributing author to Increment by Stripe. When she is not writing code, she either enjoys mentoring folks to help them grow in their development careers or contributes to the tech community through blog posts, public speaking, Youtube videos, and open source contributions. She is also passionate about diversity & inclusion and has co-founded WomenDroid to support personal & professional growth objectives for women developers."
@@ -97,7 +97,7 @@
     },
     "talk": {
       "title": "Does your layout fold?",
-      "description": "With the newly released foldable support in Flutter, your app can now adapt to support them. What can your app do to offer an enhanced experience for your users? Let's look at a few cases and discuss the broader context of developing for large screens.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Passionate about mobile and with a lot of experience on both Android and Flutter, Andrei is here to help you navigate the foldable world. He is part of the Microsoft Surface Duo team and is making sure you have a great time developing for it using Flutter."
@@ -114,7 +114,7 @@
     },
     "talk": {
       "title": "Finished you app?  Is it accessible? ",
-      "description": "We are often in a hurry to complete our apps and get them submitted.  We are in such a hurry, that we forget, or worse yet, don't consider making them accessible.  That is a shame because it leaves many potential users out of your customer base, which is bad for all of us.  I am here to show you how taking a few steps will open your app up to more users which means more installs.  We will cover, with live coding, how to find where your application fails to accommodate users with special needs and the easy ways you can address these issues.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Danielle is the coorganizer of the Flutteristas and host of the recently successful Flutter Apprentice Book Club as well as a professional Flutter developer.  Since proudly graduating from the University of Oklahoma, she has worked for many large companies as well as multiple startups programming in C, SQL and most recently PHP."
@@ -131,7 +131,7 @@
     },
     "talk": {
       "title": "Common mistakes to avoid while developing a Flutter App",
-      "description": "I believe in this quote “Learn from your mistakes” and most of the time we are taught the right way, best practices in developing a Flutter app. I’m sure you will agree that the best solutions do not pop in the first attempt they are created after several retries, debugging, and mistakes. In this talk, I would be focusing and sharing on the most common mistakes you are prone to making while developing Flutter apps or the best outcomes that I have learned from making these mistakes. Whether it is a selection of UI widgets that needs to be done considering both platforms i.e., Android & iOS or choosing the state management or the database, or can I stuff my app with plugins are there any limitations. This session would be scenario-based, and the audience will discover the strength and utility of Flutter when applied to real-world programming instances. ",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Google Developer Expert in Flutter & Dart with 12 years of experience in Web Technologies, Android, and Flutter. I have worked for multinational firms in India, the Netherlands and USA. I am a Youtuber (whatsupcoders), Mentor @MentorCruise and Open-Source Community Builder."
@@ -148,7 +148,7 @@
     },
     "talk": {
       "title": "Improve your animations skills in Flutter",
-      "description": "One of the main selling points of Flutter is its ability to quickly build stunning user interfaces and animations. In this talk you’ll learn how to design and create basic and more sophisticated animations, micro-interactions and navigation transitions. I will show you techniques that help me design, debug and execute them without wasting a lot of time. We'll look into some performance optimization techniques as well. ",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Dominik is Google Developer Expert in Flutter eager to create beautiful apps for mobile and desktop. He’s Principal Developer at Very Good Ventures and co-founder of Flutter Europe conference. He is active speaker on local meetups and writes Flutter-related articles on his blog roszkowski.dev. He’s been working as a deputy manager of PW-Sat2 student satellite project."
@@ -165,7 +165,7 @@
     },
     "talk": {
       "title": "Something awesome to be announced",
-      "description": "Something awesome to be announced",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Salih is a Berlin based Android Engineer who is a Google Developer Expert for Flutter and Dart. He likes sharing his knowledge with the people by mentoring aspiring developers, blogging and talking at conferences."
@@ -182,7 +182,7 @@
     },
     "talk": {
       "title": "NativeShell",
-      "description": "Something awesome to be announced",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
@@ -199,7 +199,7 @@
     },
     "talk": {
       "title": "Full Stack Dart",
-      "description": "Flutter provides an excellent way to build Android, iOS, web and desktop apps, but what about the back end services? Full stack Dart is all about using that investment in Dart programming to build the services used by applications, whether it's in the cloud or on the Internet of Things.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
@@ -216,7 +216,7 @@
     },
     "talk": {
       "title": "Supercharging your Flutter Web Apps with Web Assembly",
-      "description": "With Flutter Web we allow our users to access our apps from anywhere - their phones, computers, TVs, and even fridges! However, there are a couple of restrictions in Flutter for Web, such as the inability to spawn new threads via isolates, that can our lives as devs more difficult. Fortunately, Web Assembly provides what we need - it enables us to have native speeds in a web browser, meaning we can now do expensive operations such as cryptography, image compression, and others client-side. In this talk, we’ll explore how we can use Rust and Web Assembly to supercharge our Flutter Web apps!",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I’m a GDE for Flutter and Dart and the Lead Developer of Pvotal, a Tech company where we explore how we can use Flutter Web to solve the Equine industry’s main problems with bleeding-edge technology. Flutter has not only proved to be a fun and challenging tool, being the main technology that I used in two different startups, but it also brought me to new passions, such as Open Source - with package creation, and contributing to open-source apps, communities - with Flutter Portugal, and education - with sharing what I’ve learned so far via articles and talks. My mantra is to explore and find via rubber-ducking: many times we don’t have the answers in articles (although WE may be the ones writing them), so we must be comfortable with diving into the unknown, testing, failing, and rambling about it with your team or friends."
@@ -233,7 +233,7 @@
     },
     "talk": {
       "title": "Working with Background Services in Flutter",
-      "description": "Some applications require that the code is still being executed even when the app is no longer running in the foreground. A good example is an Uber Captain's app that is always listening for nearby ride requests. This talk will demonstrate how the use of Background Services can achieve seamless code execution of a Flutter app in the background. You will learn about a Flutter app's lifecycle, the concept of Services and Isolates and certain plugins that can be used for background code execution in Flutter, and at the end, you will also see a working app executing its code in the background - without any user interaction!",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Co-founder and CEO of Reactree and the first female Google Developer Expert for Flutter and Dart in Pakistan, Sakina Abbas is all about solving problems through technology. She started off as a native Android developer and is now leading Flutter development and DevOps at ReacTree. To date, she has provided consultancies to numerous international and local clients and has built a number of custom solutions. She's an avid gamer, and much of her personal work is inspired by games."
@@ -250,7 +250,7 @@
     },
     "talk": {
       "title": "Micro-Apps || Micro Front-Ends",
-      "description": "When we think about larger applications and larger teams, we can't escape separating our application into modules or packages. If you've ever worked in larger companies, you may have noticed that almost everything is separated into smaller Squads with well-defined roles. The talk intends to demonstrate how we are developing in apps in an uncoupled, organized and very simple way to be reused in different scenarios of the company. Micro-Apps or Micro-FrontEnds in flutter are almost apps that have full functionality or with few external dependencies and reusable, the most common example is the Authentication Module that has only the functions of Login, Logout, Register and password Recover, this Module in question is used by all Projects of the company making that when starting a new project we no longer need to worry about Authentication. Working in this way we were able to increase team productivity by reusing code and applying single responsibility where each module has a specific function, this module can be maintained by a specific and specialized team in a given context such as a Payment Module or a Module of HR.This talk aims to show a more advanced content of Flutter presenting an architecture based on packages and which is widely used in Brazilian companies, presenting a separation in Modules and also the use of Clean Architecture for a better organization of the project.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Technology enthusiast, computer lover and for the possibility of turning ideas into reality. Being able to create, take something out of my mind and make it real is fascinating to me, especially in the mobile world using Flutter! Co-Founder and Organizer of Flutterando the Biggest Flutter Community of Brazil Google For Startups Mentor Flutter Specialist at F-Team"
@@ -267,7 +267,7 @@
     },
     "talk": {
       "title": "FlutterFire support for Desktop and Dart",
-      "description": "Ever wished FlutterFire supports Linux and Windows? Wish no more, it's a fact in-progress. With support from Canonical, Invertase released Firebase Auth support for Flutter on Linux, Windows, and oh.. also Dart. Moreover, support for more of the FlutterFire family is yet to come. In this talk I will walk through the challenges of implementing Firebase Auth functionalities from scratch in pure Dart, without depending on Flutter - making it a universal package that can run on all platforms. Under the hood, Federated Plugins has made this possible, how does federating your plugins work for empowering the Flutter ecosystem to grow faster on all 6 platforms?",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Software engineer and Flutter GDE."
@@ -284,7 +284,7 @@
     },
     "talk": {
       "title": "Flutter for TV platforms",
-      "description": "Flutter for Mobile is released, Flutter for Web is in beta, Flutter for MacOs, Linux and Windows is in Alpha and it's really cool that Flutter officially supports six platforms. But what if I want to run my Flutter app on the TV? Unfortunately, nobody has heard of the official Flutter for TV yet. Actually, a Flutter app can be launched on TV (not AndroidTV only, but AppleTV, Tizen and others as well). In my talk, I'm going to tell you how to do this, and what difficulties and issues you will face and how to resolve them.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Aleksander is experienced a lot in enterprise development, in IT for more than 15 years. He worked in many different domains with many different technologies, but currently, his main interest is multi-platform development using Flutter. Aleksandr, Chief Software Engineer, Co-Head of Flutter Competency at EPAM Systems, Flutter and Dart GDE (Google Developer Expert), organizer of GDG Moscow community, host of podcasts Mobile People Talks and Flutter Dev Podcast."
@@ -301,7 +301,7 @@
     },
     "talk": {
       "title": "3D Graphics with Flutter and OpenGL",
-      "description": "So far Flutter doesn't offer a performant solution to render 3D Graphics. This is to be changed with the FlutterWebGL project that allows to use WebGL inside a FlutterWidget. This talk will explain the principle behind it as well as some 3D demonstrations ",
+      "description": "TBA",
       "lightening": true
     },
     "bio": "Born 1971 Thomas Burkhart could be seen almost as a legacy system. Being almost 30 years in this industry led him to a lot of different technologies, like C++ with mfc, C#, microcontrollers in C and currently mobile App development with Flutter and Dart.  What only view people know that he was also a professional magician and bakes his own bread."
@@ -318,7 +318,7 @@
     },
     "talk": {
       "title": "Spice up your Flutter apps with Shortcuts & Actions",
-      "description": "Since a lot of developers are moving their Flutter applications to support the Web and Desktop, I propose something that will help them increase the user experience of their applications. This talk majorly focuses on adding shortcuts and actions to Flutter applications using Intents, without having to add any third party plugins/packages in the code. For example, a Flutter desktop app, or a Flutter web app has a writing/editing feature along with the ability to save things. In this case ideally the common gesture to achieve this is Ctrl+S for “save”, Ctrl+A for “select all”,  Ctrl+C for “copy”, and so on. With Intents and Actions widget in Flutter, it is all possible with simplicity and minimum amount of code. This session will have most of its part as live coding stuff.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Waleed Arshad is a core mobile technologist, an author, and a passionate cross-platform developer. He has recently authored a book named “Manage State in Flutter Pragmatically”. He is also the first person from Pakistan to become a Google Developer Expert in Flutter. After graduating from FAST Karachi, he has been working in the industry for more than five years and is currently working in the Developer Experience team for Flutter at Tendermint Inc.. He is also leading Pakistan’s Flutter community."
@@ -335,7 +335,7 @@
     },
     "talk": {
       "title": "Custom design systems: from design to widgets",
-      "description": "During this talk, we'll see how to help UX/UI designers and Flutter developers to collaborate, and how to transition efficiently from visual prototypes to Flutter widgets. First, we'll see how designers can architecture their design system in a way that makes it easier for developers to implement. Then we'll see which base widgets should be used to build your own widget library and create a visual experience that really matches the original prototypes. The UX/UI design software used during this presentation will be Figma, but the general concepts behind it will be adaptable to other software as well.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I'm a french Flutter freelance developer from France. I love contributing to the Flutter community by participating to open source projects and creating content. I'm also a Google Developer Expert."
@@ -352,7 +352,7 @@
     },
     "talk": {
       "title": "Create your own Code-Generating Package",
-      "description": "In this session, I will walk the audience through what code-generation is, why we use it within our projects, and how every developer can create their own code-gen package. What is Code Generation I'll discuss what code generation is and the issues and mundane tasks that it tries to solve. I will talk about the reasons how generating code can reduce errors and code that requires maintenance. Why use Code Generation One of the more prominent solutions that code generation provides is maintenance reduction. I'll discuss some popular packages and the pain points that they try to solve through code generation. I'll demonstrate a common task that happens in almost every project and how it can be solve using a code-gen package. Then I will compare the old maintenance-required code to the newly, almost maintenance free, generated code. Create your own code-gen package Finally, I'll break down the minimum code needed to set up your own code generating package, solving a problem in a particular project. Starting by demonstrating how to create annotations & it's generator, the available options for part files, settings via the build.yaml file, and testing.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Morgan is a die-hard Flutter developer 💙. He has been developing in Flutter non-stop since Flutter 1.12 was released! Morgan has been developing many dart & flutter packages, and contributing to as many open-source projects as he can. He currently works full-time at Clean Simple Eats with a bit of freelance on the side because he can't control how much he loves to code."
@@ -369,7 +369,7 @@
     },
     "talk": {
       "title": "Using Flutter to build a native-looking desktop app for macOS and Windows",
-      "description": "I recently built and shipped a simple app with Flutter desktop, called Shortcut Keeper. It is a utility app that lets you save and keep in one place your favorite keyboard shortcuts. It is available for macOS and Windows through their respective stores, and features an adaptive UI design. In my talk, I will be presenting the steps I took and tools I used to build the app with a UI that matches each platform's design standards (components like buttons or icons, animations, title bars, etc.). I will try to showcase how easy it is to use Flutter for desktop and create a native-looking app for macOS and Windows. The app has attracted some attention from members of the Flutter community (most importantly, Chris Sells from Google's Flutter team wanted to talk about it, as well as other Flutter developers). I have also written a couple of blog posts detailing some of the stuff included in the talk, in case you need to have a look. Thanks for the consideration!",
+      "description": "TBA",
       "lightening": true
     },
     "bio": "I am a self-employed app developer. My main background is web development, but I have been using Flutter for the past year or so and have published apps for all platforms, mobile and desktop. I also contribute to open-source and am an author of a couple of Flutter packages. "
@@ -386,7 +386,7 @@
     },
     "talk": {
       "title": "The unpaid backbone of our apps: Package maintainers",
-      "description": "Today, most Flutter apps are using 50 or more packages. But who are the persons behind all those open source packages? What keeps them motivated? What are their challenges? And why do they invest their valuable free time to answer our questions and fix bugs? In this talk you'll learn what it's like to be a package maintainer. During multiple interviews I gathered more insights, combined individual stories into a big picture and share the findings with ya'll. Stay tuned for some 'behind the scenes' stories!",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Pascal is one of the first GDEs for Flutter and Dart and maintainer of multiple open-source libraries. He's running phntm, a Flutter agency in Germany and builds Flutters best user feedback tool wiredash.io"
@@ -403,7 +403,7 @@
     },
     "talk": {
       "title": "Nature or Flutter? Who has the best trees?",
-      "description": "Nature has wide variety of trees. However Flutter also has 3 types of trees. What are the use of those trees? How Flutter creates, renders and destroys a widget? What is the role of state and State Management? Let's check it out in the session! ",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Hey Everyone! **I am a Google Developer Expert for Dart and Flutter! I am also one of the Google Mentors. 💙** I currently work as a Software Engineer (Flutter Developer) at Bacancy Technology. I am also the Organizer of Flutter Valsad and Co-Organizer of Flutter India. During the daytime, I manage different projects, take interviews for the Flutter Developer position, and help the team with issues. After work, I write articles for the community and help people leverage their careers in Flutter. Reachout to me at: https://www.linkedin.com/in/abhishekdoshi26 https://twitter.com/AbhishekDoshi26 https://www.instagram.com/abhishekdoshi26 https://github.com/AbhishekDoshi26 Read my articles at: https://abhishekdoshi26.medium.com/"
@@ -420,7 +420,7 @@
     },
     "talk": {
       "title": "From Motion Design Specs To Flutter Code",
-      "description": "Motion is one of the pillars helping users guide through their journey. It is the most distinctive way to show what is happening on the screen. Motion eases the cognitive load, ‘lets’ the product interact with the user and shows the hierarchy of the elements. It also affects customer satisfaction by enhancing the experience with micro-interactions and aesthetic brand elements. In a production stage, animated transition previews are not enough to communicate to engineers. To achieve the best result and reduce friction between designers and engineers, motion specifications are needed. In this talk, we will talk about how to implement UI with Flutter according to the motion specs received from motion designers.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Cagatay is a Software Engineer specialized in Android and Flutter application development. He is currently working as a software engineer at Wolt, in the retail team. He is passionate about blogging and vlogging his ultra trail races, sharing knowledge in the Flutter community with sample apps and articles."
@@ -437,7 +437,7 @@
     },
     "talk": {
       "title": "Let's test the full widget tree!",
-      "description": "Everybody knows unit tests, widget tests and integration tests, but have you ever thought about testing full widget tree? Instead of writing widget tests that exercise just one widget in separation, we will set up the whole path user would have to follow to encounter this widget.During the talk you will find out: when to use full widget tree tests and when ‘normal’ widget tests are just fine, what can you test with it, advantages over using typical widget tests or integration tests, setup that is needed to get you going, common problems that can be encountered",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I am a mobile app developer with 6 years of experience. I started as an Android developer and then moved to Flutter over two years ago, never regretting the change! If I don't code, I probably cook or eat."
@@ -454,7 +454,7 @@
     },
     "talk": {
       "title": "Something awesome to be announced",
-      "description": "Something awesome to be announced",
+      "description": "TBA",
       "lightening": true
     },
     "bio": "Jay is a Dutch full-stack app developer, administrator and moderator for the Flutter Community organization, passionate about Flutter and TypeScript and helping people out wherever possible."
@@ -471,7 +471,7 @@
     },
     "talk": {
       "title": "Something awesome to be announced",
-      "description": "Something awesome to be announced",
+      "description": "TBA",
       "lightening": true
     },
     "bio": "Flutter Community Leader"
@@ -488,7 +488,7 @@
     },
     "talk": {
       "title": "Flutter Architecture Components",
-      "description": "A high level overview of a simple Flutter architecture, inspired by Android Architecture Component. This architecture is based on MVC (as hinted by Flutter 2.5 new template app) and on Simple State Management aka Pragmatic SM, the only officially documented one on flutter.dev, and presented at Google I/O 2019. The need for this talk comes from the fact that most devs use BLoC, presented at Google I/O 2018, which has quite some overhead, while the SSM based on Provider+ChangeNotifier is much simpler. Therefore I introduce in this talk a variant of that state management based on Riverpod instead of Provider, and then contextualise it in the MVC architecture, where the views are the widgets, the controllers are the ChangeNotifiers, and the services are the stores where to get the data from. Last but not least, I show the network bound resource approach as defined by Android Architecture Component which allows to show on UI the local copy of the data while fetching remotely the most update one. I will present this same presentation at a local audience by end of November at the Helsinki meetup, where I was asked to make it codeless or non-technical, but I'd like to present it to a bigger audience and also I could introduce some code snapshots or make it more technical",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I'm specializes in mobile development and design. I forge products based on simplicity, fluidity, and beauty. Like a superhero, Creative Technologist at IDT Messaging during the day, Explorer at Fluxit during the night. It all started long time ago on handhelds devices, but my passion flourished when I met Android, and exploded when I encountered Flutter. All things Fuchsia"
@@ -505,7 +505,7 @@
     },
     "talk": {
       "title": "Tips, Tricks and Tools: Flutter Performance",
-      "description": "Brief intro on Widgets, Element and RenderObjects - as this is important to understand to get a cleaner picture of why something could have a performance impact. From there it will be a hands on demo (probably recorded vids/walkthroughs) showing how to use Flutter DevTools and your IDE to find, track, understand and eventually fix common (and not so common) performance issues. The idea is to present these tips/tools as small isolated sections in the bigger talk. To create something that people can easily refer back to in the future. This talk can be very technical and the focus can be on more advance performance metrics. But I want it to strike a nice in-between. Starting with easy tips, and moving on to some more complex scenarios. So there will be something for every level hopefully.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Flutter Developer Advocate at Stream. Creator of the Fun with Flutter YouTube Channel."
@@ -522,7 +522,7 @@
     },
     "talk": {
       "title": "Navigator 2.0: huh? What’s wrong with .push()?",
-      "description": "My talk is an overview and tour of the Flutter Router (aka Navigator 2.0) API. Primarily aimed at existing Flutter devs who have heard of the new Router API, but are confused as to why and when they'd need to use it. If the existing Navigator does everything you need to, why would you need to change? I've also been assisting a company with adding Navigator 2.0 support to a big new Flutter desktop app - hopefully I'll be able to talk about it come February! The talk aims to answer these questions: - What problems does the new API solve? - When would you need to migrate from the classic Navigator? - How do you migrate? Should you use a package? Areas covered: - General overview of the routing API, and why it's a bit confusing - Web URL support - Deep linking (such as from push notifications) - Platform differences between mobile, desktop and web - Comparing and implementing routing packages If there's time, I could also potentially cover advanced topics such as analytics. Although I'm the author of Routemaster and will talk about it, I won't just be plugging my package :-) I did an initial 15 minute version of the talk, but I would heavily rework it for Flutter Vikings: https://www.youtube.com/watch?v=r9QVF5lMp7I Thanks for reading my proposal!",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Tom makes awesome apps with Flutter at Codemate in Helsinki. He's been working professionally with Flutter for the past 3 years, and is the author of the popular Routemaster navigation package."
@@ -539,24 +539,24 @@
     },
     "talk": {
       "title": "When Flutter Goes Red",
-      "description": "Whoopsie-daisy! Your perfect Flutter Widget just rendered as a glaring red box. Was it another overflow by infinity pixels, or maybe a classic division by zero in your build method? In this talk, we'll go through techniques of investigating common errors in your Flutter code, from the well known and loved debugPrint() to diving deeper in the DevTools to investigate the SDK methods that just take too much time.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Krzysztof is an experienced developer with passion for creating beautiful and useful user interfaces. Throughout his career he worked on a variety of products, starting from testing tools, data-crunching pipelines, web technologies, and finally mobile apps. Apart from being a developer, he is also a founder and tech lead of Widgeters, a Flutter development consultancy, and a Google Developer Expert for Dart and Flutter."
   },
   {
-    "id": "anna_domashych",
-    "name": "Anna Domashych",
+    "id": "anna_leushchenko",
+    "name": "Anna Leushchenko",
     "title": "GDE",
     "company": "",
     "social": {
-      "twitter": "https://twitter.com/AnnaDomashych",
+      "twitter": "https://twitter.com/AnnaLeushchenko",
       "github": "https://github.com/foxanna",
       "linkedin": ""
     },
     "talk": {
       "title": "Trash talk: WHENs and HOWs of Dart VM’s GC",
-      "description": "This is not an abstract❗️ I will talk about the garbage collector in Dart VM. In short: how it allocates objects in different generations, what algorithms it uses to decide what objects should be collected, and how the collection is done. In detail: Dart VM's GC operates on two generations: the new generation and the old generation. I will talk about Cheney's algorithm which is used to organize and collect objects in the new generation, will also mention the allocation method. Next, I will speak about the way GC decides to run the collection, and move on to the old generation, where survived objects are copied. It operates under different organization and collection principles, which I will also explain in detail. I will also mention handles, GC roots, special treatment for big objects, isolates.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Anna is a mobile development expert, passionate about quality software, focused on Flutter. For 7 years she has been creating cross-platform apps using Xamarin and Flutter technologies from sketches on a napkin to delivering functional and beautiful products to happy end-users. Anna is a Google Developer Expert in Dart and Flutter. First in Ukraine. She is a conference speaker and author of articles on different topics related to Flutter and Xamarin. Anna contributes to OSS. She also has an interest in mobile apps design."
@@ -573,7 +573,7 @@
     },
     "talk": {
       "title": "Flutter in the Fastlane",
-      "description": "CI/CD is usually done in the cloud, and free plans are abundantly available. I was building a hobby app, and also enjoyed learning how CI/CD worked with Flutter. However, my app was growing out of the free plan, and so I thought - I'm using a very powerful computer, why can't I use it to run builds and deploy to the appstores? Enter Fastlane. In this talk I will take the audience through setting up Fastlane and running builds on local hardware, all the while making sure the pipeline is available for all team members.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Open source enthusiast, working to make companies do the right thing and support open source. Always using his career as an excuse to geek out with new and shiny things. Long-time love affair with Flutter."
@@ -590,7 +590,7 @@
     },
     "talk": {
       "title": "BDD in Flutter",
-      "description": "BDD stands for Behaviour-Driven Development, but the development part is rather 'a side-effect'. What really BDD states? The main goal is to get developers, testers, and stakeholders to talk to each other. In order to create and share the same understanding of the product flow, we use Gherkin - a native-like language that is easy to read even for deeply non-technical persons. During my talk, we'll review the Gherkin basics and see how BDD might help to build better Flutter apps on practice. P.S. oh, by the way, you'll get familiar with the easiest way to start the test-first development approach for free!",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Oleksandr is a public speaker, lecturer, AR enthusiast, OSS contributor, mentor, and mobile developer since 2012. He is passionate about software engineering best practices, test-first approach, and automation. Throughout his career, he has build digital products for dozens of clients and helped many developers grow professionally. From 2019 Oleksandr popularizes Flutter in Ukraine; he is a founder of a local Flutter community. In his free time, he likes to play guitar, sing, and read non-fiction literature."
@@ -607,7 +607,7 @@
     },
     "talk": {
       "title": "Use OpenApi generator to share your models between Flutter and your backend",
-      "description": "OpenApi is a standard to describe a REST api. By following an OpenAPI document, you can be sure that your frontend will make the correct backend requests. But how to take advantage of OpenAPI to simplify your development workflow? And how to make sure that you will not make mistakes when reading the OpenAPI documentation ? In this presentation I will: - Present quickly the OpenAPI specification, how a route is described in the format and how to represent common patterns (objects, lists …) - Present the openapi-generator-cli project on GitHub - Explain how to automate the process of creating the client package - How to import the package locally and how to use it - Explain how you can also do the same thing for the backend and be sure that both the backend and the frontend are using the same API With this presentation, an attendee will be able to know why generating an API client with the help of OpenAPI can save time and remove bugs from an app. He will be able to generate on its own a client package. Using this method to generate my client API saves me so much time that I would love to share it with Flutter Vikings! ",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I'm a Flutter enthusiast for personal and professional projects, and author of the Flutter Favorite's `location` library. I discovered Flutter during the alpha and have been working with it ever since."
@@ -624,7 +624,7 @@
     },
     "talk": {
       "title": "Flutter and AR",
-      "description": "Its about how we can use AR in flutter? How we can make a demo, with geometry,position ,node, create a scene, anchors, controllers, detecetions,.",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Junior Mobile Application Developer - GDG Organizer - WTM Ambassador"
@@ -641,7 +641,7 @@
     },
     "talk": {
       "title": "Create advanced scrollable experiences with slivers",
-      "description": "Learn what Slivers widgets are and how to take advantage of them to create delightful scrollable experiences. During this talk, you will learn the most useful ones and how to make the most out of them. Learn how to have elastic app bars, a persistent header, and more. But that is not all, you can create your custom slivers and go beyond what is expected. Ready for it!?",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "Jaime is a Google Developer Expert focused on Flutter. He has created and currently maintains some useful and popular packages related to this toolkit. He is a very active member of the community and co-leads the Spaniard Flutter Community."
@@ -658,7 +658,7 @@
     },
     "talk": {
       "title": "Game development with the Flame engine",
-      "description": "This talk will touch upon an area which Flutter usually isn't used for; game development. In the talk we'll go through how to build a game in Flutter with the open source Flame game engine and we will also talk about why Flutter fits quite well for building cross platform 2D games. What can be expected to learn from this session: * A Flame game is just a widget * What is a game loop? * What is the FCS (Flame Component System)? * How to use flutter widgets for menus etc * How to handle input * Explanation about bridge packages for audio, physics, tiled, ECS etc * How to use Flame in your existing app for animations and effects",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "I'm a member of the Blue Fire open source collective which focuses on bringing great libraries to the Flutter community, our biggest project is the Flame Game engine, the only game engine for Flutter."
@@ -675,7 +675,7 @@
     },
     "talk": {
       "title": "Building better backends with Dart",
-      "description": "Using the same language for both frontend and backend makes development faster and allows team members to more easily take the role of a full stack developer. This talk will cover how to build your backend in Dart and how you communicate with your backend from Flutter. The talk will go through the basics of server communication through REST and JSON, but will also touch upon more advanced topics such as authentication and how to do real time communication through web sockets. I will keep the talk at an intermediate level, where some knowledge of Flutter and Dart will be good to understand the code examples. My idea for the talk is to start by explaining the basics, such as the difference between dart:io and dart:html (for Flutter web) and how the underlying protocols work (JSON, serialization, HTTP), then work it up to practical examples in Dart and Flutter. After the talk, attendees will feel comfortable starting to build their own backends in Dart. ",
+      "description": "TBA",
       "lightening": false
     },
     "bio": "With a master in computer science and more than 20 years industry experience, Viktor has a solid background in software engineering. Before starting his own venture he worked at Google’s Flutter team in Silicon Valley. He has held talks and taught guest lectures on programming, app creation, and computer graphics at international conferences and universities such as MIT, Carnegie Mellon, and UC Berkeley."
@@ -692,7 +692,7 @@
     },
     "talk": {
       "title": "Flutter Lints to rescue",
-      "description": "The talk would be on harnessing the power of the flutter_lints package to set some rules when writing code. As of Flutter version 2.3.0-12.0.pre or newer, the latest set of recommended lints are already enabled to use. Although for older projects, would like to take up migration to latest recommended lints. And, for the newer ones talk about some of these rules and how they can be used to advantage. I recently had worked to migrate the Flutter Community plus_plugins from the deprecated pedantic to flutter_lints (Link: https://github.com/fluttercommunity/plus_plugins/pull/519) and, would like to share my experience based on that.",
+      "description": "TBA",
       "lightening": true
     },
     "bio": "I am a Developer and Designer with experience in building cross platform applications. I also have a 5000 subscriber YouTube channel where I make videos on Flutter and a 600+ community on Discord. Previously, I have been a speaker at clubs and universities across India and the Flutter Global Summit 2021."
