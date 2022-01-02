@@ -369,7 +369,7 @@
     },
     "talk": {
       "title": "Using Flutter to build a native-looking desktop app for macOS and Windows",
-      "description": "TBA",
+      "description": "It is indeed possible to achieve an adaptive and native-looking UI for desktop platforms with Flutter. In my talk, I will be presenting the methods and tools I used to build and ship a Flutter desktop app for macOS and Windows, with a UI that matches closely each platform's design standards (components like buttons or icons, typography, animations, title bars, etc.). ",
       "lightening": true
     },
     "bio": "I am a self-employed app developer. My main background is web development, but I have been using Flutter for the past year or so and have published apps for all platforms, mobile and desktop. I also contribute to open-source and am an author of a couple of Flutter packages. "
