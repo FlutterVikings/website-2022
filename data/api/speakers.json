@@ -148,7 +148,7 @@
     },
     "talk": {
       "title": "Improve your animations skills in Flutter",
-      "description": "TBA",
+      "description": "One of the main selling points of Flutter is its ability to quickly build stunning user interfaces and animations. In this talk you’ll learn how to improve building complex animations, micro-interactions and navigation transitions. I will show you techniques that help me debug and execute them without wasting a lot of time. We'll look into some performance optimization techniques as well.",
       "lightening": false
     },
     "bio": "Dominik is Google Developer Expert in Flutter eager to create beautiful apps for mobile and desktop. He’s Principal Developer at Very Good Ventures and co-founder of Flutter Europe conference. He is active speaker on local meetups and writes Flutter-related articles on his blog roszkowski.dev. He’s been working as a deputy manager of PW-Sat2 student satellite project."
