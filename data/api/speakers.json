@@ -11,7 +11,7 @@
     },
     "talk": {
       "title": "Flutter, FFI and Fun: Windows Development with Dart and Win32",
-      "description": "TBA",
+      "description": "This talk shows how Dart’s FFI feature lets you break out of the limitations that most cross-platform frameworks impose. We’ll walk together through different ways a Dart or Flutter app can access the Windows API to do wild things, some of which make for beautiful, seamless Windows experiences, and others that you should never do! For the committee: Specifically, I plan to cover the following: Very quick overview of FFI as a means to talk to C libraries from Dart code Show an example of using FFI to build a full-screen console text editor in 5K that runs on Windows, macOS and Linux Gradually move up the chain, building on these primitives to show MessageBox, a color picker, and a full Win32 window, and finally Notepad built in Dart Talk about package:win32, a plugin I’ve built in my spare time to do all the heavy lifting for developers Talk about Microsoft’s win32metadata and how that lets us auto-generate the full Win32 API, including COM interfaces Show a couple of examples of advanced usage: other plugins that depend on win32, custom window styles, support for Windows 11’s “Mica” acrylic materials I plan to have no more than 2-3 slides; most of the talk will be demos.",
       "lightening": false
     },
     "bio": "Tim Sneath (@timsneath) leads product management for Flutter and Dart. He joined Google in 2017 after seventeen years leading client platform and developer teams at Microsoft. In his spare time, he tinkers with various retro computing projects, battles with the New York Times crossword, and attempts to persuade his mother that computers aren’t out to get her."
