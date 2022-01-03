@@ -5,7 +5,7 @@ export default {
     'FlutterVikings is a two days two tracks in person and online Flutter/Dart conference ', // Alternative Site title for SEO
   siteUrl: 'https://fluttervikings.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
-  siteBanner: '/assets/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
+  siteBanner: 'https://fluttervikings.com/assets/banner.jpg', // Your image for og:image tag. You can find it in the /static folder
   ticketUrl: 'https://fluttervikings.com/ticket', // Domain of your site. No trailing slash!
   cfpUrl: 'https://fluttervikings.com/cfp', // Domain of your site. No trailing slash!
   twitterUrl: 'https://twitter.com/FlutterVikings', // Domain of your site. No trailing slash!
