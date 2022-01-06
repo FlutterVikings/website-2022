@@ -41,14 +41,14 @@ const TheEvent = () => {
                 If you have an existing ticket it has been transferred to the in-person
                 event later this year. If you want to attend the online-only event in
                 February you must book a FREE ticket at
-                {/* <a
+                <a
                   href="https://fluttervikings.com/ticket"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
                   aria-label="tickets"
                 >
                   fluttervikings.com/ticket
-                </a> */}
+                </a>
                 as during the conference we will have many online activities. You can only
                 participate in the activities and win our prizes if you have a valid
                 ticket!
@@ -188,14 +188,14 @@ const TheEvent = () => {
                 </li>
                 <br />
                 <li>
-                  <b>Where can I get a ticket? </b> please visit
-                  {/* <a
+                  <b>Where can I get a ticket? </b> please visit{' '}
+                  <a
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     href="https://fluttervikings.com/ticket"
                   >
                     fluttervikings.com/ticket
-                  </a> */}
+                  </a>
                 </li>
               </ul>
             </div>
