@@ -284,12 +284,10 @@ const Schedules = () => {
             </p> */}
             {/* <br /> */}
             <p>
-              Your time now is <b>{now.format('nice-full')}</b>
+              Your time now is {now.format('nice-full')} based on{' '}
+              {selectedTimezone.altName} ({selectedTimezone.abbrev})
             </p>
             <br />
-            <p>
-              Time is based on {selectedTimezone.altName} ({selectedTimezone.abbrev})
-            </p>
             <TimezoneSelect value={selectedTimezone} onChange={setSelectedTimezone} />
           </Notice>
           <div className="Agenda-twoColumnContainer">
@@ -309,7 +307,11 @@ const Schedules = () => {
           <br />
           <br />
           <div className="Agenda-twoColumnContainer">
-            {agenda.map(
+            <b>
+              We will be announcing our new program for February online edition soon. Stay
+              tuned!
+            </b>
+            {/* {agenda.map(
               (agendaDay, i) =>
                 i === selectedTab &&
                 agendaDay.tracks.map((track, j) => (
@@ -320,7 +322,7 @@ const Schedules = () => {
                     track={track}
                   />
                 )),
-            )}
+            )} */}
           </div>
         </Container>
       </Section>

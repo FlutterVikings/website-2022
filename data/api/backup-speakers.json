@@ -17,6 +17,23 @@
     "bio": "Tim Sneath (@timsneath) leads product management for Flutter and Dart. He joined Google in 2017 after seventeen years leading client platform and developer teams at Microsoft. In his spare time, he tinkers with various retro computing projects, battles with the New York Times crossword, and attempts to persuade his mother that computers aren’t out to get her."
   },
   {
+    "id": "remi_rousselet",
+    "name": "Remi Rousselet",
+    "title": "Provider author",
+    "company": "Invertase",
+    "social": {
+      "twitter": "https://twitter.com/remi_rousselet",
+      "github": "https://github.com/rrousselGit",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "Riverpod!",
+      "description": "TBA",
+      "lightening": false
+    },
+    "bio": "Rémi is an active member of the Flutter community since its early days. He is the author of various popular packages such as Provider/Riverpod, flutter_hooks or Freezed. At Invertase, he is working on open-source projects to simplify the life of other developers."
+  },
+  {
     "id": "felix_angelov",
     "name": "Felix Angelov",
     "title": "Software engineer",

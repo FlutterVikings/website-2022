@@ -45,9 +45,12 @@ const Scene = () => {
         <div className="SceneOverlay-slogan">
           The biggest <span className="font__caesar">Nordic</span> Flutter Conference!
           <br />
-          <p className="SceneOverlay-date">2-3 February, 2022</p>
-          <p className="SceneOverlay-location">2 Days - 2 Tracks</p>
-          <p className="SceneOverlay-location">Oslo - Norway & Online</p>
+          <br />
+          <p className="SceneOverlay-date">2-3 February, 2022 (Online)</p>
+          <p className="SceneOverlay-location">2 Days - 1 Track</p>
+          <hr />
+          <p className="SceneOverlay-date">31st August, 1st September, 2022 (Hybrid)</p>
+          <p className="SceneOverlay-location">2 Days - 3 Tracks</p>
           <br />
         </div>
         {/* <div className="SceneOverlay-info">

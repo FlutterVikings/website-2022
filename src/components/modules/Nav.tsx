@@ -115,9 +115,9 @@ const Nav = () => {
                         </li>
                         <li className="NavContent-item">
                           <ScrollIntoView selector="#agenda">
-                            {/* <Link to={''} onClick={closeNavDefaultPrevent}> */}
-                            Our program
-                            {/* </Link> */}
+                            <Link to={''} onClick={closeNavDefaultPrevent}>
+                              Our program
+                            </Link>
                           </ScrollIntoView>
                         </li>
                       </ul>
