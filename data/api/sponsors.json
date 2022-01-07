@@ -60,5 +60,12 @@
     "name": "Softiware AS",
     "level": 2,
     "link": "https://bit.ly/32E8LXS"
+  },
+  {
+    "id": "devangels",
+    "dark": "devangels-light",
+    "name": "DebAngels London",
+    "level": 2,
+    "link": "https://bit.ly/3n3lv4s"
   }
 ]
