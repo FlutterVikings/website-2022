@@ -7,9 +7,8 @@ import {
   Sponsors,
   Speakers,
   Diversity,
-  Team,
   Schedules,
-  Content,
+  TheImportantNotice,
 } from '../components';
 import { SEO } from '../components/base/SEO';
 import { Communities } from '../components/modules/Communities';
@@ -32,6 +31,7 @@ export default () => {
       <Communities />
       {/* <Team /> */}
       <Venue />
+      <TheImportantNotice />
     </Layout>
   );
 };

@@ -45,17 +45,59 @@ const Scene = () => {
         <div className="SceneOverlay-slogan">
           The biggest <span className="font__caesar">Nordic</span> Flutter Conference!
           <br />
-          <br />
           <p className="SceneOverlay-date">2-3 February, 2022 (Online)</p>
-          <p className="SceneOverlay-location">2 Days - 1 Track</p>
+          <div className="SceneOverlay-location">
+            2 Days - 1 Track
+            <div
+              className="CTA-actions"
+              style={{ display: 'flex', justifyContent: 'center' }}
+            >
+              <Link className="Btn Btn--ticket Btn--cta" to={'/activities'}>
+                Activities
+              </Link>
+
+              <ScrollIntoView selector="#agenda">
+                <button className="Btn Btn--ticket Btn--cta">Agenda</button>
+              </ScrollIntoView>
+            </div>
+            <div
+              className="CTA-actions"
+              style={{ display: 'flex', justifyContent: 'center' }}
+            >
+              <a
+                className="Btn Btn--ticket Btn--cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={config.ticketUrl}
+              >
+                Get your FREE ticket
+              </a>
+            </div>
+          </div>
           <hr />
-          <p className="SceneOverlay-date">31st August, 1st September, 2022 (Hybrid)</p>
+          <p className="SceneOverlay-date">
+            31<sup>st</sup> August, 1<sup>st</sup> September, 2022 (Hybrid)
+          </p>
           <p className="SceneOverlay-location">2 Days - 3 Tracks</p>
-          <br />
+          <div
+            className="CTA-actions"
+            style={{ display: 'flex', justifyContent: 'center' }}
+          >
+            <a
+              className="Btn Btn--cfp Btn--cta"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={config.ticketUrl}
+            >
+              Tickets
+            </a>
+            <ScrollIntoView selector="#important">
+              <button className="Btn Btn--cfp Btn--cta">Read More</button>
+            </ScrollIntoView>
+          </div>
         </div>
         {/* <div className="SceneOverlay-info">
           <p className="SceneOverlay-location">
-            Watch us on: <br />
             <a
               className="Btn Btn--cfp Btn--cta"
               target="_blank"
@@ -84,27 +126,6 @@ const Scene = () => {
             </a>
           </p>
         </div> */}
-        {/* <div className="CTA-actions" style={{ display: 'flex' }}>
-          <Link className="Btn Btn--ticket Btn--cta" to={'/activities'}>
-            Activities
-          </Link>
-
-          <ScrollIntoView selector="#agenda">
-            <button className="Btn Btn--ticket Btn--cta">Agenda</button>
-          </ScrollIntoView>
-        </div>
-         */}
-        <br />
-        <div className="CTA-actions" style={{ display: 'flex' }}>
-          <a
-            className="Btn Btn--cfp Btn--cta"
-            target="_blank"
-            rel="noopener noreferrer"
-            href={config.ticketUrl}
-          >
-            Get your FREE or in-person ticket
-          </a>
-        </div>
       </div>
     </section>
   );

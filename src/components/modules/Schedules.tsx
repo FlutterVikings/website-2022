@@ -307,11 +307,7 @@ const Schedules = () => {
           <br />
           <br />
           <div className="Agenda-twoColumnContainer">
-            <b>
-              We will be announcing our new program for February online edition soon. Stay
-              tuned!
-            </b>
-            {/* {agenda.map(
+            {agenda.map(
               (agendaDay, i) =>
                 i === selectedTab &&
                 agendaDay.tracks.map((track, j) => (
@@ -322,7 +318,7 @@ const Schedules = () => {
                     track={track}
                   />
                 )),
-            )} */}
+            )}
           </div>
         </Container>
       </Section>
