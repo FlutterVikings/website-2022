@@ -67,5 +67,19 @@
     "name": "DebAngels London",
     "level": 2,
     "link": "https://bit.ly/3n3lv4s"
+  },
+  {
+    "id": "bouvet",
+    "dark": "bouvet_light",
+    "name": "Bouvet",
+    "level": 2,
+    "link": "https://bit.ly/35cCc7z"
+  },
+  {
+    "id": "ot_hovedlogo",
+    "dark": "ot_hovedlogo_light",
+    "name": "Olavstoppen",
+    "level": 2,
+    "link": "https://bit.ly/3Iqvrxd"
   }
 ]
