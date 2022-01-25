@@ -78,7 +78,7 @@
             "title": "Lightening Talks",
             "startTime": "18:45",
             "endTime": "19:15",
-            "speakers": ["thomas_burkhart", "minas_giannekas", "aditya_thakur"]
+            "speakers": ["minas_giannekas", "aditya_thakur"]
           },
           {
             "title": "Coffee Break",
@@ -160,28 +160,20 @@
           {
             "title": "Activity",
             "startTime": "16:15",
-            "endTime": "16:30",
-            "desc": "Let's fix a puzzle",
-            "isActivity": true
+            "endTime": "16:45",
+            "speaker": "dominik_roszkowski"
           },
           {
             "title": "talk",
-            "startTime": "16:30",
-            "endTime": "17:00",
+            "startTime": "16:45",
+            "endTime": "17:15",
             "speaker": "chris_swan"
           },
           {
             "title": "talk",
-            "startTime": "17:00",
-            "endTime": "17:30",
-            "speaker": "minas_giannekas"
-          },
-          {
-            "title": "Group Photo",
-            "startTime": "17:30",
+            "startTime": "17:15",
             "endTime": "17:45",
-            "desc": "Let's take pictures",
-            "isActivity": true
+            "speaker": "minas_giannekas"
           },
           {
             "title": "talk",
