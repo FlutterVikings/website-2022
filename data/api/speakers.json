@@ -167,7 +167,7 @@
       "description": "Flutter provides an excellent way to build Android, iOS, web and desktop apps, but what about the back end services? Full stack Dart is all about using that investment in Dart programming to build the services used by applications, whether it's in the cloud or on the Internet of Things. This presentation will look at the tradeoffs between just in time (JIT) and ahead of time (AOT) compilation, Dart on Docker, the Functions Framework for Dart, Profiling and Performance Management. Choices of back end architecture (x86_64 vs Arm) will also be examined, along with some of the challenges this can present for Continuous Delivery.",
       "lightening": false
     },
-    "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
+    "bio": "Chris Swan is an Engineer at The @ Company, building the @platform, a technology that is putting people in control of their data and removing the frictions and surveillance associated with today’s Internet. He was previously a Fellow at DXC Technology where he held various CTO roles. Before that he held CTO and Director of R&D roles at Cohesive Networks, UBS, Capital SCF and Credit Suisse, where he worked on app servers, compute grids, security, mobile, cloud, networking and containers. Chris is an InfoQ Editor writing about cloud, DevOps and security, and co-hosts the Tech Debt Burndown Podcast."
   },
   {
     "id": "sakina_abbas",
