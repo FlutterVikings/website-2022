@@ -167,20 +167,21 @@
           {
             "title": "talk",
             "startTime": "16:30",
-            "endTime": "17:00",
+            "endTime": "17:15",
             "speaker": "dominik_roszkowski"
           },
           {
             "title": "talk",
-            "startTime": "17:00",
-            "endTime": "17:30",
+            "startTime": "17:15",
+            "endTime": "17:45",
             "speaker": "chris_swan"
           },
           {
-            "title": "talk",
-            "startTime": "17:30",
+            "title": "Activity",
+            "startTime": "17:45",
             "endTime": "18:00",
-            "speaker": "tom_gilder"
+            "desc": "TBA",
+            "isActivity": true
           },
           {
             "title": "talk",
@@ -211,7 +212,7 @@
             "title": "talk",
             "startTime": "20:00",
             "endTime": "20:45",
-            "speaker": "matej_knopp"
+            "speaker": "tom_gilder"
           },
           {
             "title": "AMA with Flutter Team and Community",
