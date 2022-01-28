@@ -25,7 +25,6 @@ export default () => {
       <Diversity />
       <Speakers />
       <Schedules />
-
       <Moderators />
       <Sponsors />
       <Communities />

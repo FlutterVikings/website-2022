@@ -1,17 +1,5 @@
 [
   {
-    "id": "nawal_alhamwi",
-    "name": "Nawal Alhamwi",
-    "title": "Flutter Developer",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/__nawalhmw",
-      "github": "",
-      "linkedin": "https://www.linkedin.com/in/nawal-al-hamwi/"
-    },
-    "bio": ""
-  },
-  {
     "id": "evgeny_kot",
     "name": "Evgeny Kot",
     "title": "Dart/Flutter/Web GDE",
@@ -38,7 +26,7 @@
   {
     "id": "majid_hajian_mc",
     "name": "Majid Hajian",
-    "title": "Software developer",
+    "title": "FlutterVikings Orginizer / GDE",
     "company": "Softiware",
     "social": {
       "twitter": "https://twitter.com/mhadaily",
@@ -46,5 +34,17 @@
       "linkedin": "https://www.linkedin.com/in/mhadaily/"
     },
     "bio": "Majid is a passionate software developer with years of developing and architecting complex web and mobile applications. His passions are generally Flutter, PWA, and performance. He is an award-winning book author of the 'Progressive web app with Angular' book by Apress and instructor at PacktPub/Udemy and Pluralsight. He loves sharing his knowledge with the community by writing and speaking, having workshops and video tutorials, contributing to open source, and organizing meetups and events. He is also the organizer of several big Nordic conferences and meetups such as FlutterVikings!"
+  },
+  {
+    "id": "muhammed_salih_guler_mc",
+    "name": "Muhammed Salih Guler",
+    "title": "GDE",
+    "company": "Superlist",
+    "social": {
+      "twitter": "https://twitter.com/salihgueler",
+      "github": "",
+      "linkedin": ""
+    },
+    "bio": ""
   }
 ]
