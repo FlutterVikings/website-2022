@@ -5,12 +5,7 @@
     "level": 1,
     "link": "https://bit.ly/3ps1AeP"
   },
-  {
-    "id": "superlist",
-    "name": "Superlist",
-    "level": 1,
-    "link": "https://bit.ly/3pL7UPE"
-  },
+
   {
     "id": "manning",
     "name": "Manning",
@@ -27,7 +22,7 @@
     "id": "invertase",
     "dark": "invertase-light",
     "name": "Invertase",
-    "level": 2,
+    "level": 1,
     "link": "https://bit.ly/3E3vCML"
   },
   {
@@ -69,6 +64,12 @@
     "link": "https://bit.ly/3n3lv4s"
   },
   {
+    "id": "superlist",
+    "name": "Superlist",
+    "level": 1,
+    "link": "https://bit.ly/3pL7UPE"
+  },
+  {
     "id": "bouvet",
     "dark": "bouvet_light",
     "name": "Bouvet",
@@ -81,5 +82,11 @@
     "name": "Olavstoppen",
     "level": 2,
     "link": "https://bit.ly/3Iqvrxd"
+  },
+  {
+    "id": "codemate",
+    "name": "Codemate",
+    "level": 1,
+    "link": "https://bit.ly/3AFQzNc"
   }
 ]
