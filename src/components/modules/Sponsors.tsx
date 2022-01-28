@@ -48,8 +48,8 @@ const SponsorCard = ({ theme, sponsor }: { theme: DefaultTheme; sponsor: Sponsor
   const darkPublicUrl =
     theme.isDark && sponsor.darkImage
       ? sponsor.darkImage?.publicURL
-      : sponsor.image.publicURL;
-  return (
+      : sponsor?.image?.publicURL;
+  return darkPublicUrl ? (
     <a
       href={sponsor.link}
       target="_blank"
@@ -60,7 +60,7 @@ const SponsorCard = ({ theme, sponsor }: { theme: DefaultTheme; sponsor: Sponsor
         <FetchSvg url={darkPublicUrl} />
       </SponsorImage>
     </a>
-  );
+  ) : null;
 };
 
 const SponsorsLevel = ({
