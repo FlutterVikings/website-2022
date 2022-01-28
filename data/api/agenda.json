@@ -106,7 +106,7 @@
             "speaker": "frank_van_puffelen"
           },
           {
-            "title": "AMA with Flutter Team",
+            "title": "oleksandr_leushchenko",
             "startTime": "21:00",
             "endTime": "21:30",
             "winnerTime": true
@@ -211,13 +211,13 @@
             "title": "talk",
             "startTime": "20:00",
             "endTime": "20:30",
-            "speaker": "anna_leushchenko"
+            "speaker": "AMA with Flutter Team"
           },
           {
             "title": "talk",
             "startTime": "20:30",
             "endTime": "21:00",
-            "speaker": "oleksandr_leushchenko"
+            "speaker": "anna_leushchenko"
           },
           {
             "title": "Closing",
