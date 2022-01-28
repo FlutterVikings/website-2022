@@ -56,17 +56,17 @@
             "speaker": "kubra_selcuk"
           },
           {
-            "title": "Group Photo",
+            "title": "talk",
             "startTime": "17:30",
-            "endTime": "17:45",
-            "desc": "Let's take pictures",
-            "isActivity": true
+            "endTime": "18:00",
+            "speaker": "simon_lightfoot"
           },
           {
-            "title": "talk",
-            "startTime": "17:45",
+            "title": "Coffee Break",
+            "startTime": "18:00",
             "endTime": "18:15",
-            "speaker": "simon_lightfoot"
+            "desc": "Sponsors",
+            "isActivity": true
           },
           {
             "title": "talk",
@@ -81,40 +81,39 @@
             "speakers": ["abhishek_yatinkumar_doshi", "aditya_thakur"]
           },
           {
-            "title": "Coffee Break",
-            "startTime": "19:15",
-            "endTime": "19:30",
-            "desc": "Sponsors",
-            "isActivity": true
-          },
-          {
             "title": "talk",
-            "startTime": "19:30",
-            "endTime": "20:00",
+            "startTime": "19:15",
+            "endTime": "19:45",
             "speaker": "gordon_hayes"
           },
           {
             "title": "talk",
-            "startTime": "20:00",
-            "endTime": "20:30",
+            "startTime": "19:45",
+            "endTime": "20:15",
+            "speaker": "anna_leushchenko"
+          },
+          {
+            "title": "talk",
+            "startTime": "20:15",
+            "endTime": "20:45",
             "speaker": "craig_labenz"
           },
           {
             "title": "talk",
-            "startTime": "20:30",
-            "endTime": "21:00",
+            "startTime": "20:45",
+            "endTime": "21:15",
             "speaker": "frank_van_puffelen"
           },
           {
             "title": "oleksandr_leushchenko",
-            "startTime": "21:00",
-            "endTime": "21:30",
+            "startTime": "21:15",
+            "endTime": "21:45",
             "winnerTime": true
           },
           {
             "title": "Closing",
-            "startTime": "21:30",
-            "endTime": "21:40"
+            "startTime": "21:45",
+            "endTime": "22:00"
           }
         ]
       }
@@ -211,13 +210,7 @@
             "title": "talk",
             "startTime": "20:00",
             "endTime": "20:45",
-            "speaker": "AMA with Flutter Team"
-          },
-          {
-            "title": "talk",
-            "startTime": "20:45",
-            "endTime": "21:15",
-            "speaker": "anna_leushchenko"
+            "speaker": "matej_knopp"
           },
           {
             "title": "Closing",

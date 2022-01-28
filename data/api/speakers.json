@@ -492,5 +492,22 @@
       "lightening": true
     },
     "bio": "I am a Developer and Designer with experience in building cross platform applications. I also have a 5000 subscriber YouTube channel where I make videos on Flutter and a 600+ community on Discord. Previously, I have been a speaker at clubs and universities across India and the Flutter Global Summit 2021."
+  },
+  {
+    "id": "matej_knopp",
+    "name": "Matej Knopp ",
+    "title": "Flutter Developer",
+    "company": "",
+    "social": {
+      "twitter": "https://www.twitter.com/SuperlistHQ",
+      "github": "",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "NativeShell",
+      "description": "You'll learn about Brief introduction to NativeShell ,Which gaps NativeShell tries to fill and how does it do it,Combining Rust in Dart in NativeShell application",
+      "lightening": false
+    },
+    "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
   }
 ]
