@@ -78,7 +78,7 @@
             "title": "Lightening Talks",
             "startTime": "18:45",
             "endTime": "19:15",
-            "speakers": ["minas_giannekas", "aditya_thakur"]
+            "speakers": ["abhishek_yatinkumar_doshi", "aditya_thakur"]
           },
           {
             "title": "Coffee Break",
@@ -158,76 +158,71 @@
             "speaker": "waleed_arshad"
           },
           {
-            "title": "Activity",
+            "title": "Activity, Win a Prize",
             "startTime": "16:15",
-            "endTime": "16:45",
-            "speaker": "dominik_roszkowski"
-          },
-          {
-            "title": "talk",
-            "startTime": "16:45",
-            "endTime": "17:15",
-            "speaker": "chris_swan"
-          },
-          {
-            "title": "talk",
-            "startTime": "17:15",
-            "endTime": "17:45",
-            "speaker": "minas_giannekas"
-          },
-          {
-            "title": "talk",
-            "startTime": "17:45",
-            "endTime": "18:15",
-            "speaker": "abhishek_yatinkumar_doshi"
-          },
-          {
-            "title": "talk",
-            "startTime": "18:15",
-            "endTime": "18:45",
-            "speaker": "cagatay_ulusoy"
-          },
-          {
-            "title": "talk",
-            "startTime": "18:45",
-            "endTime": "19:15",
-            "speaker": "felix_angelov"
-          },
-          {
-            "title": "Coffee Break",
-            "startTime": "19:15",
-            "endTime": "19:30",
-            "desc": "Sponsors",
+            "endTime": "16:30",
+            "desc": "Roberto will run a quiz",
             "isActivity": true
           },
           {
             "title": "talk",
+            "startTime": "16:30",
+            "endTime": "17:00",
+            "speaker": "dominik_roszkowski"
+          },
+          {
+            "title": "talk",
+            "startTime": "17:00",
+            "endTime": "17:30",
+            "speaker": "chris_swan"
+          },
+          {
+            "title": "talk",
+            "startTime": "17:30",
+            "endTime": "18:00",
+            "speaker": "tom_gilder"
+          },
+          {
+            "title": "talk",
+            "startTime": "18:00",
+            "endTime": "18:30",
+            "speaker": "cagatay_ulusoy"
+          },
+          {
+            "title": "talk",
+            "startTime": "18:30",
+            "endTime": "19:00",
+            "speaker": "krzysztof_sroka"
+          },
+          {
+            "title": "Flutter Team announcement party",
+            "startTime": "19:00",
+            "endTime": "19:30",
+            "desc": "Desktop Announcement",
+            "isActivity": true
+          },
+          {
+            "title": "Desktop talks",
             "startTime": "19:30",
             "endTime": "20:00",
-            "speaker": "tom_gilder"
+            "speakers": ["minas_giannekas", "kevin_suhajda"]
           },
           {
             "title": "talk",
             "startTime": "20:00",
             "endTime": "20:30",
-            "speaker": "krzysztof_sroka"
+            "speaker": "anna_leushchenko"
           },
           {
             "title": "talk",
             "startTime": "20:30",
             "endTime": "21:00",
-            "speaker": "anna_leushchenko"
-          },
-          {
-            "title": "talk",
-            "startTime": "21:00",
-            "endTime": "21:30",
             "speaker": "oleksandr_leushchenko"
           },
           {
             "title": "Closing",
-            "startTime": "21:30",
-            "endTime": "21:40"
+            "startTime": "21:00",
+            "endTime": "21:15"
           }
         ]
       }

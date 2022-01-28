@@ -14,7 +14,7 @@
       "description": "In this talk, Craig will use Riverpod to manage state in a maze escape game. We will discuss how game state management is not inherently different from normal Flutter app state management. We'll also discuss the Command Pattern, and how it can help keep your Flutter apps sufficiently decoupled and flexible. Lastly, we'll use our decoupled system to seamlessly add voice commands to the game, allowing players on mobile or mobile web to shout commands.",
       "lightening": false
     },
-    "bio": ""
+    "bio": "Craig is a developer who found Flutter after a decade of making web apps with Python and JavaScript. He enjoys thinking about the entire spectrum of his projects; all the way from the CSS (or the Flutter theme!) to the state management, the API design, the database, and the deployment. Like everyone else, when he first found Flutter, it was a combination of hot reload and Dart's developer experience that hooked him. You might recognize him acting out his favorite hobby, 'being a goof', on YouTube."
   },
   {
     "id": "frank_van_puffelen",
@@ -31,7 +31,7 @@
       "description": "<p>In his talk earlier in the conference Craig built a small maze game, to show us how to isolate game state and game logic from the user interface of our game. Now Frank will take that game add some multiplayer features to it with Firebase.</p><p>First we'll add a counter that shows how many people are currently playing the game. Then we'll store the position of the avatar in the database too, so that we all have to work together to guide them to the exit. And then finally we'll play a couple of rounds, where we all yell at our phones and laptop to make it to the exit. LEFT - LEFT - LEFT - NO NO NO - UP - UP….</p>!",
       "lightening": false
     },
-    "bio": ""
+    "bio": "Frank is an engineer for Firebase at Google. He helps developers build extraordinary apps that use Firebase as their back-end, and is the host of Firebase Release Notes on YouTube. If you've ever asked a Firebase question on StackOverflow, you've probably met Frank already."
   },
   {
     "id": "felix_angelov",
@@ -170,6 +170,23 @@
     "bio": "Chris Swan is an Engineer at The @ Company, building the @platform, a technology that is putting people in control of their data and removing the frictions and surveillance associated with today’s Internet. He was previously a Fellow at DXC Technology where he held various CTO roles. Before that he held CTO and Director of R&D roles at Cohesive Networks, UBS, Capital SCF and Credit Suisse, where he worked on app servers, compute grids, security, mobile, cloud, networking and containers. Chris is an InfoQ Editor writing about cloud, DevOps and security, and co-hosts the Tech Debt Burndown Podcast."
   },
   {
+    "id": "kevin_suhajda",
+    "name": "Kevin Suhajda",
+    "title": "Solutions Engineer",
+    "company": "CodeMagic",
+    "social": {
+      "twitter": "https://twitter.com/kevsuda",
+      "github": "",
+      "linkedin": ""
+    },
+    "talk": {
+      "title": "How to build and publish Flutter Desktop apps",
+      "description": "Come and explore the magical world of desktop applications. If you thought iOS releases are difficult you haven’t seen anything yet :) Luckily Kevin has gone through the pains first hand and is happy to share the learnings how to publish to the stores and set up CI/CD to do that for Windows, macOS, and Linux apps",
+      "lightening": true
+    },
+    "bio": "Kevin helps people discover the benefit of using Codemagic CI/CD for testing, building and distributing their mobile apps. He has worked as a solutions engineer and mobile application developer and loves to find out how things work and solving technical problems. In his spare time he likes playing guitar and hiking."
+  },
+  {
     "id": "sakina_abbas",
     "name": "Sakina Abbas",
     "title": "GDE",
@@ -301,7 +318,7 @@
     "talk": {
       "title": "Nature or Flutter? Who has the best trees?",
       "description": "Nature has wide variety of trees. However Flutter also has 3 types of trees. What are the use of those trees? How Flutter creates, renders and destroys a widget? What is the role of state and State Management? Let's check it out in the session!",
-      "lightening": false
+      "lightening": true
     },
     "bio": "I am a Google Developer Expert for Dart and Flutter! I am also one of the Google Mentors. 💙 I currently work as a Sr. Flutter Engineer at Somnio Software. I am also the Organizer of Flutter Valsad and Co-Organizer of Flutter India. During the daytime, I manage different projects, take interviews for the Flutter Developer position, and help the team with issues. After work, I write articles for the community and help people leverage their careers in Flutter."
   },
