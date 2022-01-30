@@ -96,11 +96,11 @@ const Nav = () => {
                           <Link to={'/'} onClick={closeNav}>
                             Homepage
                           </Link>
-                          <li className="NavContent-item">
-                            <Link to={'activities'} onClick={closeNav}>
-                              Activities and Prizes
-                            </Link>
-                          </li>
+                        </li>
+                        <li className="NavContent-item">
+                          <Link to={'activities'} onClick={closeNav}>
+                            Activities and Prizes
+                          </Link>
                         </li>
                         <li className="NavContent-item">
                           <ScrollIntoView selector="#speakers">
@@ -167,8 +167,7 @@ const Nav = () => {
                           <a
                             target="_blank"
                             rel="noopener noreferrer"
-                            download=""
-                            href=""
+                            href="mailto:team@flutterVikings.com"
                           >
                             Become sponsor
                           </a>
@@ -185,7 +184,11 @@ const Nav = () => {
                           <div className="NavContact">
                             <div className="NavContact-label">Write to:</div>
                             <div className="NavContact-value">
-                              <a target="_blank" href="mailto:team@flutterVikings.com">
+                              <a
+                                target="_blank"
+                                href="mailto:team@flutterVikings.com"
+                                rel="noopener noreferrer"
+                              >
                                 team@flutterVikings.com
                               </a>
                             </div>

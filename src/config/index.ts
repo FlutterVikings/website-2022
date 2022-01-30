@@ -9,7 +9,7 @@ export default {
   ticketUrl: 'https://fluttervikings.com/ticket', // Domain of your site. No trailing slash!
   cfpUrl: 'https://fluttervikings.com/cfp', // Domain of your site. No trailing slash!
   twitterUrl: 'https://twitter.com/FlutterVikings', // Domain of your site. No trailing slash!
-  youtubeUrl: 'https://fluttervikings.com/youtube', // Domain of your site. No trailing slash!
+  youtubeUrl: 'https://bit.ly/3KV8bJH', // Domain of your site. No trailing slash!
   email: 'team@fluttervikings.com', // Domain of your site. No trailing slash!
   defaultBg: '/assets/bg.png', // default post background header
   favicon: 'src/favicon.png', // Your image for favicons. You can find it in the /src folder

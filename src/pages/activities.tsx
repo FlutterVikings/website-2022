@@ -1,53 +1,33 @@
-import { graphql, Link } from 'gatsby';
-import React, { useState } from 'react';
+import { Link } from 'gatsby';
+import React from 'react';
 import { Container } from 'styled-bootstrap-grid';
 import styled from 'styled-components';
-import { Layout, Section, Header, Content } from '../components';
-// @ts-ignore
-import TimezoneSelect from 'react-timezone-select';
+import { Content, Layout, Section } from '../components';
+import ScrollIntoView from 'react-scroll-into-view';
 import { SEO } from '../components/base/SEO';
 
 const ActivityRow = styled.div`
   display: flex;
 `;
 
-const SimpleClickToTweet = styled.div`
-  display: block;
-  position: relative;
-  border-style: solid;
-  border: 1px solid #dddddd;
-  border-radius: 4px;
-  padding: 15px 30px;
-  margin: 15px 0px;
+const ActivityDivider = styled.div`
+  margin: 2rem 0;
+  display: flex;
+  width: 100%;
+  height: 1px;
+  background: #ccc;
 `;
 
-const TwitterLogoLink = styled.a`
-  margin: 0;
-  padding: 0;
-  position: center;
-  display: inline-block;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 100%;
-  color: #ffffff;
-  padding-right: 24px;
-  text-decoration: none;
-  background: transparent url(/assets/Twitter_Social_Icon_Circle_Color.svg) no-repeat
-    right top;
+const TableContentItem = styled.b`
+  padding: 1rem 0;
+  cursor: pointer;
 `;
 
 const SmallHeader = styled.header`
   position: relative;
-  padding: 0rem 0rem 1rem;
+  padding: 2rem 0;
   text-align: center;
   font-size: 32px;
-`;
-
-const VerySmallHeader = styled.header`
-  position: relative;
-  text-align: center;
-  font-size: 18px;
 `;
 
 export default () => {
@@ -88,24 +68,106 @@ export default () => {
                     <li>Free Flutter in action book</li>
                     <li>Flutter Vikings and Flutter T-Shirt</li>
                     <li>Flutter Stickers</li>
-                    <li>Bookreader from Invertase.io</li>
-                    <li>Cash up to 5000 euro from the @ company</li>
+                    <li>Book reader from Invertase.io</li>
+                    <li>Cash up to 4000 USD from the @ company</li>
                     <li>Swags from Stream.io</li>
                     <li>And many more</li>
                   </ul>
-                  <br />
+
+                  <h3>Table of content</h3>
+                  <ol>
+                    <li>
+                      <ScrollIntoView selector="#a-1">
+                        <TableContentItem>
+                          Draw a Vikings Dash and win a Dash! by Flutter Vikings
+                        </TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                    <li>
+                      <ScrollIntoView selector="#a-2">
+                        <TableContentItem>
+                          "Write a Flutter article" and win a book reader! by Invertase.io
+                        </TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                    <li>
+                      <ScrollIntoView selector="#a-3">
+                        <TableContentItem>Google DevLibrary</TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                    <li>
+                      <ScrollIntoView selector="#a-4">
+                        <TableContentItem>
+                          Reinvent the @rrive mobile app and win up to 4000 USD! by The @
+                          Company
+                        </TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                    <li>
+                      <ScrollIntoView selector="#a-5">
+                        <TableContentItem>Stream Code-lab</TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                    <li>
+                      <ScrollIntoView selector="#a-6">
+                        <TableContentItem>
+                          Quiz run by Robert Brunhage and win his course for FREE!
+                        </TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                    <li>
+                      <ScrollIntoView selector="#a-7">
+                        <TableContentItem>
+                          Quiz run by Andrea Bizzotto and win his courses!
+                        </TableContentItem>
+                      </ScrollIntoView>
+                    </li>
+                  </ol>
+                  <ActivityDivider id="a-1" />
                   <SmallHeader className="font__caesar size__h1">
-                    Flutter Vikings Draw a Vikings Dash
+                    Draw a Vikings Dash and win a Dash! by Flutter Vikings
+                  </SmallHeader>
+                  <p>It's simple, use Flutter and draw the Dashes below</p>
+                  <p>
+                    <img
+                      alt="FlutterVikings Dash"
+                      src="/assets/vikings-dash.svg"
+                      style={{ height: '300px', width: '100%' }}
+                    />
+                  </p>
+                  <p>We will judge based on</p>
+                  <ul>
+                    <li>Code quality</li>
+                    <li>Best drawing</li>
+                    <li>Added extra features such as animation</li>
+                    <li>Scaling properly based on screen sizes</li>
+                    <li>We accept only on CodePen or DartPad</li>
+                    <li>You must have a valid ticket to be able to submit</li>
+                  </ul>
+
+                  <p>
+                    The top 2 submissions will receive a Dash and the top 10 submission
+                    will receive a Flutter or FlutterVikings T-shirt and Flutter stickers
+                  </p>
+                  <br />
+                  <p>
+                    <a
+                      href="https://bit.ly/3s5oBqa"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      Submit your work here{' '}
+                    </a>{' '}
+                    and we will contact you
+                  </p>
+                  <ActivityDivider id="a-2" />
+                  <SmallHeader className="font__caesar size__h1">
+                    "Write a Flutter article" and win a book reader! by Invertase.io
                   </SmallHeader>
                   <p>TBA</p>
-                  <br />
+                  <ActivityDivider id="a-3" />
                   <SmallHeader className="font__caesar size__h1">
-                    The Invertase "Write a Flutter article" contest!
-                  </SmallHeader>
-                  <p>TBA</p>
-                  <br />
-                  <SmallHeader className="font__caesar size__h1">
-                    Google DevLibrary Contest
+                    Google DevLibrary
                   </SmallHeader>
                   <p>
                     Google’s Dev Library is an open-source platform displaying quality
@@ -122,17 +184,14 @@ export default () => {
                     using any of the Google Technologies–Angular, Android, Flutter,
                     Firebase, Machine Learning, or Cloud.{' '}
                   </p>
-
                   <p>
                     With Flutter Vikings, we are presenting a week of Flutter Projects!
                   </p>
-
                   <p>
                     During the actual Flutter Vikings Conference (1st to 4th February), we
                     will open the space for Flutter Innovations. Submit your projects or
                     articles built using Flutter on Dev Library.
                   </p>
-
                   <p>
                     By the end of the week, best projects will be accepted on the site,
                     and a few will receive special prizes from Google’s Dev Library under
@@ -147,36 +206,89 @@ export default () => {
                     So, start submitting your Flutter projects NOW! You could also add
                     your suggestions or views.{' '}
                     <a
-                      href="https://devlibrary.withgoogle.com/products/flutter"
+                      href="https://bit.ly/3gqjX0N"
                       target="_blank"
-                      rel="noopenner nofollow"
+                      rel="noopener nofollow"
                     >
                       Click here to check{' '}
                     </a>{' '}
                     the existing Flutter projects.{' '}
                   </p>
-
-                  <br />
+                  <ActivityDivider id="a-4" />
                   <SmallHeader className="font__caesar size__h1">
-                    The @ Company Contest
+                    Reinvent the @rrive mobile app and win up to 4000 USD! by The @
+                    Company
+                  </SmallHeader>
+                  <p>
+                    One of our @platform apps in development is nearly complete but needs
+                    your help! @rrive is a fully open source Flutter app designed to
+                    securely share locations with people you trust. Share locations
+                    one-on-one for a specific time period or create an event for several
+                    people in your circle and share your locations for that event.
+                  </p>
+                  <p>
+                    <a
+                      href="https://bit.ly/35u5zSJ"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      Read more here and good luck! It will have 7000 USD cash!{' '}
+                    </a>
+                  </p>
+                  <br />
+                  <p>
+                    <strong>BTW</strong>, did you know you can also request a FREE @sign!
+                    You can request a custom blue 💙 or purple heart 💜 (or both!) @sign,
+                    normally priced at $100! But you will get it for <strong>FREE</strong>
+                    !{' '}
+                    <a
+                      href="https://bit.ly/3s04mu5"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      Click here!
+                    </a>
+                  </p>
+                  <ActivityDivider id="a-5" />
+                  <SmallHeader className="font__caesar size__h1">
+                    Stream Code-lab
                   </SmallHeader>
                   <p>TBA</p>
-                  <br />
-                  <SmallHeader className="font__caesar size__h1">
-                    Stream Code-lab Contest
-                  </SmallHeader>
-                  <p>TBA</p>
-                  <br />
+                  <ActivityDivider id="a-6" />
                   <SmallHeader className="font__caesar size__h1">
                     Quiz run by Robert Brunhage
                   </SmallHeader>
-                  <p>TBA</p>
-                  <br />
+                  <p>
+                    Robert is a well-known community member which has done a fantastic job
+                    by creating courses and videos on youtube. He will run a quiz on Day 1
+                    (Activity time) online and will give away Free and discounted coupon
+                    to his course{' '}
+                    <a
+                      href="https://bit.ly/3KZ5lDl"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      https://robertbrunhage.com/course
+                    </a>
+                  </p>
+                  <ActivityDivider id="a-7" />
                   <SmallHeader className="font__caesar size__h1">
                     Quiz run by Andrea Bizzotto
                   </SmallHeader>
-                  <p>TBA</p>
-                  <br />
+                  <p>
+                    Andrea is a well-known community member which has done a fantastic job
+                    by creating courses and videos on Youtube and so many amazing articles
+                    on his website. He will run a quiz on Day 2 (Activity time) online and
+                    will give away Free and discounted coupon to his courses{' '}
+                    <a
+                      href="https://bit.ly/3IMZZcp"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      https://codewithandrea.com/courses/
+                    </a>
+                  </p>
+                  <ActivityDivider />
                 </div>
               </ActivityRow>
               <br />
