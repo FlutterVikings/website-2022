@@ -120,7 +120,7 @@
   },
   {
     "id": "kamal_shree",
-    "name": "kamal shree S",
+    "name": "kamal Shree S",
     "title": "GDE",
     "company": "",
     "social": {
@@ -236,23 +236,6 @@
       "lightening": false
     },
     "bio": "Aleksander is experienced a lot in enterprise development, in IT for more than 15 years. He worked in many different domains with many different technologies, but currently, his main interest is multi-platform development using Flutter. Aleksandr, Chief Software Engineer, Co-Head of Flutter Competency at EPAM Systems, Flutter and Dart GDE (Google Developer Expert), organizer of GDG Moscow community, host of podcasts Mobile People Talks and Flutter Dev Podcast."
-  },
-  {
-    "id": "thomas_burkhart",
-    "name": "Thomas Burkhart",
-    "title": "GDE",
-    "company": "",
-    "social": {
-      "twitter": "https://twitter.com/thomasburkhartb",
-      "github": "https://github.com/escamoteur",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "3D Graphics with Flutter and OpenGL",
-      "description": "TBA",
-      "lightening": true
-    },
-    "bio": "Born 1971 Thomas Burkhart could be seen almost as a legacy system. Being almost 30 years in this industry led him to a lot of different technologies, like C++ with mfc, C#, microcontrollers in C and currently mobile App development with Flutter and Dart.  What only view people know that he was also a professional magician and bakes his own bread."
   },
   {
     "id": "waleed_arshad",
@@ -492,22 +475,5 @@
       "lightening": true
     },
     "bio": "I am a Developer and Designer with experience in building cross platform applications. I also have a 5000 subscriber YouTube channel where I make videos on Flutter and a 600+ community on Discord. Previously, I have been a speaker at clubs and universities across India and the Flutter Global Summit 2021."
-  },
-  {
-    "id": "matej_knopp",
-    "name": "Matej Knopp ",
-    "title": "Flutter Developer",
-    "company": "",
-    "social": {
-      "twitter": "https://www.twitter.com/SuperlistHQ",
-      "github": "",
-      "linkedin": ""
-    },
-    "talk": {
-      "title": "NativeShell",
-      "description": "You'll learn about Brief introduction to NativeShell ,Which gaps NativeShell tries to fill and how does it do it,Combining Rust in Dart in NativeShell application",
-      "lightening": false
-    },
-    "bio": "I’ve been fascinated with desktop applications ever since I first saw Turbo Vision. I went through many different toolkits, but eventually came to a conclusion that there’s nothing quite like Flutter. I contribute to Flutter Engine, work on NativeShell and think that Rust and Flutter is a beautiful combination."
   }
 ]
