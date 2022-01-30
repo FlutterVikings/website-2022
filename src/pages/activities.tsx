@@ -77,10 +77,9 @@ export default () => {
               <ActivityRow>
                 <div className="entry-contest">
                   <p>
-                    As an online conference, we know that it's important to go the extra
-                    mile to keep our attendees interested and engaged. That's why we have
-                    a host of live activities and contests running throughout the
-                    conference lined up.
+                    We know it's essential to go the extra mile to keep our attendees
+                    interested and engaged as an online conference. We have a host of live
+                    activities and contests running throughout the conference.
                   </p>
                   <br />
                   <SmallHeader>Prizes and Gifts!</SmallHeader>
