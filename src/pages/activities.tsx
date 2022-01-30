@@ -10,6 +10,33 @@ const ActivityRow = styled.div`
   display: flex;
 `;
 
+const SimpleClickToTweet = styled.div`
+  display: block;
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 15px 30px;
+  margin: 15px 0px;
+`;
+
+const TwitterLogoLink = styled.a`
+  margin: 0;
+  padding: 0;
+  position: center;
+  display: inline-block;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 100%;
+  color: #ffffff;
+  padding-right: 24px;
+  text-decoration: none;
+  background: transparent url(/assets/Twitter_Social_Icon_Circle_Color.svg) no-repeat
+    right top;
+`;
+
 const ActivityDivider = styled.div`
   margin: 2rem 0;
   display: flex;
@@ -28,6 +55,12 @@ const SmallHeader = styled.header`
   padding: 2rem 0;
   text-align: center;
   font-size: 32px;
+`;
+
+const VerySmallHeader = styled.header`
+  position: relative;
+  text-align: center;
+  font-size: 18px;
 `;
 
 export default () => {
@@ -50,9 +83,7 @@ export default () => {
                     conference lined up.
                   </p>
                   <br />
-                  <SmallHeader className="font__caesar size__h1">
-                    Prizes and Gifts!
-                  </SmallHeader>
+                  <SmallHeader>Prizes and Gifts!</SmallHeader>
                   <p>
                     Why should you participate 🤔 ? Well, we hope that they will be fun
                     and that maybe you will learn something new about Flutter while
@@ -122,9 +153,16 @@ export default () => {
                         </TableContentItem>
                       </ScrollIntoView>
                     </li>
+                    <li>
+                      <ScrollIntoView selector="#a-8">
+                        <TableContentItem>
+                          Social Media Contest (Win T-shirt and Stickers)
+                        </TableContentItem>
+                      </ScrollIntoView>
+                    </li>
                   </ol>
                   <ActivityDivider id="a-1" />
-                  <SmallHeader className="font__caesar size__h1">
+                  <SmallHeader>
                     Draw a Vikings Dash and win a Dash! by Flutter Vikings
                   </SmallHeader>
                   <p>It's simple, use Flutter and draw the Dashes below</p>
@@ -146,8 +184,9 @@ export default () => {
                   </ul>
 
                   <p>
-                    The top 2 submissions will receive a Dash and the top 10 submission
-                    will receive a Flutter or FlutterVikings T-shirt and Flutter stickers
+                    <strong>Prize:</strong>&nbsp;The top two submissions will receive a
+                    Dash and the top 10 submission will receive a Flutter or
+                    FlutterVikings T-shirt and Flutter stickers
                   </p>
                   <br />
                   <p>
@@ -161,7 +200,7 @@ export default () => {
                     and we will contact you
                   </p>
                   <ActivityDivider id="a-2" />
-                  <SmallHeader className="font__caesar size__h1">
+                  <SmallHeader>
                     "Write a Flutter article" and win a book reader! by Invertase.io
                   </SmallHeader>
                   <p>
@@ -227,8 +266,9 @@ export default () => {
                     </li>
                   </ul>
                   <p>
-                    Authors of the top two articles will receive a book reader and the top
-                    10 articles will receive Invertase Swag kit.{' '}
+                    <strong>Prize:</strong>&nbsp;Authors of the top two articles will
+                    receive a book reader and the top 10 articles will receive Invertase
+                    Swag kit.{' '}
                     <a
                       href="https://bit.ly/3oashpI"
                       target="_blank"
@@ -239,9 +279,7 @@ export default () => {
                   </p>
 
                   <ActivityDivider id="a-3" />
-                  <SmallHeader className="font__caesar size__h1">
-                    Google DevLibrary
-                  </SmallHeader>
+                  <SmallHeader>Google DevLibrary</SmallHeader>
                   <p>
                     Google’s Dev Library is an open-source platform displaying quality
                     work by developers who have created or built projects using any of the
@@ -288,9 +326,8 @@ export default () => {
                     the existing Flutter projects.{' '}
                   </p>
                   <ActivityDivider id="a-4" />
-                  <SmallHeader className="font__caesar size__h1">
-                    Reinvent the @rrive mobile app and win up to 4000 USD! by The @
-                    Company
+                  <SmallHeader>
+                    Reinvent the @rrive mobile app ! by The @ Company
                   </SmallHeader>
                   <p>
                     One of our @platform apps in development is nearly complete but needs
@@ -300,6 +337,7 @@ export default () => {
                     people in your circle and share your locations for that event.
                   </p>
                   <p>
+                    <strong>Prize:</strong>&nbsp;{' '}
                     <a
                       href="https://bit.ly/35u5zSJ"
                       target="_blank"
@@ -323,14 +361,10 @@ export default () => {
                     </a>
                   </p>
                   <ActivityDivider id="a-5" />
-                  <SmallHeader className="font__caesar size__h1">
-                    Stream Code-lab
-                  </SmallHeader>
+                  <SmallHeader>Stream Code-lab</SmallHeader>
                   <p>TBA</p>
                   <ActivityDivider id="a-6" />
-                  <SmallHeader className="font__caesar size__h1">
-                    Quiz run by Robert Brunhage
-                  </SmallHeader>
+                  <SmallHeader>Quiz run by Robert Brunhage</SmallHeader>
                   <p>
                     Robert is a well-known community member which has done a fantastic job
                     by creating courses and videos on youtube. He will run a quiz on Day 1
@@ -343,11 +377,13 @@ export default () => {
                     >
                       https://robertbrunhage.com/course
                     </a>
+                    , Make sure you attend his online quiz!
+                  </p>
+                  <p>
+                    <strong>Prize:</strong>&nbsp; Free and discounted course!
                   </p>
                   <ActivityDivider id="a-7" />
-                  <SmallHeader className="font__caesar size__h1">
-                    Quiz run by Andrea Bizzotto
-                  </SmallHeader>
+                  <SmallHeader>Quiz run by Andrea Bizzotto</SmallHeader>
                   <p>
                     Andrea is a well-known community member which has done a fantastic job
                     by creating courses and videos on Youtube and so many amazing articles
@@ -359,9 +395,58 @@ export default () => {
                       rel="noopener nofollow"
                     >
                       https://codewithandrea.com/courses/
-                    </a>
+                    </a>{' '}
+                    , Make sure you attend his online quiz!
                   </p>
-                  <ActivityDivider />
+                  <p>
+                    <strong>Prize:</strong>&nbsp; Free and discounted course!
+                  </p>
+                  <ActivityDivider id="a-8" />
+                  <SmallHeader>Social Media Contests</SmallHeader>
+                  <p>
+                    Take a selfie and tweet it with this to win (Be creative with your
+                    selfie's and Tweets){' '}
+                  </p>
+                  <SimpleClickToTweet>
+                    <a
+                      rel="noopener noreferrer nofollow"
+                      className="tm-ctt-btn"
+                      href="https://twitter.com/share?text=Me+with+the+Vikings%E2%80%9D+%23fluttervikings&amp;url=https://www.fluttervikings.com"
+                      target="_blank"
+                    >
+                      “I'm plundering for Flutter treasures 💙 with the Vikings”
+                      #fluttervikings @fluttervikings
+                    </a>
+                    <TwitterLogoLink
+                      href="https://twitter.com/share?text=Me+with+the+Vikings%E2%80%9D+%23fluttervikings&amp;url=https://www.fluttervikings.com"
+                      target="_blank"
+                    >
+                      &nbsp;
+                    </TwitterLogoLink>
+                  </SimpleClickToTweet>
+                  <br />
+                  <VerySmallHeader>AND / OR </VerySmallHeader>
+                  <br />
+                  <p>
+                    Take a selfie and post it on Linkedin with this text to win (Be
+                    creative with your Linkedin Post)
+                  </p>
+                  <div className="tm-click-to-tweet" style={{ textAlign: 'center' }}>
+                    <a
+                      rel="noopener noreferrer nofollow"
+                      target="_blank"
+                      href="https://www.linkedin.com/shareArticle?mini=true&url=https://fluttervikings.com&title=My%20Flutter%20Vikings%20Selfie&summary=%20%E2%80%9CI'm%20plundering%20for%20Flutter%20treasures%20%F0%9F%92%99%20with%20the%20Vikings%E2%80%9D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23FlutterVikings%20%40flutterVikings&source=https%3A//fluttervikings.com/activities/"
+                    >
+                      “I'm plundering for Flutter treasures 💙 with the Vikings”
+                      #FlutterVikings &nbsp;
+                    </a>
+                  </div>
+                  <br />
+                  <p>
+                    <strong>Prize:</strong>&nbsp;For the 5 best social media posts each
+                    day: <strong>T-shirt and Stickers</strong>
+                  </p>
+                  <p />
                 </div>
               </ActivityRow>
               <br />
