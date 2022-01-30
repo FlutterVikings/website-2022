@@ -50,11 +50,11 @@ export default ({
     speakerTimeSlot = agenda.tracks
       .filter((track) => {
         return track.programs.find(
-          (p) => p.speaker === speaker.id || p.speakers?.includes(speaker.id),
+          (p: any) => p.speaker === speaker.id || p.speakers?.includes(speaker.id),
         );
       })[0]
       .programs.filter(
-        (p) => p.speaker === speaker.id || p.speakers?.includes(speaker.id),
+        (p: any) => p.speaker === speaker.id || p.speakers?.includes(speaker.id),
       )[0];
     timezoneValue = selectedTimezone.value;
     spaceDate = spacetime(agenda.dateISO, config.defaultTimezone.value);
@@ -72,7 +72,7 @@ export default ({
             path={path}
             title={speaker.name + ` Hybrid'22 Speaker `}
           />
-          <Container>
+          <Container id="speakers">
             <Header>
               <div style={{ justifyContent: 'center', display: 'flex' }}>
                 <img

@@ -84,11 +84,99 @@ export default () => {
                     the various activity contests and quiz winners!
                   </p>
                   <ul>
-                    <li>🎫 Dash! 🎫</li>
-                    <li>TBA...</li>
+                    <li>Dash!</li>
+                    <li>Free Flutter in action book</li>
+                    <li>Flutter Vikings and Flutter T-Shirt</li>
+                    <li>Flutter Stickers</li>
+                    <li>Bookreader from Invertase.io</li>
+                    <li>Cash up to 5000 euro from the @ company</li>
+                    <li>Swags from Stream.io</li>
+                    <li>And many more</li>
                   </ul>
                   <br />
-                  <strong> Stay tuned for more info </strong>
+                  <SmallHeader className="font__caesar size__h1">
+                    Flutter Vikings Draw a Vikings Dash
+                  </SmallHeader>
+                  <p>TBA</p>
+                  <br />
+                  <SmallHeader className="font__caesar size__h1">
+                    The Invertase "Write a Flutter article" contest!
+                  </SmallHeader>
+                  <p>TBA</p>
+                  <br />
+                  <SmallHeader className="font__caesar size__h1">
+                    Google DevLibrary Contest
+                  </SmallHeader>
+                  <p>
+                    Google’s Dev Library is an open-source platform displaying quality
+                    work by developers who have created or built projects using any of the
+                    Google Technologies.
+                  </p>
+                  <p>
+                    Dev Library is collaborating with Flutter Vikings Conference to add
+                    some execution with the learnings!
+                  </p>
+                  <p>
+                    Dev Library is an open-source platform that is built for external
+                    developers who have built an open-source project or written a blog
+                    using any of the Google Technologies–Angular, Android, Flutter,
+                    Firebase, Machine Learning, or Cloud.{' '}
+                  </p>
+
+                  <p>
+                    With Flutter Vikings, we are presenting a week of Flutter Projects!
+                  </p>
+
+                  <p>
+                    During the actual Flutter Vikings Conference (1st to 4th February), we
+                    will open the space for Flutter Innovations. Submit your projects or
+                    articles built using Flutter on Dev Library.
+                  </p>
+
+                  <p>
+                    By the end of the week, best projects will be accepted on the site,
+                    and a few will receive special prizes from Google’s Dev Library under
+                    the following categories:
+                  </p>
+                  <ul>
+                    <li>Most Innovative Project</li>
+                    <li>Inspired from Dev Library </li>
+                    <li>Best use of Flutter</li>
+                  </ul>
+                  <p>
+                    So, start submitting your Flutter projects NOW! You could also add
+                    your suggestions or views.{' '}
+                    <a
+                      href="https://devlibrary.withgoogle.com/products/flutter"
+                      target="_blank"
+                      rel="noopenner nofollow"
+                    >
+                      Click here to check{' '}
+                    </a>{' '}
+                    the existing Flutter projects.{' '}
+                  </p>
+
+                  <br />
+                  <SmallHeader className="font__caesar size__h1">
+                    The @ Company Contest
+                  </SmallHeader>
+                  <p>TBA</p>
+                  <br />
+                  <SmallHeader className="font__caesar size__h1">
+                    Stream Code-lab Contest
+                  </SmallHeader>
+                  <p>TBA</p>
+                  <br />
+                  <SmallHeader className="font__caesar size__h1">
+                    Quiz run by Robert Brunhage
+                  </SmallHeader>
+                  <p>TBA</p>
+                  <br />
+                  <SmallHeader className="font__caesar size__h1">
+                    Quiz run by Andrea Bizzotto
+                  </SmallHeader>
+                  <p>TBA</p>
+                  <br />
                 </div>
               </ActivityRow>
               <br />
