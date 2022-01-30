@@ -164,7 +164,80 @@ export default () => {
                   <SmallHeader className="font__caesar size__h1">
                     "Write a Flutter article" and win a book reader! by Invertase.io
                   </SmallHeader>
-                  <p>TBA</p>
+                  <p>
+                    <a
+                      href="https://bit.ly/3E3vCML"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      Invertase
+                    </a>{' '}
+                    builds ambitious software which enables companies to succeed.
+                    Invertase is mostly an open-source minded company which is focusing on
+                    Developer tooling & integration specialists.
+                  </p>
+                  <p>
+                    In Flutter community, Invertase is well-known because of FlutterFire
+                    package which is used by millions of Flutter developers.
+                  </p>
+                  <p>
+                    This contest is easy! Invertase wants you to use your creativity and
+                    do your best to write an article about Flutter, Firebase or any
+                    Invertase open-source package such as Melos.
+                  </p>
+                  <h3>Invertase will judge your work based on: </h3>
+                  <ul>
+                    <li>
+                      Your topic has not been already published on{' '}
+                      <a
+                        href="https://bit.ly/33XGMGv"
+                        target="_blank"
+                        rel="noopener nofollow"
+                      >
+                        Invertase blog
+                      </a>
+                    </li>
+                    <li>
+                      Your article must be unique and pass for Plagiarism, you should not
+                      copy other's work!
+                    </li>
+                    <li>
+                      Your article must be about Flutter, Flutter and Firebase, Melos, any
+                      other{' '}
+                      <a
+                        href="https://bit.ly/3AI3XAp"
+                        target="_blank"
+                        rel="noopener nofollow"
+                      >
+                        open-source projects that Invertase is maintaining
+                      </a>
+                    </li>
+                    <li>Your article must at least have 1500 words</li>
+                    <li>
+                      Your article must have working project, code and sample snippets
+                    </li>
+                    <li>Your article must be in English</li>
+                    <li>Your article must have least grammar or spelling mistakes!</li>
+                    <li>Adding screenshots are plus!</li>
+                    <li>You must submit your article before 7th February!</li>
+                    <li>Your article must be written in Markdown (.md) format</li>
+                    <li>
+                      You should not publish this article on any other websites expect on
+                      Invertase.io
+                    </li>
+                  </ul>
+                  <p>
+                    Authors of the top two articles will receive a book reader and the top
+                    10 articles will receive Invertase Swag kit.{' '}
+                    <a
+                      href="https://bit.ly/3oashpI"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      Submit your articles here and win our prizes
+                    </a>
+                  </p>
+
                   <ActivityDivider id="a-3" />
                   <SmallHeader className="font__caesar size__h1">
                     Google DevLibrary
