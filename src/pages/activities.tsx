@@ -372,7 +372,7 @@ export default () => {
                     Viking.
                   </p>
                   <p>
-                    Luckily this is a simple task with
+                    Luckily this is a simple task with{' '}
                     <a
                       target="_blank"
                       rel="noopener nofollow"
@@ -380,7 +380,7 @@ export default () => {
                     >
                       Stream Chat Flutter
                     </a>
-                    and
+                    and{' '}
                     <a
                       target="_blank"
                       rel="noopener nofollow"
@@ -388,7 +388,7 @@ export default () => {
                     >
                       Rive.
                     </a>
-                    Stream also made a
+                    Stream also made a{' '}
                     <a
                       target="_blank"
                       rel="noopener nofollow"
@@ -400,7 +400,7 @@ export default () => {
                     to enter the giveaway, you have to:
                   </p>
                   <p>
-                    1. Complete the
+                    1. Complete the{' '}
                     <a
                       target="_blank"
                       rel="noopener nofollow"
@@ -411,7 +411,7 @@ export default () => {
                   </p>
                   <p>
                     2. At the last step of the codelab replace the example sticker pack
-                    with your stickers
+                    with your stickers{' '}
                     <a
                       target="_blank"
                       rel="noopener nofollow"
@@ -434,12 +434,13 @@ export default () => {
                     custom stickers! Tweet @getstream_io, @rive_app, and @FlutterVikings,
                     and also include the #buildvikings hashtag.
                   </p>
+                  <br />
                   <p>
                     <b>
-                      Entries will be open until the **7th of February 2022, at 4 pm
-                      CET**. Winners will be announced on the **9th of February 2022**.
+                      Entries will be open until the **7th of February 2022, at 4 pm CET
                     </b>
                   </p>
+                  <p>**. Winners will be announced on the **9th of February 2022**.</p>
                   <ActivityDivider id="a-6" />
                   <SmallHeader>Quiz run by Robert Brunhage</SmallHeader>
                   <p>
