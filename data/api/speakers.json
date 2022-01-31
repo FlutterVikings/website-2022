@@ -435,11 +435,11 @@
       "linkedin": ""
     },
     "talk": {
-      "title": "Flutter and AR",
-      "description": "Its about how we can use AR in flutter? How we can make a demo, with geometry,position ,node, create a scene, anchors, controllers, detecetions,.",
-      "lightening": false
+      "title": "3D Objects in Flutter",
+      "description": "3D Objects provide a great user experience when used for various purposes. And adding such type of visualization, which in turn helps your app to grow and maybe you can reach to many users.In this talk, we will talk about how to implement 3D Object packages in Flutter.",
+      "lightening": true
     },
-    "bio": "Junior Mobile Application Developer - GDG Organizer - WTM Ambassador"
+    "bio": "Kübra has worked as an R&D Engineer and Flutter Developer, she is know an Freelance Mobile Application Developer."
   },
   {
     "id": "lukas_klingsbo",
