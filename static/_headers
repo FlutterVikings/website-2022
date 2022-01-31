@@ -1,5 +1,4 @@
- /*
-    X-Frame-Options: ALLOW-FROM https://meet.welkom.world
-    X-XSS-Protection: 1; mode=block
-    X-Content-Type-Options: nosniff
-    Content-Security-Policy: frame-ancestors 'self' https://meet.welkom.world
+/*
+  X-Frame-Options: ALLOW-FROM https://meet.welkom.world
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline';
