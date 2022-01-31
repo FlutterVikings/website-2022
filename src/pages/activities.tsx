@@ -284,12 +284,6 @@ export default () => {
                     some 'execution with the learnings'!
                   </p>
                   <p>
-                    Dev Library is an open-source platform built for external developers
-                    to showcase their open-source projects or articles built using any of
-                    the Google Technologies–Angular, Android, Flutter, Firebase, Machine
-                    Learning, or Cloud.
-                  </p>
-                  <p>
                     Dev Library is an open-source platform that is built for external
                     developers who have built an open-source project or written a blog
                     using any of the Google Technologies–Angular, Android, Flutter,
