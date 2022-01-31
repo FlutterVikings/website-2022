@@ -280,13 +280,14 @@ export default () => {
                   <ActivityDivider id="a-3" />
                   <SmallHeader>Google DevLibrary</SmallHeader>
                   <p>
-                    Google’s Dev Library is an open-source platform displaying quality
-                    work by developers who have created or built projects using any of the
-                    Google Technologies.
+                    Dev Library is collaborating with Flutter Vikings Conference to add
+                    some 'execution with the learnings'!
                   </p>
                   <p>
-                    Dev Library is collaborating with Flutter Vikings Conference to add
-                    some execution with the learnings!
+                    Dev Library is an open-source platform built for external developers
+                    to showcase their open-source projects or articles built using any of
+                    the Google Technologies–Angular, Android, Flutter, Firebase, Machine
+                    Learning, or Cloud.
                   </p>
                   <p>
                     Dev Library is an open-source platform that is built for external
@@ -316,7 +317,7 @@ export default () => {
                     So, start submitting your Flutter projects NOW! You could also add
                     your suggestions or views.{' '}
                     <a
-                      href="https://bit.ly/3gqjX0N"
+                      href="https://bit.ly/3rgMwnz"
                       target="_blank"
                       rel="noopener nofollow"
                     >
