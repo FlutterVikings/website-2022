@@ -81,6 +81,7 @@ const AgendaDay = ({ track, agendaDay, selectedTimezone }: Props) => {
                         `${speaker?.talk?.description} https://flutterVikings.com` || ''
                       }
                     />
+
                     <Link to={`/speakers/${speaker.id}`} className="SpeakerInformation">
                       <div className="SpeakerInformation-pictureWrapper">
                         <GatsbyImage
