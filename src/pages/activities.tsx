@@ -311,7 +311,7 @@ export default () => {
                     So, start submitting your Flutter projects NOW! You could also add
                     your suggestions or views.{' '}
                     <a
-                      href="https://bit.ly/3rgMwnz"
+                      href="https://bit.ly/3Gk2EJ4"
                       target="_blank"
                       rel="noopener nofollow"
                     >
