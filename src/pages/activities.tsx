@@ -103,7 +103,6 @@ export default () => {
                     <li>Noise cancellation headphone from Stream.io</li>
                     <li>And many more</li>
                   </ul>
-
                   <h3>Table of content</h3>
                   <ol>
                     <li>
@@ -181,7 +180,6 @@ export default () => {
                     <li>We accept only on CodePen or DartPad</li>
                     <li>You must have a valid ticket to be able to submit</li>
                   </ul>
-
                   <p>
                     <strong>Prize:</strong>&nbsp;The top two submissions will receive a
                     Dash and the top 10 submission will receive a Flutter or
@@ -276,7 +274,6 @@ export default () => {
                       Submit your articles here and win our prizes
                     </a>
                   </p>
-
                   <ActivityDivider id="a-3" />
                   <SmallHeader>Google DevLibrary</SmallHeader>
                   <p>
@@ -398,7 +395,8 @@ export default () => {
                     </a>
                     that walks you through the entire process, step by step. For a chance
                     to enter the giveaway, you have to:
-                  </p>
+                  </p>{' '}
+                  <br />
                   <p>
                     1. Complete the{' '}
                     <a
@@ -408,7 +406,8 @@ export default () => {
                     >
                       codelab
                     </a>
-                  </p>
+                  </p>{' '}
+                  <br />
                   <p>
                     2. At the last step of the codelab replace the example sticker pack
                     with your stickers{' '}
@@ -428,7 +427,8 @@ export default () => {
                       community animations
                     </a>
                     that have an open license.
-                  </p>
+                  </p>{' '}
+                  <br />
                   <p>
                     3. Record a short video of your working chat application with your
                     custom stickers! Tweet @getstream_io, @rive_app, and @FlutterVikings,
