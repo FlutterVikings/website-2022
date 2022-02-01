@@ -291,8 +291,15 @@ export default () => {
                   </p>
                   <p>
                     During the actual Flutter Vikings Conference (1st to 4th February), we
-                    will open the space for Flutter Innovations. Submit your projects or
-                    articles built using Flutter on Dev Library.
+                    will open the space for Flutter Innovations.{' '}
+                    <a
+                      href=" https://bit.ly/3Gk2EJ4"
+                      target="_blank"
+                      rel="noopener nofollow"
+                    >
+                      Submit your projects or articles{' '}
+                    </a>
+                    built using Flutter on Dev Library .
                   </p>
                   <p>
                     By the end of the week, best projects will be accepted on the site,
@@ -308,7 +315,7 @@ export default () => {
                     So, start submitting your Flutter projects NOW! You could also add
                     your suggestions or views.{' '}
                     <a
-                      href="https://bit.ly/3Gk2EJ4"
+                      href="https://bit.ly/3rgMwnz"
                       target="_blank"
                       rel="noopener nofollow"
                     >
@@ -360,7 +367,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://www.bose.com/en_us/products/headphones/noise_cancelling_headphones/noise-cancelling-headphones-700.html?mc=25_PS_N7_BO_00_GO_&gclid=Cj0KCQiAxc6PBhCEARIsAH8Hff3bzIPuOSEchMKsVOjNe0IkBQTSWWADTdm1fboBH4p1BhuRr75Fk7AaAknKEALw_wcB&gclsrc=aw.ds#v=noise_cancelling_headphones_700_black"
                     >
-                      Bose Noise Cancelling Headphones.
+                      Bose Noise Cancelling Headphones.{' '}
                     </a>
                   </p>
                   <p>
@@ -375,7 +382,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://getstream.io/chat/docs/sdk/flutter/?utm_source=FlutterVikings&utm_medium=Whole_Event_V&utm_content=Developer&utm_campaign=FlutterVikings_Feb2022&utm_term=BoothResources"
                     >
-                      Stream Chat Flutter
+                      Stream Chat Flutter{' '}
                     </a>
                     and{' '}
                     <a
@@ -383,7 +390,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://rive.app/?utm_medium=external_example&utm_source=codelab&utm_campaign=stream"
                     >
-                      Rive.
+                      Rive.{' '}
                     </a>
                     Stream also made a{' '}
                     <a
@@ -391,7 +398,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://getstream.io/codelabs/flutter/flutter-chat-and-rive-animations/"
                     >
-                      codelab
+                      codelab{' '}
                     </a>
                     that walks you through the entire process, step by step. For a chance
                     to enter the giveaway, you have to:
@@ -404,7 +411,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://getstream.io/codelabs/flutter/flutter-chat-and-rive-animations/"
                     >
-                      codelab
+                      codelab{' '}
                     </a>
                   </p>{' '}
                   <br />
@@ -416,7 +423,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://rive.app/?utm_medium=external_example&utm_source=codelab&utm_campaign=stream"
                     >
-                      Rive
+                      Rive{' '}
                     </a>
                     animations. You can create your own or use any of the{' '}
                     <a
@@ -424,7 +431,7 @@ export default () => {
                       rel="noopener nofollow"
                       href="https://rive.app/community/?utm_medium=external_example&utm_source=codelab&utm_campaign=stream"
                     >
-                      community animations
+                      community animations{' '}
                     </a>
                     that have an open license.
                   </p>{' '}
@@ -436,11 +443,14 @@ export default () => {
                   </p>
                   <br />
                   <p>
-                    <b>
-                      Entries will be open until the **7th of February 2022, at 4 pm CET
-                    </b>
+                    Entries will be open until the{' '}
+                    <b>7th of February 2022, at 4 pm CET</b>
+                  </p>{' '}
+                  <br />
+                  <p>
+                    {' '}
+                    Winners will be announced on the <b>9th of February 2022</b>.
                   </p>
-                  <p>**. Winners will be announced on the **9th of February 2022**.</p>
                   <ActivityDivider id="a-6" />
                   <SmallHeader>Quiz run by Robert Brunhage</SmallHeader>
                   <p>
