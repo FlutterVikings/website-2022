@@ -72,6 +72,14 @@ const Scene = () => {
               >
                 Get your FREE ticket
               </a>
+              <a
+                className="Btn Btn--ticket Btn--cta"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://bit.ly/3ogxQTq"
+              >
+                Virtual Conference Space
+              </a>
             </div>
           </div>
           <hr />
