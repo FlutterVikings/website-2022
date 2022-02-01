@@ -78,7 +78,7 @@ const Scene = () => {
                 rel="noopener noreferrer"
                 href="https://bit.ly/3ogxQTq"
               >
-                Virtual Conference Space
+                Join Conference Space
               </a>
             </div>
           </div>
