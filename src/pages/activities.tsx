@@ -256,7 +256,7 @@ export default () => {
                     <li>Your article must be in English</li>
                     <li>Your article must have least grammar or spelling mistakes!</li>
                     <li>Adding screenshots are plus!</li>
-                    <li>You must submit your article before 7th February!</li>
+                    <li>You must submit your article before 14th February!</li>
                     <li>Your article must be written in Markdown (.md) format</li>
                     <li>
                       You should not publish this article on any other websites expect on
