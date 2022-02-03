@@ -185,6 +185,7 @@ export default () => {
                     Dash and the top 10 submission will receive a Flutter or
                     FlutterVikings T-shirt and Flutter stickers
                   </p>
+                  <p>Deadline to submit your artwork is until 7th February</p>
                   <br />
                   <p>
                     <a
