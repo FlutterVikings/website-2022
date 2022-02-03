@@ -64,14 +64,14 @@ const Scene = () => {
               className="CTA-actions"
               style={{ display: 'flex', justifyContent: 'center' }}
             >
-              <a
+              {/* <a
                 className="Btn Btn--ticket Btn--cta"
                 target="_blank"
                 rel="noopener noreferrer"
                 href={config.ticketUrl}
               >
                 Get your FREE ticket
-              </a>
+              </a> */}
               <a
                 className="Btn Btn--ticket Btn--cta"
                 target="_blank"

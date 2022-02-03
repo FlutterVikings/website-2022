@@ -98,7 +98,7 @@ export default () => {
                     <li>Free Flutter in action book</li>
                     <li>Flutter Vikings and Flutter T-Shirt</li>
                     <li>Flutter Stickers</li>
-                    <li>Book reader from Invertase.io</li>
+                    <li>BookReader from Invertase.io</li>
                     <li>Cash up to 4000 USD from the @ company</li>
                     <li>Noise cancellation headphone from Stream.io</li>
                     <li>And many more</li>
@@ -115,7 +115,7 @@ export default () => {
                     <li>
                       <ScrollIntoView selector="#a-2">
                         <TableContentItem>
-                          "Write a Flutter article" and win a book reader! by Invertase.io
+                          "Write a Flutter article" and win a BookReader! by Invertase.io
                         </TableContentItem>
                       </ScrollIntoView>
                     </li>
@@ -198,7 +198,7 @@ export default () => {
                   </p>
                   <ActivityDivider id="a-2" />
                   <SmallHeader>
-                    "Write a Flutter article" and win a book reader! by Invertase.io
+                    "Write a Flutter article" and win a BookReader! by Invertase.io
                   </SmallHeader>
                   <p>
                     <a
@@ -264,7 +264,7 @@ export default () => {
                   </ul>
                   <p>
                     <strong>Prize:</strong>&nbsp;Authors of the top two articles will
-                    receive a book reader and the top 10 articles will receive Invertase
+                    receive a BookReader and the top 10 articles will receive Invertase
                     Swag kit.{' '}
                     <a
                       href="https://bit.ly/3oashpI"

@@ -230,7 +230,7 @@ const Schedules = () => {
   const images = useAllFiles();
   const speakers = useSpeakers(images);
   const agenda = useAgenda(speakers);
-  const [selectedTab, seTSelectedTab] = useState(0);
+  const [selectedTab, seTSelectedTab] = useState(1);
   const [selectedTimezone, setSelectedTimezone] = useState<Timezone>(
     config.defaultTimezone,
   );
