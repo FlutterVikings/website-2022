@@ -45,54 +45,17 @@ const Scene = () => {
         <div className="SceneOverlay-slogan">
           The biggest <span className="font__caesar">Nordic</span> Flutter Conference!
           <br />
-          <p className="SceneOverlay-date">2-3 February, 2022 (Online)</p>
-          <div className="SceneOverlay-location">
-            2 Days - 1 Track
-            <div
-              className="CTA-actions"
-              style={{ display: 'flex', justifyContent: 'center' }}
-            >
-              <Link className="Btn Btn--ticket Btn--cta" to={'/activities'}>
-                Activities
-              </Link>
-
-              <ScrollIntoView selector="#agenda">
-                <button className="Btn Btn--ticket Btn--cta">Agenda</button>
-              </ScrollIntoView>
-            </div>
-            <div
-              className="CTA-actions"
-              style={{ display: 'flex', justifyContent: 'center' }}
-            >
-              {/* <a
-                className="Btn Btn--ticket Btn--cta"
-                target="_blank"
-                rel="noopener noreferrer"
-                href={config.ticketUrl}
-              >
-                Get your FREE ticket
-              </a> */}
-              <a
-                className="Btn Btn--ticket Btn--cta"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://bit.ly/3ogxQTq"
-              >
-                Join Conference Space
-              </a>
-            </div>
-          </div>
-          <hr />
           <p className="SceneOverlay-date">
-            31<sup>st</sup> August, 1<sup>st</sup> September, 2022 (Hybrid)
+            31<sup>st</sup> Aug - 1<sup>st</sup> Sep, 2022
           </p>
           <p className="SceneOverlay-location">2 Days - 3 Tracks</p>
+          <p className="SceneOverlay-location">Oslo, Norway & Online</p>
           <div
             className="CTA-actions"
             style={{ display: 'flex', justifyContent: 'center' }}
           >
             <a
-              className="Btn Btn--cfp Btn--cta"
+              className="Btn Btn--ticket Btn--cta"
               target="_blank"
               rel="noopener noreferrer"
               href={config.ticketUrl}

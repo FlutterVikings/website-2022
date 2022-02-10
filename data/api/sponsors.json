@@ -89,5 +89,12 @@
     "name": "Rebel app studio",
     "level": 1,
     "link": "https://bit.ly/3g6X9Ty"
+  },
+  {
+    "id": "cloudinary",
+    "dark": "cloudinary_light",
+    "name": "Cloudinary",
+    "level": 3,
+    "link": "https://bit.ly/34K3JNe"
   }
 ]
