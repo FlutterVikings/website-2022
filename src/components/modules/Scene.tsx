@@ -45,46 +45,18 @@ const Scene = () => {
         <div className="SceneOverlay-slogan">
           The biggest <span className="font__caesar">Nordic</span> Flutter Conference!
           <br />
-          <p className="SceneOverlay-date">
-            31<sup>st</sup> Aug - 1<sup>st</sup> Sep, 2022
-          </p>
-          <p className="SceneOverlay-location">2 Days - 3 Tracks</p>
-          <p className="SceneOverlay-location">Oslo, Norway & Online</p>
-          <div
-            className="CTA-actions"
-            style={{ display: 'flex', justifyContent: 'center' }}
-          >
-            <a
-              className="Btn Btn--ticket Btn--cta"
-              target="_blank"
-              rel="noopener noreferrer"
-              href={config.ticketUrl}
-            >
-              Tickets
-            </a>
-            <ScrollIntoView selector="#important">
-              <button className="Btn Btn--cfp Btn--cta">Read More</button>
-            </ScrollIntoView>
-          </div>
+          <p className="SceneOverlay-date">2-3 Feb, 2022</p>
+          <p className="SceneOverlay-location">Online</p>
         </div>
-        {/* <div className="SceneOverlay-info">
+        <div className="SceneOverlay-info">
           <p className="SceneOverlay-location">
             <a
               className="Btn Btn--cfp Btn--cta"
               target="_blank"
               rel="noopener noreferrer"
-              href="https://www.youtube.com/playlist?list=PL4dBIh1xps-EXi7ZuOVRAg2MFDvjxQpR3"
+              href="https://www.youtube.com/playlist?list=PL4dBIh1xps-Emd7K4xwX4rdUnfaKFMuna"
             >
               Youtube
-            </a>{' '}
-            or{' '}
-            <a
-              className="Btn Btn--cfp Btn--cta"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.twitch.tv/FlutterCommunity"
-            >
-              Twitch
             </a>{' '}
             or{' '}
             <a
@@ -96,7 +68,7 @@ const Scene = () => {
               Twitter
             </a>
           </p>
-        </div> */}
+        </div>
       </div>
     </section>
   );

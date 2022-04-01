@@ -292,7 +292,7 @@ const Schedules = () => {
             <TimezoneSelect value={selectedTimezone} onChange={setSelectedTimezone} />
           </Notice>
           <div className="Agenda-twoColumnContainer">
-            {/* {agenda.map((agendaDay, i) => (
+            {agenda.map((agendaDay, i) => (
               <AgendaTabButton
                 selected={i === selectedTab}
                 className="Agenda-columnTitle"
@@ -303,13 +303,12 @@ const Schedules = () => {
                 <p className="Agenda-date">{agendaDay.date}</p>
                 {i === selectedTab && <CheckMark />}
               </AgendaTabButton>
-            ))} */}
+            ))}
           </div>
           <br />
           <br />
           <div className="Agenda-twoColumnContainer">
-            TBA
-            {/* {agenda.map(
+            {agenda.map(
               (agendaDay, i) =>
                 i === selectedTab &&
                 agendaDay.tracks.map((track, j) => (
@@ -320,7 +319,7 @@ const Schedules = () => {
                     track={track}
                   />
                 )),
-            )} */}
+            )}
           </div>
         </Container>
       </Section>
